@@ -1,0 +1,56 @@
+div#archive-menu {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	text-align: right;
+	font-size: 16px !important;
+
+	padding: 10px;
+	overflow: hidden;
+
+	height: unset;
+	width: unset;
+
+	max-width: 0;
+	max-height: 0;
+	transition: max-height 0.5s ease-out, max-width 0.5s ease-out;
+
+	a {
+		display: block;
+
+		visibility: hidden;
+		transition: visibility 0s;
+	}
+
+	a:hover {
+		text-decoration: underline;
+		text-decoration-style: wavy;
+	}
+
+	#hrt {
+		font-family: sans-serif !important;
+		display: block;
+		position: absolute;
+		top: -1px;
+		right: 5px;
+
+		opacity: 100%;
+		transition: opacity 0.5s ease-out;
+	}
+}
+
+div#archive-menu:hover {
+	max-width: 200px;
+	max-height: 200px;
+	transition: max-height 0.5s ease-in, max-width 0.5s ease-in;
+
+	a {
+		visibility: visible;
+		transition-delay: 0.5s;
+	}
+
+	#hrt {
+		opacity: 0%;
+		transition: opacity 0.5s ease-in;
+	}
+}

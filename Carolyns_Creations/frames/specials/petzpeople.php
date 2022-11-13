@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>People to populate your petz games</title>
+	<link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+<?php include '../../../_menu.php'; ?>
+
+<div class="center">
+	<p>.</p>
+
+	<p class="bigger purple">
+		<b>People to populate your petz games</b><br>
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<br>
+	</p>
+
+	<p class="big">I expect this may grow, but for now what we have are:</p>
+
+	<p>
+		<a href="../petz/PeopleLNZBreedz.php" class="big">My "People" breedfile for the Catz games
+		3, 4 and 5 in LNZ form</a><br>
+		Both PG-rated and naughty versions. If you download and use the naughty version, I shall not
+		be held responsible if your computer or parents blow a fuse or i fyou end up dancing naked
+		in the snow. Catz II version to follow eventually. Note that this is designed to work with
+		My "For LNZ-files 'n' easy-edits" Calico cat packages. I did think of making them Alleys,
+		but what the heck -- I started with the Calico and was too lazy to change :-)<br>
+		<img src="images/petzpeople_PeopleAdultsPGversion.gif" alt="People adults">
+	</p>
+
+	<p class="big">
+		<a href="../petz/peoplebreedz.php">Various people for the Petz games II, 3, 4 and 5</a>
+	</p>
+
+	<p>
+		<a
+		href="https://web.archive.org/web/20200519201548/http://www.angelfire.com/moon2/petzzoo2/"
+		class="big" target="_top">Go here for Babyz for dogz</a><br>
+		Vickie of the Petz Zoo has made some babyz for the Dogz games, for which I provided the
+		sounds (available on my species sounds page too of course); pop along to her site for the
+		breed!
+	</p>
+</div>
+</body>
+</html>

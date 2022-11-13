@@ -1,0 +1,119 @@
+@use '../../../style/menu';
+
+// GENERAL
+
+html {
+	background-color: #fff7d7;
+	font-family: 'Comic Sans MS';
+}
+
+body {
+	font-size: 13px;
+	color: #810541;
+}
+
+// MENU
+
+.menu {
+	padding: 0;
+	margin: 0;
+	color: #660000;
+	font-size: 13px;
+
+	li {
+		list-style: none;
+	}
+}
+
+// LINKS
+
+a {
+	color: #f63;
+
+	&:visited {
+		color: #8a2be2;
+	}
+
+	&:active {
+		color: #0f0;
+	}
+}
+
+.defunct {
+	text-decoration: line-through;
+}
+
+// TEXT
+
+p {	padding: 5px 0; }
+
+.green  { color: #006400; }
+.purple { color: #800080; }
+.brown  { color: #660000; }
+
+.normal { font-size: 13px; }
+.big    { font-size: 16px; }
+.bigger { font-size: 18px; }
+
+.courier         { font-family: 'Courier New'; }
+.comic-sans      { font-family: 'Comic Sans MS'; }
+.times-new-roman { font-family: 'Times New Roman'; }
+
+// FORMATTING
+
+.center {
+	text-align: center;
+	padding: 10px 0;
+}
+
+// .first kept in so I don't have to go changing previous pages
+.first, .padding-top { padding-top: 90px; }
+.tiny-gap-top { margin-top: 3px; }
+
+
+.side-padding {
+	width: 80%;
+	display: table;
+	margin: 0 auto;
+}
+
+.more-side-padding {
+	width: 60%;
+	display: table;
+	margin: 0 auto;
+}
+
+.less-side-padding {
+	width: 90%;
+	display: table;
+	margin: 0 auto;
+}
+
+table.img-size img {
+	width: 320px;
+	height: 224px;
+}
+
+table.center-table {
+    width: 50%;
+    margin: 0 auto;
+}
+
+// PAGE SPECIFIC
+
+#sandz {
+	background-color: #dafae8;
+	color: #00552b;
+
+	a {
+		color: #800080;
+
+		&:visited {
+			color: #808080;
+		}
+
+		&:active {
+			color: #f0f;
+		}
+	}
+}

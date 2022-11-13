@@ -1,0 +1,3 @@
+Changed page file names from id# to something descriptive
+
+Most pages are missing background images :/

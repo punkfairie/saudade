@@ -1,0 +1,22 @@
+INDEX
+	* breeds/felinez (id29)
+	* breeds/c_wildz (id22)
+	breeds/c_fantasyz (id30)
+	breeds/forestfolk (id50)
+	breeds/catzdogz (id48)
+	breeds/caninez (id33)
+	breeds/d_wildz (id23)
+	breeds/d_fantasyz (id39)
+	clothez-toyz (id24)
+	skinz (id25)
+	playscenes (id26)
+	hexing (id27)
+	codes (id35)
+	offset (id28)
+	links (id37)
+
+FELINEZ
+	breeds/moggiez (id49)
+
+C_FANTASYZ
+	breeds/lepitaur (id47)

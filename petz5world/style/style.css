@@ -1,0 +1,121 @@
+nav#archive-menu {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  text-align: right;
+  font-size: 16px !important;
+  padding: 10px;
+  overflow: hidden;
+  max-width: 0;
+  max-height: 0;
+  transition: max-height 0.5s ease-out, max-width 0.5s ease-out;
+}
+nav#archive-menu a {
+  display: block;
+  visibility: hidden;
+  transition: visibility 0s;
+}
+nav#archive-menu a:hover {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+nav#archive-menu #hrt {
+  font-family: sans-serif !important;
+  display: block;
+  position: absolute;
+  top: -1px;
+  right: 5px;
+  opacity: 100%;
+  transition: opacity 0.5s ease-out;
+}
+
+nav#archive-menu:hover {
+  max-width: 200px;
+  max-height: 200px;
+  transition: max-height 0.5s ease-in, max-width 0.5s ease-in;
+}
+nav#archive-menu:hover a {
+  visibility: visible;
+  transition-delay: 0.5s;
+}
+nav#archive-menu:hover #hrt {
+  opacity: 0%;
+  transition: opacity 0.5s ease-in;
+}
+
+body {
+  text-align: center;
+  font-family: "Georgia", serif;
+  font-size: 16px;
+}
+
+#hit-counter {
+  display: inline-block;
+  border: 8px #bdbdbd solid;
+  background-color: #bdbdbd;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+.defunct {
+  text-decoration: line-through;
+}
+
+.small {
+  font-size: 13px;
+}
+
+.big {
+  font-size: 18px;
+}
+
+.normal {
+  font-size: 16px;
+}
+
+.missing-asset {
+  border: 1px solid;
+  padding: 5px;
+}
+
+.display-table {
+  display: table;
+  margin: 10px auto;
+}
+
+.inline-block {
+  display: inline-block;
+  margin: 0;
+}
+
+em {
+  font-style: normal;
+}
+
+em.r {
+  color: #f00;
+}
+
+em.y {
+  color: #ff0;
+}
+
+em.g {
+  color: #9f0;
+}
+
+em.b {
+  color: #3ff;
+}
+
+em.p {
+  color: #96f;
+}
+
+/*# sourceMappingURL=style.css.map */

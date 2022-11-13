@@ -1,0 +1,8 @@
+Reorganized folder/file structure (only affecting where files are stored, no actual changes to UX)
+
+Checked outside links and crossed out broken links/defunct sites, updated links if site was moved
+	Changed broken links to the wayback archive if possible
+
+Refactored code (only affecting how the source looks, actual design was kept as close as possible)
+	Added external CSS files and moved all style code to there
+	Updated HTML to HTML5 as much as possible while still keeping the design the same

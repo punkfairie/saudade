@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>2006 and later Catz and Dogz</title>
+	<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+<?php include '../../_menu.php'; ?>
+
+<div class="center green">
+	<p>.</p>
+
+	<p>
+		<span class="big">
+			<b>2006 and later Catz, Dogz and Horsez games</b><br>
+			~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<br>
+			As of late 2006 and beyond... Just a note to anyone who potters along to Petz.com or
+			Babyz.net and sees the new games that were released recently.<br>
+		</span>
+		Most of you already knew that a bunch of virtual life games have been released by UbiSoft
+		since 2006, for various consoles and for the PC. Hamsterz Life, Hamsterz 2 and Bunnyz are
+		apparently only for the Nintendo DS, Horsez and Horsez 2 are released for NDS and PS2 as
+		well as for PC, and there are some wildlife "petz" games also for the NDS centered around
+		Tigerz and Dolphinz. various Catz and Dogz games have been released for mobile phone,
+		Gameboy Advance, NDS, PS2, Wii and PC. Although most of these would be playable and,
+		presumably, moddable on the PC using emulators, it's the native PC versions that I'm talking
+		about here. If anyone wants to mod, or hex, the NDS or mobile phone versions of the games
+		you'll find very active modding communities amongst the emulator scene. There is also a PS2
+		emulator for anyone who wants to try that, and there may well be a modding community for PS2
+		games, but I don't believe that there is any way as yet to play a Wii game on an emulator.
+	</p>
+
+	<p>
+		<span class="big">Although they are named Catz and Dogz or Catz 2 and Dogz 2, the latest
+		"Petz" games for Windows are not really part of the Petz series we know and love.</span><br>
+		They are not really a "Petz 6" although for convenience people have referred to them that
+		way; the first two were also known as Catz 2006 and Dogz 2006 for a while. There are many
+		differences between these latest games and the ones that we have so far enjoyed, the most
+		obvious being that the catz and dogz are 3D and that you have to earn points, or coins, to
+		get even the basics that your pet will need. I'm sure a lot of people will enjoy the games,
+		but they are not a part of the original series and you will not be able to import your petz
+		from Petz 5 or earlier. If you enjoy these games, you might like to check out
+		<a
+		href="https://web.archive.org/web/20100223210547/http://www.lostsockgames.com/games.html">
+		Lost Sock Games </a>titles -- Puppy Luv, Kitty Luv, Pony Luv and Hollywood Pets are very
+		similar in many ways.
+	</p>
+
+	<p class="big">
+		As regards modifying the games, however, things have been made easy enough for us "hexers"
+		apart from the 3D models. The files used by the game are:
+	</p>
+
+	<p>
+		<b>LUA, INI,</b> and <b>TXT</b> files all of which are text files which
+		can be edited in Notepad.<br>
+		You'd have to get used to what all the various column headers and key words mean, but
+		there's no harm in experimenting -- so long as you keep backups of everything of course. The
+		saved-game files, which is where your pets are stored, are .sav files, also just text files,
+		which can be edited. They are stored in your<br>
+		C:\Documents and Settings\All Users\Application Data\Ubisoft\Catz (or Catz2)<br>
+		folder or<br>
+		C:\Documents and Settings\All Users\Application Data\Ubisoft\Dogz (or Dogz2).
+	</p>
+
+	<p><b>TGA</b> files which are a recognisable format for most paint programs.</p>
+
+	<p><b>WAV</b> and <b>MP3</b> files which are editable sounds.</p>
+
+	<p>
+		<b>DDS</b> files, which are actually editable with the correct tools. They can
+		easily be edited using a plug-in which works with either Paint Shop Pro or Photoshop,
+		available for free from <a href="https://developer.nvidia.com/">Nvidia's</a> site -- the
+		is dds.8bi<br>
+		http://developer.nvidia.com/docs/IO/1176/ATT/dds.8bi
+	</p>
+
+	<p>
+		GR2 files, which are "Granny 3D" files. These are not so easy to edit and are, in a way, the
+		3D "bones" of the game. Of course anyone who has the Granny 3D SDK would be able to edit
+		them, but that's beyond the pocket of most of us I'd have thought! I have heard rumours that
+		there is a Milkshape plug-in that allows these to be edited, but if not there is at least a
+		tool that allows them to be viewed, obtainable for free from
+		<a href="http://www.radgametools.com/gramain.htm">the Granny 3D site</a><br>
+		<b>Update as of mid-2008 -- there is now a free way to extract the GR2 files so that
+		they can be edited in a 3D modelling program. A close friend of mine called Topper Carson
+		has the games and he found that there are some amazing people who have been picking away at
+		the Gr2 files which so many games use these days. For useful tools and info pop along to the
+		<a
+		href="https://web.archive.org/web/20111230075015/http://gr2decode.altervista.org/index.html">"Decode
+		Gr2"</a> site. So theoretically you should be able to modify anything that you wish in these
+		games.</b>
+	</p>
+
+	<p>
+		<b>The Horsez game, as with Catz 2006 and Dogz 2006 and beyond, is not a real part of
+		the Petz series. You're supposed to care for your chosen horse as well as enter it for shows
+		and have some adventures with it, and the environment is a 3D one. For anyone who has the
+		game and wants to edit it, the graphics are in the form of editable .tga files which you
+		should be able to edit in a reasonable paint package, and the "bones" of it are in the form
+		of .nmo files which will have been created via Virtools. If you have
+		<a href="https://web.archive.org/web/20090115210846/http://www.virtools.com/">Virtools
+		</a>of course you'll be able to edit them. I don't know if there is a cheaper utility for
+		editing such things, but if you're keen you could have a look around Google. The saved-game
+		files are in a directory off the Horsez one, called Save, and the files in there are .txt
+		files and therefore should be easy to edit. You'd have to get used to what all the various
+		column headers and key words mean, but there's no harm in experimenting -- so long as you
+		keep backups of everything of course.</b>
+	</p>
+
+	<p>
+		<b>Babyz players, the only new games available for you from Ubisoft now seem to be only
+		for the NDS. So far there is "Imagine Babies" (also called "Imagine Babyz" in the US) and
+		possibly due for release in September 2008, "Imagine Baby Club". The first one is probably
+		closer to the original Babyz experience, but in my opinion neither seems like a good
+		replacement. They are part of the extremely girly Imagine series for NDS<br>
+		A footnote for Babyz players -- there is a new game out called "Bratz Babyz", which starts
+		up with a "Babyz.exe", which you might stumble across when looking for updates etc. As far
+		as I know, it is not a UbiSoft game and it is certainly not in any way a new kind of Babyz
+		game, plus the Babyz.exe will not work with your old favourite babyz game.</b>
+	</p>
+
+	<p>
+		<b>I doubt that I'll be editing any of these newer PC games. Even apart from the fact
+		that they aren't likely to work under my beloved Win 95, I don't really have the time even
+		to play these days, and as for my skill in editing graphics, well... let's just say I'm
+		"graphically challenged", LOL. Of course I'd have no trouble cheating in the catz and dogz
+		games, as the saved-game (i.e. pet) files are just LUA files -- in other words, they are
+		editable in Notepad.</b>
+	</p>
+
+	<p><b>Enjoy</b></p>
+
+	<p><b>Carolyn</b></p>
+
+	<p>
+		<b>For people who are interested in such things, since 2006 the rather complex
+		ownership of the games is as follows. The Petz titles are now trademarks owned by "Ubisoft
+		Entertainment". The mobile phone versions of Petz, Catz and Dogz have been released by
+		Gameloft. The DS Catz games were developed by Powerhead Games while the DS and GBA Dogz
+		games and the Catz GBA game are copyright to MTO Inc. For the Wii and PS2 the Dogz and Catz
+		games are copyright to YUKE’S Co. as well as Ubisoft. For the PC, the Dogz and catz games
+		were developed by ImaginEngine which is a division of Foundation 9 Entertainment.<br>
+		It's all a long way from the day in 1995 when P.F. Magic created and put up for download
+		their own unique and exciting game "Dogz". You could download it and try it, and if you
+		liked it you could buy a key online -- which also was a new concept back then. It was so
+		popular that it was also then released for the Apple Mac in 1996.</b>
+	</p>
+
+	<p>.</p>
+</div>
+</body>
+</html>

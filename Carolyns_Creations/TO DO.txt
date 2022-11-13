@@ -1,0 +1,387 @@
+MENU.HTML
+
+		Feb 2022 (except no frames)
+
+	* main
+	no frames
+
+	* whatsnew
+	* flowers
+	* aboutme
+	* links
+	* justforlaughs
+	* justforlaughs2
+	* orbs
+	* cyberpets
+
+	* tutorials/tutorials
+	* tutorials/lnzdetails
+	* tutorials/petbreakdown
+	* madscientist
+
+	* petz/petzedit
+
+	* oddballz/oddballzedit
+
+	* babyz/babyzedit
+
+	* specials/nicholastools
+	* specials/collaborations
+	* specials/sandzcat
+	* specials/emoticonpetz1
+	* specials/litterz
+	* specials/sealife
+	* specials/bugzlife
+	* specials/petzpeople
+	* specials/petz3-5lnz
+	* specials/catz345mice
+
+	* sounds/sounds
+	* sounds/soundsorig
+
+	* petz6
+
+	* petz/p5hosts
+	* petz/p5skinz
+	* petz/p5playscene
+	* petz/p5clothes
+	* petz/p5toyz
+
+	* petz/p5breedz
+	* petz/tutbreedz
+	* petz/c5breedz
+	* petz/d5breedz
+	* petz/catbehaviours
+	* petz/dogbehaviours
+
+	* petz/c5breeded
+	* petz/d5breeded
+
+	* petz/p4clothes
+	* petz/p4toyz
+	* petz/p4hosts
+	* petz/p4playscene
+
+	* petz/p4breedz
+	* petz/c4breedz
+	* petz/d4breedz
+
+	* petz/c4breeded
+
+		Mar 2022
+
+	* petz/d4breeded
+
+	* petz/p3hosts
+	* petz/p3clothes
+
+        Mar 2022 & Sept 2022
+
+	* petz/p3toyz
+
+        Sept 2022
+
+	* petz/p3playscene
+	* petz/p3official
+
+	* petz/p3breedz
+	petz/c3breedz
+	petz/d3breedz
+
+	petz/c3breeded
+	petz/d3breeded
+	petz/c3intbreeded
+	petz/d3intbreeded
+
+	petz/p2breedz
+	petz/c2breedz
+	petz/d2breedz
+	petz/petzIIfooler
+	petz/p2toyz
+	petz/p2playscene
+
+	petz/catz1dex
+	petz/c1breedz
+	petz/d1breedz
+	petz/dogz1fooler
+	petz/catz1mice
+
+	oddballz/oddballz
+
+	babyz/babyznewest
+	babyz/babyzbew
+	babyz/babyz-1
+	babyz/babyzglasses
+	babyz/babyzharem
+	babyz/babyzclothes
+	babyz/babyzplayscene
+	babyz/babyztoyz
+	babyz/babyzedit
+	babyz/babyzplay
+
+	offsitespecials
+	petz/p3playscenz
+	finfin/finfin
+
+HOME
+	phantarella
+	petz/dream
+	crashingxp
+	petzfriendsite
+
+WHATSNEW
+	newsarchive
+	babyz/vvccr (vvccr/index.htm)
+	smallislovely
+	petzhexzlinks
+	newlinks
+	sisters
+	tutorials/trottingandfloofing
+	tutorials/yarntailcolour
+	hexingmodding
+	oddballz/oddballzfooler
+	babyz/babyzxpsoundfix
+	withsueandnintendo
+	babyz/babyzheadbanger
+	babyzlinks
+	petz/petzfish
+	petz/withbutterflychaser2
+	tutorials/pet2breedxtraeasy
+	tutorials/lnz2nd
+	lynelle
+	tutorials/hexerbaby
+	tutorials/2ndgenreport
+	petz/p5foolersucess
+
+FLOWERS
+	flowerza
+	flowers1
+
+LINKS
+	links2
+
+CYBERPETS
+	cyberpet1
+	cyberpet2
+	cyberpet3
+
+TUTORIALS
+	tutorials/LNZPro2tips
+	tutorials/TinkerAndLNZPro2tips
+	tutorials/PetzCrashHelp
+	tutorials/BabyzCrashHelp
+	tutorials/HowIEditAndWhy
+	tutorials/HexEditingTools
+	tutorials/PetzColours
+	tutorials/BabyzColours
+	tutorials/IDNumberInResHackedFiles
+	tutorials/SentToPOND
+	tutorials/SameName
+	tutorials/SerialNumbersAndHelpForOldGames
+	tutorials/StuckDebugger
+	tutorials/SliderBrains
+	tutorials/ResHackerTips
+	tutorials/BreedFileTips1
+	tutorials/ResHackerTips1
+	tutorials/TheIDnumber
+	tutorials/BitmapHeadersHowTo
+	tutorials/rontigat_aflh
+	tutorials/rontigat_changesize
+
+LNZDETAILS
+	tutorials/LNZ_summary
+	tutorials/LNZ1st
+	tutorials/BabyzBodyAreaNumbers
+	tutorials/CatzBodyAreaNumbers
+	tutorials/DogzBodyAreaNumbers
+	tutorials/LNZ3rd
+	tutorials/LNZ4rd
+	greatpresentcaper
+
+MADSCIENTIST
+	tutorials/madscientist2
+	tutorials/madscientist3
+	petz/p5backup
+	petz/petz4fooler
+	tutorials/Petz5NurseryFix
+
+PETZEDIT
+	tutorials/infobits
+	tutorials/BallConversionCatToDog
+	tutorials/BallConversionDogToCat
+	tutorials/DogzBallz
+	tutorials/CatzBallz
+	tutorials/HoopEarringsOnPetz
+	tutorials/dmLNZ
+	tutorials/AutumnFlurryWings
+	tutorials/PetzWigzCodes
+	tutorials/PetzWingzCodes
+	tutorials/OrangeShorthairAdultLNZ
+	tutorials/WingzForNeko
+	tutorials/P5SceneSeperate
+	tutorials/petz5backdrops
+	tutorials/Petz4SceneToPetz5
+	tutorials/ChangingPointersInFiles
+	tutorials/PetzToys
+	tutorials/Petz3Petz4Clothes
+	tutorials/FAQPetz34HiddenToyz
+	tutorials/FAQPetzShirts
+	tutorials/BasicBabyOrPetFileEditingJul2004
+	tutorials/HowToAddStuffInPetfiles
+	tutorials/CorruptedBitmap
+	tutorials/RunawaysHome
+	tutorials/UnstickingPregnancy
+	tutorials/PIIRunawaysHome
+	tutorials/PIIRunawayRescue
+	tutorials/SleepySicknessCure
+	tutorials/FleaSicknessCure
+	tutorials/paint_ball_oddities
+	tutorials/ChangingEyelidsOnPetfiles
+	tutorials/PetFileEyelids
+	tutorials/pet_eyelids
+	tutorials/PetfileEdit2
+	tutorials/PetfileEdit3
+	tutorials/PetfileEdit4
+	tutorials/PetfileProblems1
+	tutorials/FixingPetBirthdates
+	tutorials/ChangingBreeNameInPetfile
+	tutorials/UnSpayAndGenderChange
+	tutorials/Pet2BreedEasy
+	tutorials/LNZFileExternals
+	tutorials/HexPaintingPetz3-Petz5
+	tutorials/HexingBreedzPart1of3
+	tutorials/HexingBreedzPart2of3
+	tutorials/HexingBreedzPart3of3
+	tutorials/HowToMakeInternationalVersions
+	tutorials/HowToShowUpSeperate
+	tutorials/ACNameChange
+	tutorials/SicknessFixesInBreedz
+	tutorials/MakingP5PigzAdoptableMay2003
+	tutorials/VariationPaintballzAddballzAndOmissions
+	tutorials/VariationsExplanations
+	tutorials/AlwaysCorrectGender
+	tutorials/AddBallz
+	tutorials/xyz
+	tutorials/IDclash
+	tutorials/PetzSounds
+	tutorials/2ndGenNoses
+	tutorials/SomeFixesFor2ndGenerationPets
+	tutorials/ClothingToBreed
+	tutorials/TattooHowTo
+	tutorials/tails
+	tutorials/TeddyBearEars
+	tutorials/WizardBitmap
+	tutorials/AlleyEyesOnDogz
+	tutorials/WingzExtraInfo
+	tutorials/DogzLegsAndCatzEars
+	tutorials/GivingBabyStagesADifferentLook
+	tutorials/ChangingAndExpandingTails
+	tutorials/EyeballsEyeballs
+	tutorials/DogzLegzAndCatzEars
+	tutorials/BunnyEarsOnDane
+	tutorials/FAQhowToMakeMinis
+	tutorials/FAQdeletingBytes
+	tutorials/FAQspotsOnBreedz
+	tutorials/FAQfuzzyFeetEtc
+	tutorials/FAQsupriseTygerOrChickenBlobs
+	tutorials/FAQpigzEtcWhySoSmall
+	tutorials/FAQchangeNoseColour
+	tutorials/FAQchangeDefaultAdoptionCentreClothes
+
+ODDBALLZEDIT
+	oddballz/oddballzplayer
+	oddballz/oddballzedit2
+
+BABYZEDIT
+	babyz/sphinx
+	tutorials/BabyzFreezeFix
+	tutorials/BabyzSliderBrains
+	tutorials/BabyzBallList
+	babyz/babyzfooler
+	babyz/babyzfix (babyzfix/index.htm)
+	tutorials/fatima
+	tutorials/faedruna
+	tutorials/BabyzWingzCodes
+	tutorials/ThinFatBaby
+	tutorials/Polygons4BabyzHowto
+	tutorials/Linez4BabyzHowto
+	tutorials/HowToHexNewBabyz
+	tutorials/BabyzTeethEnabling
+	tutorials/PreemieBabiesHowto
+	tutorials/BabyzTextures
+	tutorials/BabyzFAQ
+	tutorials/BabyzSceneSeperate
+	tutorials/MakingCrackersShowSeparately
+	tutorials/NonOverwriteClothes
+	tutorials/SpoonBlobColour
+	tutorials/HiddenAndDifficultToysInPetz3-5andBabyz
+	tutorials/BabyzClothes
+	tutorials/PositionOnShelf
+	tutorials/ToyzInSpecialPlaces
+	tutorials/EyeshadowOnBabyz
+	tutorials/MakingBabyzWalkers
+	tutorials/BabyNaturalHairGrow
+
+COLLABORATIONS
+	petz/withbutterflychaser
+	petz/butterflychaser
+	petz/withcasey
+	petz/withnicole
+	petz/withmelanie
+	petz/withmeerii
+
+EMOTICONPETZ1
+	specials/emoticonpetz2
+	specials/emoticonbreed
+
+SEALIFE
+	petz/petzfrogz
+	petz/transforms
+	babyz/babyzfish
+	babyz/wardahseascape
+	petz/minibyteseascape
+
+BUGZLIFE
+	babyz/babyzarthropods
+	petz/petzarthropods
+
+PETZPEOPLE
+	petz/PeopleLNZBreedz
+	petz/peoplebreedz
+
+PETZ3-5LNZ
+	tutorials/LNZBreedzHowto
+	specials/petz3-5lnzp2
+
+P5TOYZ
+	tutorials/RegistryHowto
+
+P5BREEDZ
+	petz/pfmice
+
+C5BREEDZ
+	petz/catz5-2
+	petz/catz5-3
+	petz/catz5-4
+	petz/catz5-5
+
+D5BREEDZ
+	petz/dogz5-2
+	petz/dogz5-3
+	petz/dogz5-4
+	petz/dogz5-5
+
+CATBEHAVIOURS
+	petz/reassociate
+
+C4BREEDZ
+	petz/catz4-2
+	petz/catz4-3
+	petz/catz4-4
+	petz/catz4-5
+
+C3BREEDZ
+    petz/catz3-2
+    petz/catz3-3
+    petz/catz3-4
+    petz/catz3-5

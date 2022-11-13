@@ -1,0 +1,9 @@
+INDEX
+	guestbook
+	* play1 (id1.html)
+	* play2 (id5.html)
+	* play3 (id6.html)
+	* possums (id12.html)
+	* play4 (id13.html)
+	* sound (id14.html)
+	precious (id2.html)

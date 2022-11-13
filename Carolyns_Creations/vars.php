@@ -1,0 +1,3 @@
+<?php
+
+$wayback = null;

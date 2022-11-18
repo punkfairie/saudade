@@ -127,7 +127,49 @@
         </td>
 
         <td>
+            <a href="dl/c3breedz_BritishGinger+White_c3.zip"
+               title="Download BritishGinger+White for Catz 3">
+                <img src="images/c3breedz_BritishG+W.gif" alt="BritishGinger+White"><br>
+                British Ginger and White
+            </a>
+        </td>
+    </tr>
 
+    <tr>
+        <td>
+            <a href="dl/c3breedz_BrownFuzzTabby_c3.zip" title="Download BrownFuzzTabby for Catz 3">
+                <img src="images/c3breedz_BrownfuzzTabby.gif" alt="BrownFuzzTabby"><br>
+                BrownFuzzTabby
+            </a>
+        </td>
+
+        <td>
+            <a href="c3breedz_Bunnycat_c3.zip" title="Download Bunnycat for Catz 3">
+                <img src="images/c3breedz_BunnyCat.gif" alt="Bunnycat"><br>
+                Bunnycat
+            </a>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <a href="dl/c3breedz_Calibean_c3.zip" title="Download Calibean for Catz 3">
+                <img src="images/c3breedz_Calibean.gif" alt="Calibean"><br>
+                Calibean
+            </a>
+        </td>
+
+        <td>
+            <a href="dl/c3breedz_Catwingz_c3.zip" title="Download Catwingz for Catz 3">
+                <img src="images/c3breedz_Catwingz.gif" alt="Catwingz"><br>
+                Catwingz
+            </a>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            
         </td>
     </tr>
 </table>

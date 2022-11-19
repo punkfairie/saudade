@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+
+    <!-- from source -->
+    <title>Petz II Fooler</title>
+    <!-- -->
+</head>
+<body>
+<?php include '../../../_menu.php' ?>
+
+<div class="center green normal">
+    <p class="big">.</p>
+
+    <p class="big">
+        <b>The Petz II Demo</b><br>
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    </p>
+
+    <p>
+        <a href="dl/petzIIfooler_PetzIIdemo.zip">
+            The Petz II demo, unpacked for those who cannot install
+        </a><br>
+        This is the DogzII and CatsII demos, both unpacked and installed into a folder called PetzII
+        and then zipped up for download. It is here to help people with XP or other operating
+        systems that tend to have problems with old game installers -- or for people who, like
+        myself, hate automatic installers anyway.
+    </p>
+
+    <p class="big">
+        <b>The Petz II fooler</b><br>
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    </p>
+
+    <p>
+        <a href="dl/petzIIfooler_PetzIIdemoFooler.zip">The fooler</a>.<br>
+        Please follow the included instructions carefully.
+    </p>
+
+    <p>
+        works for XP also, but on that OS unless you download Nicholas' Petza (find his url on my
+        Nicholas' tools page) you will be unable to adopt new petz.<br>
+        For those who don't use Nicholas' Petza, and need them for the fooler petz:<br>
+        <a href="dl/petzIIfooler_GreatdanepII.zip">
+            The Petz II Great Dane -- unpack into Dogz folder
+        </a><br>
+        <a href="dl/petzIIfooler_SiamesepII.zip">The Petz II Siamese -- unpack into catz folder</a>
+    </p>
+
+    <p>
+        NOTE: if you installed the Petz II demo files from Daniel's site, and you use the shortcut
+        to start the game, it will probably still start in demo mode even with my fooler in place.
+        The best thing to do is to delete the shortcut and then right-click on the .exe and
+        drag-and-drop a new shortcut onto your desktop. Thanks to SuperSwampert67 for the heads-up!
+    </p>
+
+    <p>
+        Since Daniel's site went down, it's harder to find the original backup breedz etc. So I have
+        them here in a few zips:<br>
+        <a href="dl/petzIIfooler_PIIoriginalCatz.zip">The original Catz breedz</a><br>
+        <a href="dl/petzIIfooler_PIIoriginalCatzDownloadables.zip">
+            The original extra Catz breedz
+        </a><br>
+        (these extras were once downloadable from the official site)<br>
+        <a href="dl/petzIIfooler_PIIoriginalDogz.zip">The original Dogz breedz</a><br>
+        <a href="dl/petzIIfooler_PIIoriginalDogzDownloadables.zip">
+            The original extra Dogz breedz
+        </a><br>
+        (these extras were once downloadable from the official site)
+    </p>
+
+    <p>
+        And here are some other backup files that you might like to have in your game...<br>
+        <a href="dl/petzIIfooler_PIIOriginalToyz.zip">The original Toyz</a><br>
+        <a href="dl/petzIIfooler_PIIoriginalWallpaper.zip">The original Wallpapers</a>
+    </p>
+
+    <p>
+        And for people who have trouble finding them elsewhere on my site, here are a bunch of
+        required files to go with the fooler<br>
+        <a href="dl/petzIIfooler_PetzIIModifiedExe.zip">Click here for the Petz II modified exe</a>
+        <br>
+        <a href="dl/petzIIfooler_Rez_c2.zip">Cat behaviour files for Petz II</a><br>
+        <a href="dl/petzIIfooler_Rez_d2.zip">Dog behaviour files for Petz II</a><br>
+        .
+    </p>
+
+    <p class="big">.</p>
+</div>
+
+</body>
+</html>

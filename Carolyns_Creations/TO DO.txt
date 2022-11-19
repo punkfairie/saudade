@@ -88,8 +88,8 @@ MENU.HTML
 
         Sept 2022 & Nov 2022
 
-	petz/c3breedz
-	petz/d3breedz
+	* petz/c3breedz
+	* petz/d3breedz
 
 	petz/c3breeded
 	petz/d3breeded
@@ -388,3 +388,9 @@ C3BREEDZ
     petz/catz3-3
     petz/catz3-4
     petz/catz3-5
+
+D3BREEDZ
+    petz/dogz3-2
+    petz/dogz3-3
+    petz/dogz3-4
+    petz/dogz3-5

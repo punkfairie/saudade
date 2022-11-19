@@ -67,7 +67,7 @@
     </p>
 </div>
 
-<table class="table-center img-size center big">
+<table class="center-table center img-size big">
     <tr>
         <td>
             <a href="dlc3breedz_Abyssinian2_c3.zip" title="Download Abyssinian2 for Catz 3">
@@ -169,10 +169,89 @@
 
     <tr>
         <td>
-            
+            <a href="dl/c3breedz_CharcoalAngora_c3.zip" title="Download CharcoalAngora for Catz 3">
+                <img src="images/c3breedz_CharcoalAngora.gif" alt="CharcoalAngora"><br>
+                Charcoal Angora
+            </a>
+        </td>
+
+        <td>
+            <a href="dl/c3breedz_Chickenz_c3.zip" title="Download Chickenz for Catz 3">
+                <img src="images/c3breedz_Chickenz.gif" alt="Chickenz"><br>
+            Chickenz With "Eggz"</a> /<br>
+            <a href="dl/c3breedz_ChickenzNoEggz_c3.zip"
+               title="Download Chickenz No Eggz">Chickenz Without "Eggz"</a> --
+            <a href="http://simple-desires.org/wkc/" target="_TOP" class="defunct">WKC </a>accepted
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <a href="dl/c3breedz_Chinchifluttacorn_c3.zip" title="Download Chinchi Fluttacorn for Catz 3">
+                <img src="images/c3breedz_ChinchiFluttacorn.gif" alt="Chinchifluttacorn"><br>
+                Chinchi Fluttacorn
+            </a>
+        </td>
+
+        <td>
+            <a href="dl/c3breedz_Chinchillafold_c3.zip" title="Download Chinchilla Fold for Catz 3">
+                <img src="images/c3breedz_ChinchillaFold.gif" alt="Chinchilla Fold"><br>
+                Chinchilla Fold
+            </a>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <a href="dl/c3breedz_CottonBunny_c3.zip" title="Download CottonBunny for Catz 3">
+                <img src="images/c3breedz_CottonBunny.gif" alt="CottonBunny"><br>
+                CottonBunny
+            </a>
+        </td>
+
+        <td>
+            <a href="dl/c3breedz_Cowtaurus_c3.zip" title="Download Cowtaurus for Catz 3">
+                <img src="images/c3breedz_Cowz.gif" alt="Cowtaurus"><br>
+            Cowtaurus</a> --
+            <a href="http://simple-desires.org/wkc/" target="_TOP" class="defunct">WKC </a>accepted
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <a href="dl/c3breedz_CreamFluff(English)_c3.zip" title="Download CreamFluff for Catz 3">
+                <img src="images/c3breedz_CreamFluff.gif" alt="CreamFluff"><br>
+            Cream Fluff (English)</a> /
+            <a href="dl/c3breedz_CreamFluff(International)_c3.zip"
+               title="Download CreamFluff International">Cream Fluff (International)</a>
+        </td>
+
+        <td>
+            <a href="dl/c3breedz_Dalmatian_c3.zip" title="Download Dalmatian for Catz 3">
+                <img src="images/c3breedz_DalmatianCat.gif" alt="Dalmatian"><br>
+            Dalmatian (previous ID)</a> /
+            <a href="dl/c3breedz_Dalmatian(correctNumber)_c3.zip"
+               title="Download Dalmatian for Catz 3 (correct number)">*Dalmatian (correct ID)</a>
         </td>
     </tr>
 </table>
+
+<div class="center normal brown">
+    <p>
+        * the original Dalmatian Cat for Catz 3 had a different ID number from the Catz 4 version.
+        If you are trying to play with a Dalmatian cat pet which was adopted previously from my Catz
+        4 breedfile, you should use the "Correct ID" version of the breedfile. It will overwrite the
+        other one, so if you already have that one, keep it safe somewhere in case you need it.
+    </p>
+
+    <p class="bigger">
+        <u>Page</u>: 1
+        <a href="catz3-2.php">2</a>
+        <a href="catz3-3.php">3</a>
+        <a href="catz3-4.php">4</a>
+        <a href="catz3-5.php">5</a>
+    </p>
+</div>
 
 </body>
 </html>

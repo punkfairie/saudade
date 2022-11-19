@@ -89,9 +89,12 @@ MENU.HTML
         Sept 2022 & Nov 2022
 
 	* petz/c3breedz
+
+        Nov 2022
+
 	* petz/d3breedz
 
-	petz/c3breeded
+	* petz/c3breeded
 	petz/d3breeded
 	petz/c3intbreeded
 	petz/d3intbreeded

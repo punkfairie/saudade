@@ -14,7 +14,7 @@
 
 <div class="big green center more-side-padding">
     <p class="bigger">
-        Catz 2 Breedz<br>
+        <b>Catz 2 Breedz</b><br>
         Click breed photo or name to download.
     </p>
 

@@ -65,10 +65,12 @@
     </tr>
 
     <tr>
-        <a href="dl/p2breedz_Bunny_c2.zip" title="Download Bunny for Catz 2">
-            <img src="images/p2breedz_Bunnyp2.gif" alt="Bunny"><br>
-            Bunny (Catz)
-        </a>
+        <td>
+            <a href="dl/p2breedz_Bunny_c2.zip" title="Download Bunny for Catz 2">
+                <img src="images/p2breedz_Bunnyp2.gif" alt="Bunny"><br>
+                Bunny (Catz)
+            </a>
+        </td>
     </tr>
 </table>
 

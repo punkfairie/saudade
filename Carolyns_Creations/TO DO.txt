@@ -110,7 +110,7 @@ MENU.HTML
 	* petz/c1breedz
 	* petz/d1breedz
 	* petz/dogz1fooler
-	petz/catz1mice
+	* petz/catz1mice
 
 	oddballz/oddballz
 

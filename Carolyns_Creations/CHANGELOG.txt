@@ -9,3 +9,4 @@ Refactored code (only affecting how the source looks, actual design was kept as 
 
 Repackaged frames/petz/dl/c1breedz_zott4mac_c1.zip from a .sea file to a .zip
 Repackaged frames/petz/dl/c1breedz_Snowbo4mac_c1.zip from a .sit file to a .zip
+Repackaged frames/petz/dl/d1breedz_Snowbo2forMac_d1.zip from a .sea file to a .zip

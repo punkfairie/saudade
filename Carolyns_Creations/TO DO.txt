@@ -107,8 +107,8 @@ MENU.HTML
 	* petz/p2playscene
 
 	* petz/catz1dex
-	petz/c1breedz
-	petz/d1breedz
+	* petz/c1breedz
+	* petz/d1breedz
 	petz/dogz1fooler
 	petz/catz1mice
 

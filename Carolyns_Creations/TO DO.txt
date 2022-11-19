@@ -99,7 +99,7 @@ MENU.HTML
 	* petz/c3intbreeded
 	* petz/d3intbreeded
 
-	petz/p2breedz
+	* petz/p2breedz
 	petz/c2breedz
 	petz/d2breedz
 	petz/petzIIfooler

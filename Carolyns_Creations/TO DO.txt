@@ -404,3 +404,6 @@ CATZ1DEX
 
 DOGZ1FOOLER
     petz/dogz1dl
+
+ODDBALLZ
+    oddballz/oddballzbreedz

@@ -106,7 +106,7 @@ MENU.HTML
 	* petz/p2toyz
 	* petz/p2playscene
 
-	petz/catz1dex
+	* petz/catz1dex
 	petz/c1breedz
 	petz/d1breedz
 	petz/dogz1fooler
@@ -397,3 +397,7 @@ D3BREEDZ
     petz/dogz3-3
     petz/dogz3-4
     petz/dogz3-5
+
+CATZ1DEX
+    petz/sclub
+    petz/dload2

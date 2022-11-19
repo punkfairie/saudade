@@ -10,6 +10,8 @@ html {
 body {
 	font-size: 13px;
 	color: #810541;
+    margin: 0;
+    padding: 0;
 }
 
 // MENU
@@ -59,12 +61,18 @@ p {	padding: 5px 0; }
 .comic-sans      { font-family: 'Comic Sans MS'; }
 .times-new-roman { font-family: 'Times New Roman'; }
 
+.bold { font-weight: 700; }
+
 // FORMATTING
 
 .center {
 	text-align: center;
 	padding: 10px 0;
 }
+
+.float-left { float: left; }
+
+.left-align { text-align: left; }
 
 // .first kept in so I don't have to go changing previous pages
 .first, .padding-top { padding-top: 90px; }
@@ -114,12 +122,22 @@ table.wide-center-table {
 	a {
 		color: #800080;
 
-		&:visited {
-			color: #808080;
-		}
+		&:visited { color: #808080; }
 
-		&:active {
-			color: #f0f;
-		}
+		&:active { color: #f0f; }
 	}
+}
+
+#catz1dex {
+    background: #33cccc;
+    color: #000;
+    font-family: Times;
+
+    a {
+        color: #fff;
+
+        &:visited { color: #fff; }
+
+        &:active { color: #fff; }
+    }
 }

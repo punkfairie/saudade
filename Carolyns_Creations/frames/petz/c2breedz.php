@@ -38,8 +38,7 @@
         <td>
             <a href="dl/c2breedz_Chickenz_c2.zip" title="Download Chickenz for Catz 2">
                 <img src="images/c2breedz_Chickenz.gif" alt="Chickenz"><br>
-                Chickenz With "Eggz"
-            </a>/
+            Chickenz With "Eggz"</a> /
             <a href="dl/c2breedz_ChickenzNoEggz_c2.zip"
                title="Download Chickenz No Eggz">Without "Eggz"</a>
         </td>

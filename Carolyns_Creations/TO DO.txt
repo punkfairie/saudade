@@ -97,7 +97,7 @@ MENU.HTML
 	* petz/c3breeded
 	* petz/d3breeded
 	* petz/c3intbreeded
-	petz/d3intbreeded
+	* petz/d3intbreeded
 
 	petz/p2breedz
 	petz/c2breedz

@@ -123,13 +123,12 @@ table.wide-center-table {
 		color: #800080;
 
 		&:visited { color: #808080; }
-
-		&:active { color: #f0f; }
+		&:active  { color: #f0f; }
 	}
 }
 
 #catz1dex {
-    background: #33cccc;
+    background-color: #33cccc;
     color: #000;
     font-family: Times;
 
@@ -137,7 +136,17 @@ table.wide-center-table {
         color: #fff;
 
         &:visited { color: #fff; }
+    }
+}
 
-        &:active { color: #fff; }
+#dogz1fooler {
+    background-color: #8442ef;
+    color: #f7f5d7;
+    font-family: Times;
+
+    a {
+        color: #00ff00;
+
+        &:visited { color: #fff; }
     }
 }

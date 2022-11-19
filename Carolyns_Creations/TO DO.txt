@@ -109,7 +109,7 @@ MENU.HTML
 	* petz/catz1dex
 	* petz/c1breedz
 	* petz/d1breedz
-	petz/dogz1fooler
+	* petz/dogz1fooler
 	petz/catz1mice
 
 	oddballz/oddballz
@@ -401,3 +401,6 @@ D3BREEDZ
 CATZ1DEX
     petz/sclub
     petz/dload2
+
+DOGZ1FOOLER
+    petz/dogz1dl

@@ -104,7 +104,7 @@ MENU.HTML
 	* petz/d2breedz
 	* petz/petzIIfooler
 	* petz/p2toyz
-	petz/p2playscene
+	* petz/p2playscene
 
 	petz/catz1dex
 	petz/c1breedz

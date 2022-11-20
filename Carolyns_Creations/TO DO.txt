@@ -117,8 +117,8 @@ MENU.HTML
 	* babyz/babyznewest
 	* babyz/babyznew
 	* babyz/babyz-1
-	babyz/babyzglasses
-	babyz/babyzharem
+	* babyz/babyzglasses
+	* babyz/babyzharem
 	babyz/babyzclothes
 	babyz/babyzplayscene
 	babyz/babyztoyz

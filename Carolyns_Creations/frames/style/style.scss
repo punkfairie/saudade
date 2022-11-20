@@ -22,9 +22,7 @@ body {
 	color: #660000;
 	font-size: 13px;
 
-	li {
-		list-style: none;
-	}
+	li { list-style: none; }
 }
 
 // LINKS
@@ -32,18 +30,11 @@ body {
 a {
 	color: #f63;
 
-	&:visited {
-		color: #8a2be2;
-	}
-
-	&:active {
-		color: #0f0;
-	}
+	&:visited { color: #8a2be2; }
+	&:active  { color: #0f0; }
 }
 
-.defunct {
-	text-decoration: line-through;
-}
+.defunct { text-decoration: line-through; }
 
 // TEXT
 
@@ -112,6 +103,23 @@ table.wide-center-table {
     width: 90%;
     margin: 0 auto;
 }
+
+.border-outer {
+    width: max-content;
+    margin: 0 auto;
+    border: 2px solid;
+
+    .border-inner {
+        width: 90vw;
+        margin: 2px;
+        padding: 30px;
+        border: 1px solid;
+    }
+}
+
+.border-brown { border-color: #660000; }
+
+.img-border img { border: 1px solid; }
 
 // PAGE SPECIFIC
 

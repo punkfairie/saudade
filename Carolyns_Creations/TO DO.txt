@@ -116,7 +116,7 @@ MENU.HTML
 
 	* babyz/babyznewest
 	* babyz/babyznew
-	babyz/babyz-1
+	* babyz/babyz-1
 	babyz/babyzglasses
 	babyz/babyzharem
 	babyz/babyzclothes
@@ -420,3 +420,6 @@ BABYZNEW
     babyz/growerbabyz
     babyz/wingflowerbabyz
     babyz/wingjewelbabyz
+
+BABYZ-1
+    babyz/babyzspecial-1

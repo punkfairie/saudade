@@ -115,7 +115,7 @@ MENU.HTML
 	* oddballz/oddballz
 
 	* babyz/babyznewest
-	babyz/babyzbew
+	* babyz/babyznew
 	babyz/babyz-1
 	babyz/babyzglasses
 	babyz/babyzharem
@@ -410,3 +410,13 @@ ODDBALLZ
 
 BABYZNEWEST
     tutorials/babyzears
+
+BABYZNEW
+    babyz/faeriebabyz
+    babyz/babyzoddball
+    babyz/babyzhearts
+    babyz/realbabyz
+    babyz/pharaohbabyz
+    babyz/growerbabyz
+    babyz/wingflowerbabyz
+    babyz/wingjewelbabyz

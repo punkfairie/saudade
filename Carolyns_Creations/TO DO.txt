@@ -112,9 +112,9 @@ MENU.HTML
 	* petz/dogz1fooler
 	* petz/catz1mice
 
-	oddballz/oddballz
+	* oddballz/oddballz
 
-	babyz/babyznewest
+	* babyz/babyznewest
 	babyz/babyzbew
 	babyz/babyz-1
 	babyz/babyzglasses
@@ -407,3 +407,6 @@ DOGZ1FOOLER
 
 ODDBALLZ
     oddballz/oddballzbreedz
+
+BABYZNEWEST
+    tutorials/babyzears

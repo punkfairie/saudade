@@ -1,19 +1,19 @@
-@use '../../style/menu';
+@use 'menu.css';
 
 // general
 
 body {
-	text-align: center;
-	font-family: 'Georgia', serif;
-	font-size: 16px;
+  text-align: center;
+  font-family: 'Georgia', serif;
+  font-size: 16px;
 }
 
 // index
 
 #hit-counter {
-	display: inline-block;
-	border: 8px #bdbdbd solid;
-	background-color: #bdbdbd;
+  display: inline-block;
+  border: 8px #bdbdbd solid;
+  background-color: #bdbdbd;
 }
 
 // text
@@ -33,18 +33,18 @@ h2 { font-size: 24px; }
 // misc formatting
 
 .missing-asset {
-	border: 1px solid;
-	padding: 5px;
+  border: 1px solid;
+  padding: 5px;
 }
 
 .display-table {
-	display: table;
-	margin: 10px auto;
+  display: table;
+  margin: 10px auto;
 }
 
 .inline-block {
-	display: inline-block;
-	margin: 0;
+  display: inline-block;
+  margin: 0;
 }
 
 // hell

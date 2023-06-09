@@ -3,6 +3,10 @@
 const siteRoot = '/' + location.pathname.split('/')[1]
 const {wayback} = await import(`${siteRoot}/config.js`)
 
+/* --------------------------------------------------------------------------------------------- import menu css ---- */
+
+import '/style/menu.css'
+
 /* -------------------------------------------------------------------------------------------------- build menu ---- */
 let menu = document.createElement('div')
 menu.id = 'archive-menu'

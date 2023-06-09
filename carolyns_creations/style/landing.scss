@@ -1,40 +1,40 @@
-@use '../../style/menu';
+@use 'menu.css';
 
 html {
-	background-color: #202020;
-	text-align: center;
-	color: #fff;
-	font-family: 'Comic Sans MS';
-	font-size: 1em;
+  background-color: #202020;
+  text-align: center;
+  color: #fff;
+  font-family: 'Comic Sans MS';
+  font-size: 1em;
 }
 
 .content {
-	margin-top: 55px;
+  margin-top: 55px;
 }
 
 p {
-	padding-top: 10px;
-	padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 a {
-	color: #fff;
-	text-decoration: none;
-	font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
 
-	&:visted {
-		color: #fff;
-		text-decoration: none;
-	}
+  &:visted {
+    color: #fff;
+    text-decoration: none;
+  }
 
-	&:active {
-		color: #fff;
-		text-decoration: none;
-	}
+  &:active {
+    color: #fff;
+    text-decoration: none;
+  }
 
-	&:hover {
-		color: #ffff40;
-		text-decoration: line-through;
-		cursor: ne-resize;
-	}
+  &:hover {
+    color: #ffff40;
+    text-decoration: line-through;
+    cursor: ne-resize;
+  }
 }

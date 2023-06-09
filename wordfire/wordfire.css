@@ -1,0 +1,51 @@
+body {
+    --background: #ccf;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background-color: var(--background);
+    font-size: 13px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #c0f;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+/* text */
+
+.center { text-align: center; }
+
+.small { font-size: 10px; }
+
+.medium { font-size: 16px; }
+
+.big { font-size: 18px; }
+
+.arial { font-family: Arial, Helvetica, sans-serif; }
+
+.times { font-family: 'Times New Roman', serif; }
+
+.georgia { font-family: Georgia, serif; }
+
+.courier { font-family: "Courier New", Courier, monospace; }
+
+/* misc */
+
+.missing-asset {
+    border: 1px solid;
+    padding: 5px;
+}
+
+.display-table {
+    display: table;
+    margin: 10px auto;
+}
+
+.inline-block {
+    display: inline-block;
+    margin: 0;
+}
+
+#god { float: right; width: 130px; text-align: center; }

@@ -37,5 +37,5 @@ const pageMetadata = {
     },
 }
 
-const wayback = waybackSiteBase + pageMetadata[currentPage].captureId + pageMetadata[currentPage].sourcePageName
-export default wayback
+export const wayback =
+    pageMetadata[currentPage].captureId + '/' + waybackSiteBase + pageMetadata[currentPage].sourcePageName

@@ -10,6 +10,7 @@ export default defineConfig({
             input: {
                 main: resolve(__dirname, 'index.html'),
                 wordfire: resolve(__dirname, 'wordfire/index.html'),
+                petz5world: resolve(__dirname, 'petz5world/index.html'),
             },
         },
     },

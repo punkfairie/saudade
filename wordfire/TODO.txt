@@ -6,4 +6,4 @@ INDEX
 	* possums (id12.html)
 	* play4 (id13.html)
 	* sound (id14.html)
-	precious (id2.html)
+	* precious (id2.html)

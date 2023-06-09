@@ -1,3 +1,9 @@
+/* -------------------------------------------------------------------------------------- find and import config ---- */
+
+const siteRoot = '/' + location.pathname.split('/')[1]
+const {wayback} = await import(`${siteRoot}/config.js`)
+
+/* -------------------------------------------------------------------------------------------------- build menu ---- */
 let menu = document.createElement('div')
 menu.id = 'archive-menu'
 
@@ -13,16 +19,14 @@ archiveRoot.innerText = 'Home'
 menu.append(archiveRoot)
 
 let changelog = document.createElement('a')
-/** @var siteRoot */
 changelog.setAttribute('href', `${siteRoot}/CHANGELOG.txt`)
 changelog.setAttribute('target', '_blank')
 changelog.innerText = 'Changelog'
 menu.append(changelog)
 
-/** @var wayback */
 if (wayback) {
     let waybackLink = document.createElement('a')
-    waybackLink.setAttribute('href', wayback)
+    waybackLink.setAttribute('href', `https://web.archive.org/web/${wayback}`)
     waybackLink.setAttribute('target', '_blank')
     waybackLink.innerText = 'Wayback Capture'
     menu.append(waybackLink)

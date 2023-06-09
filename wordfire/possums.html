@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- from source -->
+    <title>3-Column Page</title>
+    <!--  -->
+
+    <!-- style -->
+    <link rel="stylesheet" href="style/style.css">
+    <style>
+        body { background-color: #900; color: #009; }
+
+        a { color: #009; }
+
+        a:active { color: #009; }
+
+        a:visited { color: #009; }
+
+        #page {
+            display: grid;
+            gap: 0; grid-gap: 0;
+            grid-template-columns: [c1] 148px [c2] 615px [c3];
+            grid-template-rows: [r1] 156px [r2] 855px [r3];
+        }
+
+        /* header ------------------------------------------------------------------------------- */
+
+        #header {
+            grid-column: c2/c3;
+            grid-row: r1/r2;
+            justify-self: center;
+            align-self: center;
+            text-align: center;
+        }
+
+        #header > h1 { padding: 0; margin: 0 0 5px 0; }
+
+        #header > h2 {
+            color: #60f;
+            font-weight: 700;
+            font-size: 32px;
+            font-style: italic;
+            text-decoration: underline;
+            padding: 0; margin: 0;
+        }
+
+        /* nav ---------------------------------------------------------------------------------- */
+
+        #nav {
+            grid-column: c1/c2;
+            grid-row: r2/r3;
+            justify-self: center;
+            text-align: center;
+        }
+
+        #nav > a {
+            display: block;
+            text-decoration: none;
+            font-weight: 700;
+            padding: 5px;
+            margin-bottom: 2px;
+        }
+
+        #nav > a:hover { text-decoration: underline; }
+
+        /* content ------------------------------------------------------------------------------ */
+
+        #content {
+            grid-column: c2/c3;
+            grid-row: r2/r3;
+
+            display: grid;
+            gap: 0; grid-gap: 0;
+
+            grid-template-columns: [cc1] 320px [cc2] 295px [cc3];
+            grid-template-rows: [cr1] 76px [cr2] 28px [cr3] 96px [cr4] 66px [cr5] 59px [cr6] 50px
+			[cr7] 80px [cr8] 400px;
+        }
+
+        #content > div {
+            padding: 7px;
+        }
+    </style>
+
+    <!-- archive menu -->
+    <script src="config.js" type="module"></script>
+    <script src="/menu.js" type="module"></script>
+</head>
+<body>
+<div id="page">
+    <div id="header">
+        <h1>petz**<br>
+            WORDFIRE'S**petz</h1>
+        <h2 class="arial">DEDICATION TO 'POSSUMS</h2>
+    </div><!-- #header -->
+
+    <div id="nav" class="arial">
+        <a href="index.html">Home</a>
+        <a href="play1.html">PETZ PLAYSCENZ</a>
+        <a href="play2.html">MORE PLAYSCENZ</a>
+        <a href="play3.html">AND>>>>MORE PETZ PLAYSCENZ</a>
+        <a href="possums.html">'POSSUMS</a>
+        <a href="play4.html">COMPLETED PLAYSCENZ</a>
+        <a href="sound.html">Sound Files</a>
+        <a href="precious.html">PRECIOUS ONEZ</a>
+    </div><!-- #nav -->
+
+    <div id="content">
+        <div style="grid-column: cc1/cc2; grid-row: cr1/cr2; padding-left: 10px;">
+            <img src="img/index_vote1.gif">
+        </div>
+
+        <div style="grid-column: cc1/cc2; grid-row: cr2/cr3; align-self: center;">.</div>
+
+        <div class="courier big" style="grid-column: cc1/cc3; grid-row: cr3/cr4; font-style: italic;
+		font-weight: 700;">
+			<span style="background-color: #c00; color: #fff;">
+				this breed was created by Rachel at Meow<br>
+				Corp.Petz...you can get her Catz 3 version at her  web<br>
+				site 
+			</span><a
+                href="https://www.angelfire.com/art2/racieb/petz/">https://www.angelfire.com/art2/racieb/petz/</a>
+        </div>
+
+        <!-- left column -->
+        <div class="arial small center" style="grid-column: cc1/cc2; grid-row: cr4/cr5;
+		justify-self: center; align-self: end; margin-left: 40px;">
+            Opie Possum<br>
+            <span class="georgia medium" title="missing" style="color: #000;">jpgopie.jpg</span>
+        </div>
+
+        <div class="arial small center" style="grid-column: cc1/cc2; grid-row: cr5/cr6; margin-left:
+		40px; justify-self: center; align-self: center;">
+            THE PERFECT OPOSSUM HABITAT<br>
+            <u class="georgia medium" title="missing">possumholler.jpg</u><br>
+            POSSUM HOLLER PETZ 4
+        </div>
+
+        <div class="arial" style="grid-column: cc1/cc2; grid-row: cr6/cr7;">
+            <a href="dl/possums_possumHoller.zip">PETZ 4 CLICK HERE TO DOWNLOAD POSSUM HOLLER
+                PLAYSCENZ</a>
+        </div>
+
+        <!-- right column -->
+        <div class="arial" style="grid-column: cc2/cc3; grid-row: cr4/cr5; justify-self: center;
+		align-self: center; margin-right: 20px;">
+            <a href="dl/possums_opossump4.zip">Opossums Petz 4 click to download</a>
+        </div>
+
+        <div class="arial" style="grid-column: cc2/cc3; grid-row: cr5/cr6; justify-self: center;
+		align-self: end; margin-right: -10px;">
+            <a href="dl/possums_Opossump5.zip">Opossums Petz 5 click here to download<br>file</a>
+        </div>
+
+        <div class="courier big" style="grid-column: cc2/cc3; grid-row: cr7/cr8; justify-self:
+		center; align-self: center; color: #f00; padding: 0;">
+            <i style="background-color: #ffc;"><b>unedited Possum Holler<br>is on
+                <a href="play3.html">AND>>>>MORE PETZ<br>PLAYSCENZ</a>
+                &nbsp;page</b></i>
+        </div>
+
+        <div class="small arial center" style="grid-column: cc2/cc3; grid-row: cr8/cr9;
+			justify-self: end; align-self: end; font-weight: 700; padding-right: 20px;">
+            The Life,Truth and Power<br>
+            Of GOD<br>
+            <img src="img/index_animation.gif" width="130" alt="animation.gif"><br>
+            WORDFIRE
+
+            <br><br>
+
+            Lots Of KEWL Stuff Here<br>
+            <a href="http://pineconecattery.com" target="tlx_new">
+                <img src="img/index_judysbanner.jpg" width="130">
+            </a><br>
+            Edited Versions Also<br>
+            Available Of These<br>
+            Playscenz
+        </div>
+    </div><!-- #content -->
+</div><!-- #page -->
+</body>
+</html>

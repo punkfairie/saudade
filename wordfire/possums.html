@@ -11,13 +11,22 @@
     <!-- style -->
     <link rel="stylesheet" href="wordfire.css">
     <style>
-        body { background-color: #900; color: #009; }
+        #possums {
+            --red: #900;
+            --blue: #009;
+            --purple: #60f;
 
-        a { color: #009; }
+            --background: var(--red);
+            --color: var(--blue);
+        }
 
-        a:active { color: #009; }
+        body { background-color: var(--background); color: var(--color); }
 
-        a:visited { color: #009; }
+        a { color: var(--blue); }
+
+        a:active { color: var(--blue); }
+
+        a:visited { color: var(--blue); }
 
         #page {
             display: grid;
@@ -26,7 +35,7 @@
             grid-template-rows: [r1] 156px [r2] 855px [r3];
         }
 
-        /* header ------------------------------------------------------------------------------- */
+        /* header --------------------------------------------------------------------------------------------------- */
 
         #header {
             grid-column: c2/c3;
@@ -39,7 +48,7 @@
         #header > h1 { padding: 0; margin: 0 0 5px 0; }
 
         #header > h2 {
-            color: #60f;
+            color: var(--purple);
             font-weight: 700;
             font-size: 32px;
             font-style: italic;
@@ -47,7 +56,7 @@
             padding: 0; margin: 0;
         }
 
-        /* nav ---------------------------------------------------------------------------------- */
+        /* nav ------------------------------------------------------------------------------------------------------ */
 
         #nav {
             grid-column: c1/c2;
@@ -66,7 +75,7 @@
 
         #nav > a:hover { text-decoration: underline; }
 
-        /* content ------------------------------------------------------------------------------ */
+        /* content -------------------------------------------------------------------------------------------------- */
 
         #content {
             grid-column: c2/c3;
@@ -88,7 +97,7 @@
     <!-- archive menu -->
     <script src="/menu.js" type="module"></script>
 </head>
-<body>
+<body id="possums">
 <div id="page">
     <div id="header">
         <h1>petz**<br>

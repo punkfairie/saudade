@@ -11,9 +11,16 @@
     <!-- style -->
     <link rel="stylesheet" href="wordfire.css">
     <style>
-        body { background-color: #ccf; background-image: url(img/preciousmkg_countrybreeze_1.gif); }
+        #precious {
+            --neutral-blue: #ccf;
+            --purple: #63f;
 
-        a, a:active, a:visited { color: #000; }
+            --background: url(img/preciousmkg_countrybreeze_1.gif);
+        }
+
+        body { background-color: var(--neutral-blue); background-image: var(--background); }
+
+        a, a:active, a:visited { color: black; }
 
         #page {
             display: grid;
@@ -39,7 +46,7 @@
         }
 
         h2 {
-            color: #63f;
+            color: var(--purple);
             font-weight: 700;
             font-size: 32px;
             padding: 0; margin: 0;
@@ -49,7 +56,7 @@
     <!-- archive menu -->
     <script src="/menu.js" type="module"></script>
 </head>
-<body>
+<body id="precious">
 <div id="page">
     <!-- header -->
     <div class="js-center" style="grid-column: c2/c4; grid-row: r1/r2;">

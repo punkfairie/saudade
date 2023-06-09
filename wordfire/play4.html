@@ -13,19 +13,29 @@
     <!-- style -->
     <link rel="stylesheet" href="wordfire.css">
     <style>
-        body { background-color: #fff; padding: 0; margin: 2px; }
+        #play4 {
+            --red: #c00;
+            --neutral-blue: #aecfcb;
+            --teal: #066;
+            --dark-neutral-blue: #9cc;
+            --light-pink: #fcc;
 
-        a { color: #000; }
+            --background: white;
+        }
 
-        a:active { color: #000; }
+        body { background-color: var(--background); padding: 0; margin: 2px; }
 
-        a:visited { color: #000; }
+        a { color: black; }
+
+        a:active { color: black; }
+
+        a:visited { color: black; }
 
         #page {
             display: grid;
             gap: 0; grid-gap: 0;
             padding: 0; margin: 0;
-            border-top: 2px solid #c00;
+            border-top: 2px solid var(--red);
             width: 761px;
 
             grid-template-columns: [c1] 151px [space] 2px [c2] 608px [c3];
@@ -38,10 +48,10 @@
             align-self: stretch;
             justify-self: stretch;
             padding-bottom: 149px;
-            border-bottom: 2px solid #c00;
+            border-bottom: 2px solid var(--red);
         }
 
-        /* header ------------------------------------------------------------------------------- */
+        /* header --------------------------------------------------------------------------------------------------- */
 
         #header {
             grid-column: c2/c3;
@@ -50,10 +60,10 @@
             justify-self: stretch;
             text-align: center;
 
-            border-left: 2px solid #c00;
-            border-right: 2px solid #c00;
-            border-top: 2px solid #c00;
-            background-color: #aecfcb;
+            border-left: 2px solid var(--red);
+            border-right: 2px solid var(--red);
+            border-top: 2px solid var(--red);
+            background-color: var(--neutral-blue);
             padding-bottom: 5px;
         }
 
@@ -62,11 +72,11 @@
         #header > h2 {
             font-size: 24px;
             font-weight: 700;
-            color: #066;
+            color: var(--teal);
             padding: 0; margin: 0;
         }
 
-        /* nav ---------------------------------------------------------------------------------- */
+        /* nav ------------------------------------------------------------------------------------------------------ */
 
         #nav {
             grid-column: c1/space;
@@ -74,36 +84,36 @@
             justify-self: center;
             text-align: center;
 
-            border-top: 2px solid #c00;
+            border-top: 2px solid var(--red);
             padding-top: 30px;
         }
 
         #nav > a {
             display: block;
-            background-color: #9cc;
-            color: #000;
+            background-color: var(--dark-neutral-blue);
+            color: black;
             font-weight: 700;
             padding: 5px;
             margin-bottom: 2px;
             text-decoration: none;
         }
 
-        #nav > a#current { background-color: #fff; }
+        #nav > a#current { background-color: white; }
 
         #nav > a:hover, #nav > a#current:hover {
             text-decoration: underline;
-            background-color: #fcc;
+            background-color: var(--light-pink);
         }
 
-        /* content ------------------------------------------------------------------------------ */
+        /* content -------------------------------------------------------------------------------------------------- */
 
         #content {
             grid-column: c2/c3;
             grid-row: r2/r3;
 
-            border-left: 2px solid #c00;
-            border-top: 2px solid #c00;
-            border-right: 2px solid #c00;
+            border-left: 2px solid var(--red);
+            border-top: 2px solid var(--red);
+            border-right: 2px solid var(--red);
 
             display: grid;
             gap: 0; grid-gap: 0;
@@ -118,13 +128,13 @@
             justify-self: center;
         }
 
-        .border-left { border-left: 2px solid #c00; }
+        .border-left { border-left: 2px solid var(--red); }
     </style>
 
     <!-- archive menu -->
     <script src="/menu.js" type="module"></script>
 </head>
-<body>
+<body id="play4">
 <div id="page">
     <div id="top-left"></div>
 

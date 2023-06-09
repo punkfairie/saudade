@@ -11,34 +11,39 @@
     <!-- style -->
     <link rel="stylesheet" href="wordfire.css">
     <style>
+        #play1 {
+            --green: #3f3;
+            --purple: #c0f;
+        }
+
         body {
             width: 760px;
             margin: 16px 14px;
             text-align: center;
         }
 
-        a { color: #3f3; }
+        a { color: var(--green); }
 
-        a:active { color: #fff; }
+        a:active { color: white; }
 
-        a:visited { color: #3f3; }
+        a:visited { color: var(--green); }
 
         h1#title {
             font-size: 48px;
             font-weight: 700;
             font-style: italic;
-            color: #c0f;
+            color: var(--purple);
             text-decoration: underline;
             margin: 0;
         }
 
         #nav { margin-top: 0; }
 
-        #nav a { color: #000; }
+        #nav a { color: black; }
 
-        #nav a:active { color: #000; }
+        #nav a:active { color: black; }
 
-        #nav a:visited { color: #000; }
+        #nav a:visited { color: black; }
 
         #nav a.current { text-decoration: none; font-weight: 700; }
 
@@ -57,7 +62,7 @@
     <!-- archive menu -->
     <script src="/menu.js" type="module"></script>
 </head>
-<body>
+<body id="play1">
 <h1 id="title">petz** WORDFIRE'S**petz</h1>
 
 <p id="nav" class="arial">

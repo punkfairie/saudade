@@ -12,14 +12,30 @@
 	<!-- style -->
 	<link rel="stylesheet" href="wordfire.css">
 	<style>
-		a { color: #06c; }
-		a:active { color: #909; }
-		a:visited { color: #06c; }
+		#index {
+			--light-blue: #06c;
+			--purple: #909;
+			--blue: #039;
+			--red: #c00;
+			--dark-blue: #336;
+			--muted-purple: #93c;
+			--bright-purple: #c0f;
+			--bright-dark-blue: #009;
+			--neutral-blue: #ccf;
+			--bright-dark-purple: #609;
+			--cream: #ffc;
+			--pink: #f69;
+			--very-dark-purple: #306;
+		}
 
-		.blue { color: #039 !important; }
+		a { color: var(--light-blue); }
+		a:active { color: var(--purple); }
+		a:visited { color: var(--light-blue); }
+
+		.blue { color: var(--blue) !important; }
 		.center { text-align: center; }
-		.red { color: #c00 !important; }
-		.purple { color: #909 !important; }
+		.red { color: var(--red) !important; }
+		.purple { color: var(--purple) !important; }
 
 		/* fuck table layouts thanks!!! */
 
@@ -28,8 +44,8 @@
 			width: 149px;
 			height: 124px;
 
-			background-color: #336;
-			border: 2px solid #93c;
+			background-color: var(--dark-blue);
+			border: 2px solid var(--muted-purple);
 		}
 
 		#header {
@@ -39,7 +55,7 @@
 			padding: 0;
 
 			background-image: url(img/index_clouds.jpg);
-			border: 2px solid #93c;
+			border: 2px solid var(--muted-purple);
 			border-left: none;
 			text-align: center;
 		}
@@ -50,8 +66,8 @@
 			width: 149px;
 			height: 1361px;
 
-			background-color: #336;
-			border: 2px solid #93c;
+			background-color: var(--dark-blue);
+			border: 2px solid var(--muted-purple);
 			border-top: none;
 		}
 
@@ -61,7 +77,7 @@
 			height: 1353px;
 			padding: 4px;
 
-			border: 2px solid #93c;
+			border: 2px solid var(--muted-purple);
 			border-left: none;
 			border-top: none;
 		}
@@ -71,7 +87,7 @@
 		#header h1 {
 			font-size: 48px;
 			font-weight: 700;
-			color: #c0f;
+			color: var(--bright-purple);
 			font-style: italic;
 			text-decoration: underline;
 			margin: 0;
@@ -98,27 +114,27 @@
 			padding: 3px;
 
 			text-decoration: none;
-			color: #fff;
+			color: white;
 			font-weight: 700;
 		}
 
 		.tall { height: 42px; }
 
 		.nav-current {
-			background-color: #009;
+			background-color: var(--bright-dark-blue);
 		}
 
 		.nav-btn {
-			background-color: #909;
+			background-color: var(--purple);
 		}
 
 		.nav-current:hover, .nav-btn:hover {
-			background-color: #ccf;
+			background-color: var(--neutral-blue);
 			text-decoration: underline;
 		}
 
 		.nav-current:visited, .nav-btn:visited {
-			color: #fff;
+			color: white;
 		}
 
 		/* content style */
@@ -140,20 +156,20 @@
 		/* has no one heard of the border attribute ????????????? */
 
 		#hellbox {
-			border: 2px solid #609;
+			border: 2px solid var(--bright-dark-purple);
 			width: 580px;
 			height: 174px;
 			margin: 0 auto;
-			background-color: #ffc;
+			background-color: var(--cream);
 		}
 
 		#hellbox2 {
-			border: 2px ridge #f69;
+			border: 2px ridge var(--pink);
 			width: 567px;
 			height: 160px;
 			padding: 5px;
 
-			color: #306;
+			color: var(--very-dark-purple);
 			font-size: 24px;
 			font-weight: 900;
 			font-family: 'Times New Roman', Times, serif;
@@ -176,7 +192,7 @@
 		.purple-line {
 			height: 2px;
 			width: 285px;
-			background-color: #93c;
+			background-color: var(--muted-purple);
 			float: left;
 			margin: 5px;
 		}
@@ -187,7 +203,7 @@
 	<!-- archive menu -->
 	<script src="/menu.js" type="module"></script>
 </head>
-<body>
+<body id="index">
 	<div id="top-left"></div>
 
 	<div id="header">

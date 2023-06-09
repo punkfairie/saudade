@@ -11,7 +11,14 @@
     <!-- style -->
     <link rel="stylesheet" href="wordfire.css">
     <style>
-        /* page grid */
+        #play2 {
+            --purple: #c0f;
+            --red: #c00;
+            --purple-2: #909;
+            --green: #cf9;
+        }
+
+        /* ---- page grid ------------------------------------------------------------------------------------------- */
 
         #page {
             display: grid;
@@ -21,7 +28,7 @@
             row-gap: 5px;
         }
 
-        /* top right image ---------------------------------------------------------------------- */
+        /* ---- top right image ------------------------------------------------------------------------------------- */
 
         #top-right {
             grid-column: c1 / c2;
@@ -30,7 +37,7 @@
             justify-self: center;
         }
 
-        /* header ------------------------------------------------------------------------------- */
+        /* ---- header ---------------------------------------------------------------------------------------------- */
 
         #header {
             grid-column: c3 / c4;
@@ -45,18 +52,18 @@
             font-weight: 700;
             text-decoration: underline;
             font-style: italic;
-            color: #c0f;
+            color: var(--purple);
             padding: 0 0 5px 0; margin: 0;
         }
 
         #header > h2 {
             font-size: 32px;
             font-weight: 700;
-            color: #c00;
+            color: var(--red);
             padding: 0; margin: 0;
         }
 
-        /* nav ---------------------------------------------------------------------------------- */
+        /* ---- nav ------------------------------------------------------------------------------------------------- */
 
         #nav {
             grid-column: c1 / c2;
@@ -70,7 +77,7 @@
             text-align: center;
             padding: 5px;
             display: block;
-            background-color: #909;
+            background-color: var(--purple-2);
             margin-bottom: 2px;
         }
 
@@ -80,15 +87,14 @@
 
         #nav > a:first-child { margin-top: 40px; }
 
-        /* content ------------------------------------------------------------------------------ */
+        /* content -------------------------------------------------------------------------------------------------- */
 
         #content {
             grid-column: c3 / c4;
             grid-row: r2 / r3;
 
-            padding: 4px;
-            padding-right: 6px;
-            background-color: #cf9;
+            padding: 4px 6px 4px 4px;
+            background-color: var(--green);
 
             display: grid;
             gap: 0; grid-gap: 0;
@@ -103,7 +109,7 @@
     <!-- archive menu -->
     <script src="/menu.js" type="module"></script>
 </head>
-<body>
+<body id="play2">
 <div id="page">
 
     <!-- top right image ------------------------------------------------------------------------------------------>

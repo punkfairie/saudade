@@ -11,13 +11,23 @@
     <!-- style -->
     <link rel="stylesheet" href="wordfire.css">
     <style>
-        body { background-color: #6cf; }
+        #play3 {
+            --blue: #6cf;
+            --light-blue: #9cf;
+            --dark-blue: #09c;
+            --darker-blue: #069;
+            --purple: #639;
 
-        a { color: #09c; }
+            --background: var(--blue);
+        }
 
-        a:active { color: #9cf; }
+        body { background-color: var(--background); }
 
-        a:visited { color: #069; }
+        a { color: var(--dark-blue); }
+
+        a:active { color: var(--light-blue); }
+
+        a:visited { color: var(--darker-blue); }
 
         #page {
             display: grid;
@@ -27,7 +37,7 @@
             grid-template-rows: [r1] 168px [r2] 97px [r3] 903px [c4];
         }
 
-        /* header ------------------------------------------------------------------------------- */
+        /* header --------------------------------------------------------------------------------------------------- */
 
         #header {
             grid-column: c2/c3;
@@ -40,14 +50,14 @@
         h1 { padding: 0; margin: 0 0 5px 0; }
 
         h2 {
-            color: #639;
+            color: var(--purple);
             font-size: 24px;
             font-weight: 700;
             font-style: italic;
             padding: 0; margin: 0;
         }
 
-        /* nav ---------------------------------------------------------------------------------- */
+        /* nav ------------------------------------------------------------------------------------------------------ */
 
         #nav {
             grid-column: c2/c3;
@@ -55,18 +65,18 @@
             align-self: center;
         }
 
-        #nav > a { color: #000; }
+        #nav > a { color: black; }
 
-        #nav > a:active { color: #000; }
+        #nav > a:active { color: black; }
 
-        #nav > a:visited { color: #000; }
+        #nav > a:visited { color: black; }
 
         #nav > #current {
             font-weight: 700;
             text-decoration: none;
         }
 
-        /* content ------------------------------------------------------------------------------ */
+        /* content -------------------------------------------------------------------------------------------------- */
 
         #content {
             grid-column: c2/c3;
@@ -90,7 +100,7 @@
     <!-- archive menu -->
     <script src="/menu.js" type="module"></script>
 </head>
-<body>
+<body id="play3">
 <div id="page">
     <div id="top-left" style="grid-column: c1/c2; grid-row: r1/r4; align-self: start;
 		justify-self: start;">

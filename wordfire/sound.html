@@ -11,12 +11,18 @@
     <!-- style -->
     <link rel="stylesheet" href="wordfire.css">
     <style>
+        #sound {
+            --purple: #609;
+
+            --background: url(img/sound_clouds.jpg);
+        }
+
         body {
-            background-image: url(img/sound_clouds.jpg);
+            background-image: var(--background);
             margin-left: 10px;
         }
 
-        a, a:active, a:hover { color: #000; }
+        a, a:active, a:hover { color: black; }
 
         #page {
             display: grid;
@@ -30,14 +36,14 @@
             grid-template-rows: [r1] 163px [r2] 532px [r3];
         }
 
-        /* top-left ----------------------------------------------------------------------------- */
+        /* ---- top-left -------------------------------------------------------------------------------------------- */
 
         #top-left {
             grid-column: c1/c2;
             grid-row: r1/r2;
         }
 
-        /* header ------------------------------------------------------------------------------- */
+        /* ---- header ---------------------------------------------------------------------------------------------- */
 
         #header {
             grid-column: c2/c3;
@@ -47,14 +53,14 @@
         h1 { padding: 0; margin: 0 0 2px 0; }
 
         h2 {
-            color: #609;
+            color: var(--purple);
             font-weight: 700;
             font-size: 24px;
             padding: 0;
             margin: 0;
         }
 
-        /* nav ---------------------------------------------------------------------------------- */
+        /* ---- nav ------------------------------------------------------------------------------------------------- */
 
         #nav {
             grid-column: c1/c2;
@@ -67,14 +73,14 @@
             display: block;
             padding: 5px;
             margin-bottom: 2px;
-            color: #000;
+            color: black;
             font-weight: 700;
             text-decoration: none;
         }
 
         #nav > a:hover { text-decoration: underline; }
 
-        /* content ------------------------------------------------------------------------------ */
+        /* ---- content --------------------------------------------------------------------------------------------- */
 
         #content {
             grid-column: c2/c3;
@@ -98,7 +104,7 @@
     <!-- archive menu -->
     <script src="/menu.js" type="module"></script>
 </head>
-<body>
+<body id="sound">
 <div id="page">
     <!-- #top-left ---------------------------------------------------------------------------------------------------->
     <div id="top-left">

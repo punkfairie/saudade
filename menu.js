@@ -1,7 +1,7 @@
 /* -------------------------------------------------------------------------------------- find and import config ---- */
 
 const siteRoot = '/' + location.pathname.split('/')[1]
-const {wayback} = await import(`${siteRoot}/config.js`)
+const {wayback} = await import(/* @vite-ignore */`${siteRoot}/config.js`)
 
 /* --------------------------------------------------------------------------------------------- import menu css ---- */
 
@@ -23,7 +23,7 @@ archiveRoot.innerText = 'Home'
 menu.append(archiveRoot)
 
 let changelog = document.createElement('a')
-changelog.setAttribute('href', `${siteRoot}/CHANGELOG.txt`)
+changelog.setAttribute('href', `/${siteRoot}/CHANGELOG.txt`)
 changelog.setAttribute('target', '_blank')
 changelog.innerText = 'Changelog'
 menu.append(changelog)

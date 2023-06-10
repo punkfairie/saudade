@@ -1,0 +1,149 @@
+/* GLOBAL ----------------------------------------------------------------------------------------------------------- */
+
+body {
+    --color: white;
+    --background-color: #006;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: var(--color);
+    background-color: var(--background-color);
+    padding: 0;
+    margin: 0;
+}
+
+a { color: #fc3; }
+a:active { color: #009d27; }
+a:visited { color: #00f; }
+
+nav {
+    background-color: #fff;
+    background-image: url(img/main-menu_0b725143.gif);
+    width: 180px;
+    height: 100vh;
+    position: fixed;
+    padding: 20px 10px;
+
+    text-align: right;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 8px;
+}
+
+nav #images { text-align: center; }
+nav #line { border-bottom: 1px solid rgba(171, 230, 246, 0.5); }
+
+main {
+    margin-left: 200px;
+    padding: 15px 10px;
+    min-height: 100vh;
+}
+
+main *:first-child {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+/* text */
+
+p { margin-bottom: 20px; }
+.left { text-align: left; }
+.center { text-align: center; }
+.defunct { text-decoration: line-through; }
+.small { font-size: 10px; }
+.big { font-size: 16px; }
+.bigger { font-size: 18px; }
+.y { color: #ff0; }
+.o { color: #fc3; }
+
+/* INDEX ------------------------------------------------------------------------------------------------------------ */
+
+#index nav #images { margin-top: 30px; }
+#index h1 { font-size: 32px; }
+
+#index h2 {
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#index h2 + p {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+#index main table {
+    width: 585px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-weight: 700;
+}
+
+#index main table td {
+    border: #c0c0c0 solid 2px;
+    padding: 2px;
+}
+
+#index main table td.title {
+    background-color: #fc3;
+    color: #006;
+}
+
+#index main table ul {
+    list-style-position: outside;
+    margin: 0;
+    padding: 0 0 0 12px;
+}
+
+#index main table ul li { padding-left: 15px; }
+
+#index main table ul li:nth-child(even) { color: #fc3; }
+
+#index main table tr:nth-child(2) td {
+    padding-bottom: 15px;
+}
+
+#index section#online-fun { text-align: center; }
+#index section#online-fun a:first-of-type { text-decoration: none; }
+
+/* BREED PAGES ------------------------------------------------------------------------------------------------------ */
+
+.breed-page h1 {
+    font-size: 24px;
+    display: inline;
+}
+
+.breed-page #main-nav { margin: 10px 0 30px 0; }
+
+.breed-page h2 {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.breed-page nav a { color: #fff; }
+.breed-page nav a:visited { color: #fff; }
+.breed-page nav a:active { color: #004000; }
+
+.breed-page table {
+    width: 553px;
+    margin: 0 auto 50px;
+    text-align: center;
+}
+
+.breed-page table td {
+    border-bottom: 1px solid #fff;
+    padding: 1px 1px 7px;
+}
+
+.breed-page table .title {
+    background-color: #009;
+    font-weight: 700;
+    font-size: 16px;
+    padding-bottom: 1px;
+}
+
+.breed-page table tr:last-child td { border-bottom: none; }
+.breed-page table p { text-align: left; }

@@ -1,8 +1,7 @@
 Renamed page files to something more semantic, rather than id#
 
-Removed the "undefined" boxes at the top, and the random lines at the end of sidebar menus, because
-I'm pretty sure those are just angelfire ad inserts and not part of the actual site design
+Removed the "undefined" boxes at the top, and the random lines at the end of sidebar menus, because I'm pretty sure
+those are just angelfire ad inserts and not part of the actual site design
 
-Got rid of frames and put everything in one file for each page (using css to recreate the frames
-effect) because none of the menus were shared between pages, and I didn't want 3 files for every
-single page
+Got rid of frames and put everything in one file for each page (using css to recreate the frames effect) because none of
+the menus were shared between pages, and I didn't want 3 files for every single page

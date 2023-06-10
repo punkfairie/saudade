@@ -22,7 +22,7 @@
     menu.append(archiveRoot)
 
     let changelog = document.createElement('a')
-    changelog.setAttribute('href', `/${siteRoot}/CHANGELOG.txt`)
+    changelog.setAttribute('href', `${siteRoot}/CHANGELOG.txt`)
     changelog.setAttribute('target', '_blank')
     changelog.innerText = 'Changelog'
     menu.append(changelog)

@@ -1,5 +1,6 @@
 import {defineConfig} from 'vite'
-import {resolve} from 'node:path'
+import {globSync} from 'glob'
+import {extname, relative, resolve} from 'node:path'
 import {homedir} from 'node:os'
 import fs from 'node:fs'
 
@@ -7,11 +8,12 @@ import fs from 'node:fs'
 export default defineConfig({
     build: {
         rollupOptions: {
-            input: {
-                main: resolve(__dirname, 'index.html'),
-                wordfire: resolve(__dirname, 'wordfire/index.html'),
-                petz5world: resolve(__dirname, 'petz5world/index.html'),
-            },
+            input: Object.fromEntries(
+                globSync('**/index.html').map(file => [
+                    relative('saudade', file.slice(0, file.length - extname(file).length)),
+                    resolve(__dirname, file),
+                ]),
+            ),
         },
     },
     server: detectServerConfig('saudade.test'),

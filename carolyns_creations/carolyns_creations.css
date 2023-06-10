@@ -1,0 +1,41 @@
+html {
+    --color: white;
+    --background-color: #202020;
+
+    background-color: var(--background-color);
+    text-align: center;
+    color: var(--color);
+    font-family: 'Comic Sans MS', serif;
+    font-size: 1em;
+}
+
+.content {
+    margin-top: 55px;
+}
+
+p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffff40;
+    text-decoration: line-through;
+    cursor: ne-resize;
+}

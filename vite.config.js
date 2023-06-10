@@ -9,8 +9,8 @@ export default defineConfig({
     build: {
         rollupOptions: {
             input: Object.fromEntries(
-                globSync('**/index.html').map(file => [
-                    relative('saudade', file.slice(0, file.length - extname(file).length)),
+                globSync('!(dist)/**/*.html').map(file => [
+                    relative('saudade', file.slice(0, file.length - extname(file).length)).slice(3),
                     resolve(__dirname, file),
                 ]),
             ),

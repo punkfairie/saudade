@@ -1,10 +1,9 @@
-/* --------------------------------------------------------------------------------------------- import menu css ---- */
-
-import '/style/menu.css'
-
-/* -------------------------------------------------------------------------------------------------- build menu ---- */
-
 (async () => {
+    const style = document.createElement('link')
+    style.rel = 'stylesheet'
+    style.href = '/style/menu.css'
+    document.head.append(style)
+
     const siteRoot = '/' + location.pathname.split('/')[1]
     const {wayback} = await import(/* @vite-ignore */`${siteRoot}/config.js`)
 

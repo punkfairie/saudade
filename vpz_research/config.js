@@ -1,4 +1,4 @@
-const currentPage = location.pathname.split('/').pop().split('.')[0]
+let currentPage = location.pathname.split('/').pop().split('.')[0]
 
 const waybackSiteBase = 'http://www.angelfire.com/moon2/petzzoo2/'
 
@@ -68,6 +68,8 @@ const pageMetadata = {
         sourcePageName: 'id37.htm',
     },
 }
+
+currentPage = currentPage || 'index'
 
 export const wayback =
     pageMetadata[currentPage].captureId + '/' + waybackSiteBase + pageMetadata[currentPage].sourcePageName

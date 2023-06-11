@@ -46,6 +46,11 @@ main *:first-child {
     margin-top: 0;
 }
 
+.angelfire {
+    background-color: #abe6f6;
+    margin-bottom: 15px;
+}
+
 /* text */
 
 p { margin-bottom: 20px; }

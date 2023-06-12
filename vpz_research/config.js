@@ -20,7 +20,7 @@ const pageMetadata = {
         sourcePageName: 'id30.htm',
     },
     forestfolk: {
-        captureId: '',
+        captureId: '20190805174230',
         sourcePageName: 'id50.htm',
     },
     catzdogz: {

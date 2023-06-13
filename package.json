@@ -1,9 +1,7 @@
 {
   "dependencies": {
-    "glob": "^10.2.7",
-    "vite": "^4.3.9"
   },
   "scripts": {
-    "dev": "vite"
+    "dev": "browser-sync start --config bs-config.js"
   }
 }

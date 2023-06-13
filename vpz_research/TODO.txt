@@ -2,30 +2,35 @@ INDEX
 
         Nov 2022
 
-	* breeds/felinez (id29)
-	* breeds/c_wildz (id22)
+	* breeds/felinez (id29.htm)
+	* breeds/c_wildz (id22.htm)
 
 	    Nov 2022/Jun 2023
 
-	breeds/c_fantasyz (id30)
+	breeds/c_fantasyz (id30.htm)
 
 	    Jun 2023
 
-	* breeds/forestfolk (id50)
-	* breeds/catzdogz (id48)
-	breeds/caninez (id33)
-	breeds/d_wildz (id23)
-	breeds/d_fantasyz (id39)
-	clothez-toyz (id24)
-	skinz (id25)
-	playscenes (id26)
-	hexing (id27)
-	codes (id35)
-	offset (id28)
-	links (id37)
+	* breeds/forestfolk (id50.htm)
+	* breeds/catzdogz (id48.htm)
+	* breeds/caninez (id33.htm)
+	breeds/d_wildz (id23.htm)
+	breeds/d_fantasyz (id39.htm)
+	clothez-toyz (id24.htm)
+	skinz (id25.htm)
+	playscenes (id26.htm)
+	hexing (id27.htm)
+	codes (id35.htm)
+	offset (id28.htm)
+	links (id37.htm)
 
 FELINEZ
-	breeds/moggiez (id49)
+	breeds/moggiez (id49.htm)
 
 C_FANTASYZ
-	breeds/lepitaur (id47)
+	breeds/lepitaur (id47.htm)
+
+CANINEZ
+    breeds/lurchers (id52.htm)
+    breeds/shelter_dogz (id51.htm)
+    breeds/wolf (mainecoon/id26.html)

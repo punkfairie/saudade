@@ -24,11 +24,11 @@ const pageMetadata = {
         sourcePageName: 'id50.htm',
     },
     catzdogz: {
-        captureId: '',
+        captureId: '20190805174231',
         sourcePageName: 'id48.htm',
     },
     caninez: {
-        captureId: '',
+        captureId: '20190805174241',
         sourcePageName: 'id33.htm',
     },
     d_wildz: {

@@ -32,7 +32,7 @@ const pageMetadata = {
         sourcePageName: 'id33.htm',
     },
     d_wildz: {
-        captureId: '',
+        captureId: '20190805174322',
         sourcePageName: 'id23.htm',
     },
     d_fantasyz: {

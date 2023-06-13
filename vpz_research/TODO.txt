@@ -15,7 +15,7 @@ INDEX
 	* breeds/catzdogz (id48.htm)
 	* breeds/caninez (id33.htm)
 	* breeds/d_wildz (id23.htm)
-	breeds/d_fantasyz (id39.htm)
+	* breeds/d_fantasyz (id39.htm)
 	clothez-toyz (id24.htm)
 	skinz (id25.htm)
 	playscenes (id26.htm)
@@ -34,3 +34,6 @@ CANINEZ
     breeds/lurchers (id52.htm)
     breeds/shelter_dogz (id51.htm)
     breeds/wolf (mainecoon/id26.html)
+
+D_FANTASYZ
+    breeds/other (id34.htm)

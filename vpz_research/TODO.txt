@@ -12,7 +12,7 @@ INDEX
 	    Jun 2023
 
 	* breeds/forestfolk (id50)
-	breeds/catzdogz (id48)
+	* breeds/catzdogz (id48)
 	breeds/caninez (id33)
 	breeds/d_wildz (id23)
 	breeds/d_fantasyz (id39)

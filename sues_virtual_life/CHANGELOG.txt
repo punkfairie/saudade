@@ -1,0 +1,1 @@
+I took some liberties with the CSS layout of pages other than index, because looking at the HTML source it really seems that Sue meant for the CSS to apply on every page. All pages link to the same CSS file, and the div classes are the same as well. I think there was simply an error with the way that the Wayback Machine archived the files.

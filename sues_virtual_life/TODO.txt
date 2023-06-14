@@ -1,0 +1,8 @@
+INDEX
+    past
+    links
+    catz
+    dogz
+    other
+    babyz
+    archive

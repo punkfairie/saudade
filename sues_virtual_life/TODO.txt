@@ -3,7 +3,7 @@ INDEX
         June 2023
 
     * past
-    links
+    * links
     catz
     dogz
     other

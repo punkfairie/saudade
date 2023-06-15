@@ -4,7 +4,7 @@ INDEX
 
     * past
     * links
-    catz
+    * catz
     dogz
     other
     babyz

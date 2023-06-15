@@ -5,8 +5,19 @@
   "devDependencies": {
     "browser-sync": "^2.29.3",
     "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.1",
     "gulp-posthtml": "^3.0.5",
     "gulp-rename": "^2.0.0",
+    "postcss-preset-env": "^8.5.0",
+    "posthtml-modules": "^0.9.1",
+    "posthtml-postcss": "^0.5.0",
     "posthtml-urls": "^1.0.0"
+  },
+  "dependencies": {
+    "css-blank-pseudo": "^5.0.2",
+    "css-has-pseudo": "^5.0.2",
+    "css-prefers-color-scheme": "^8.0.2",
+    "focus-visible": "^5.2.0",
+    "postcss-focus-within": "^7.0.2"
   }
 }

@@ -5,7 +5,7 @@ INDEX
     * past
     * links
     * catz
-    dogz
+    * dogz
     other
     babyz
     archive

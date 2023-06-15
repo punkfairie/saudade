@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "browser-sync start --config bs-config.js"
+    "build": "gulp build"
   },
   "devDependencies": {
     "browser-sync": "^2.29.3",

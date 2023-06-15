@@ -3,10 +3,13 @@ const posthtml = require('gulp-posthtml')
 const rename = require('gulp-rename')
 const browserSync = require('browser-sync').create()
 
-const htmlFiles = ['./**/*.html', '!./**/index.html']
+const htmlFiles = [
+    'sues_virtual_life/**/*.html',
+    '!sues_virtual_life/**/index.html',
+]
 
 function html() {
-    return src(htmlFiles)
+    const stream = src(htmlFiles)
         .pipe(posthtml([
             require('posthtml-urls')({
                 eachURL: (url) => {
@@ -21,13 +24,20 @@ function html() {
         .pipe(rename(path => {
             path.basename = 'index'
         }))
-        .pipe(dest('.'))
-        .pipe(browserSync.stream())
+        .pipe(dest('sues_virtual_life'))
+
+    if (browserSync.active) {
+        stream.pipe(browserSync.stream())
+    }
+
+    return stream
 }
 
-exports.default = function () {
+exports.watch = function () {
     browserSync.init(require('../bs-config'))
 
     watch(htmlFiles, {ignoreInitial: false}, html)
     watch('sues_virtual_life.css').on('change', browserSync.reload)
 }
+
+exports.build = html

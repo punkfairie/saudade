@@ -1,6 +1,15 @@
 const {parallel} = require('gulp')
 
-const sues_virtual_life = require('./sues_virtual_life/gulpfile')
-exports.sues_virtual_life = sues_virtual_life.watch
+const sites = {
+    sues_virtual_life: require('./sues_virtual_life/gulpfile'),
+    supernova: require('./supernova/gulpfile')
+}
 
-exports.build = parallel(sues_virtual_life.build)
+let builds = []
+
+for (const [site, require] of Object.entries(sites)) {
+    exports[site] = require.watch
+    builds.push(require.build)
+}
+
+exports.build = parallel(...builds)

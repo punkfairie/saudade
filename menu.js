@@ -1,11 +1,13 @@
 (async () => {
+    // menu style
     const style = document.createElement('link')
     style.rel = 'stylesheet'
     style.href = '/style/menu.css'
     document.head.append(style)
 
+    // build menu
     const siteRoot = '/' + location.pathname.split('/')[1]
-    const {wayback} = await import(/* @vite-ignore */`${siteRoot}/config.js`)
+    const {wayback} = await import(`${siteRoot}/config.js`)
 
     let menu = document.createElement('div')
     menu.id = 'archive-menu'

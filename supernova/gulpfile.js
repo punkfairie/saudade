@@ -2,6 +2,7 @@ const {src, dest, watch, parallel} = require('gulp')
 const posthtml = require('gulp-posthtml')
 const rename = require('gulp-rename')
 const browserSync = require('browser-sync').create()
+const sourcemaps = require('gulp-sourcemaps')
 
 const htmlFiles = [
     'supernova/**/*.html',
@@ -61,7 +62,12 @@ const cssFiles = [
 
 function css() {
     const stream = src(cssFiles)
+        .pipe(sourcemaps.init())
         .pipe(require('gulp-postcss')(postcssPlugins))
+        .pipe(sourcemaps.write())
+        .pipe(rename(path => {
+            path.basename = 'style'
+        }))
         .pipe(dest('supernova'))
 
     if (browserSync.active) {

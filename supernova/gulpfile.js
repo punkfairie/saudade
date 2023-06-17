@@ -64,10 +64,10 @@ function css() {
     const stream = src(cssFiles)
         .pipe(sourcemaps.init())
         .pipe(require('gulp-postcss')(postcssPlugins))
-        .pipe(sourcemaps.write())
         .pipe(rename(path => {
             path.basename = 'style'
         }))
+        .pipe(sourcemaps.write())
         .pipe(dest('supernova'))
 
     if (browserSync.active) {

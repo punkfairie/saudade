@@ -13,7 +13,6 @@ const htmlFiles = [
     '!node_modules/**/*.*',
     '!Carolyns_Creations/**/*.html',
     '!vpz_research/**/*.html',
-    '!petz5world/**/*.html',
 ]
 
 const cssFiles = [
@@ -22,7 +21,6 @@ const cssFiles = [
     '!node_modules/**/*.*',
     '!Carolyns_Creations/**/*.css',
     '!vpz_research/**/*.css',
-    '!petz5world/**/*.css',
 ]
 
 const postcssPlugins = [

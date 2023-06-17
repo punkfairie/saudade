@@ -2,7 +2,8 @@ const {parallel} = require('gulp')
 
 const sites = {
     sues_virtual_life: require('./sues_virtual_life/gulpfile'),
-    supernova: require('./supernova/gulpfile')
+    supernova: require('./supernova/gulpfile'),
+    wordfire: require('./wordfire/gulpfile')
 }
 
 let builds = []

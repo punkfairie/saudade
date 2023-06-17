@@ -31,6 +31,8 @@ h1 {
 
 .courier { font-family: "Courier New", Courier, monospace; }
 
+.defunct { text-decoration: line-through; }
+
 /* misc */
 
 .missing-asset {

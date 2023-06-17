@@ -6,6 +6,7 @@
         <entryData>
           <resourceRoots>
             <path value="file://$PROJECT_DIR$/sues_virtual_life" />
+            <path value="file://$PROJECT_DIR$/wordfire" />
             <path value="file://$PROJECT_DIR$/supernova" />
             <path value="file://$PROJECT_DIR$" />
           </resourceRoots>

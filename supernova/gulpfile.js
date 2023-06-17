@@ -40,7 +40,7 @@ function html() {
                 root: 'supernova',
                 plugins: posthtmlPlugins
             }),
-            require('posthtml-postcss')(postcssPlugins, /^text\/css$/),
+            require('posthtml-postcss')(postcssPlugins, {}, /^text\/css$/),
         ]))
         .pipe(rename(path => {
             path.basename = 'index'

@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <title>Carolyn's Creations</title>
+
+    <style>
+        html {
+            --color: white;
+            --background-color: #202020;
+
+            background-color: var(--background-color);
+            text-align: center;
+            color: var(--color);
+            font-family: 'Comic Sans MS', serif;
+            font-size: 1em;
+        }
+
+        p {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:active {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #ffff40;
+            text-decoration: line-through;
+            cursor: ne-resize;
+        }
+    </style>
+</head>
+<!--suppress XmlDeprecatedElement, HtmlDeprecatedTag, HtmlUnknownAttribute -->
+<frameset cols="175,*">
+    <!--suppress XmlDeprecatedElement, HtmlDeprecatedTag, HtmlDeprecatedAttribute -->
+    <frame src="../menu/menu.html" scrolling="auto" name="menu">
+    <!--suppress XmlDeprecatedElement, HtmlDeprecatedAttribute, HtmlDeprecatedTag -->
+    <frame src="../main/main.html" name="main">
+</frameset>
+
+<!--suppress XmlDeprecatedElement, HtmlDeprecatedTag -->
+<noframes>
+    Your Browser Does Not Support Frames. Please use the
+    <a href="/noframes/">UnFramed version</a>.
+</noframes>
+</html>

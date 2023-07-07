@@ -11,16 +11,13 @@ const htmlFiles = [
   '!**/index.html',
   '!**/includes/**/*.html',
   '!node_modules/**/*.*',
-  '!Carolyns_Creations/**/*.html',
-  '!vpz_research/**/*.html',
 ]
 
 const cssFiles = [
   '**/*.css',
+  '!**/style.css',
   '!style/*.css',
   '!node_modules/**/*.*',
-  '!Carolyns_Creations/**/*.css',
-  '!vpz_research/**/*.css',
 ]
 
 const postcssPlugins = [

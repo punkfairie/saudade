@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rough breakdown of a petfile</title>
-    <link rel="stylesheet" href="/carolyns_creations.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rough breakdown of a petfile</title>
+  <link rel="stylesheet" href="/style.css">
 
-    <!-- archive menu -->
-    <script src="/menu.js?@root" type="module"></script>
+  <!-- archive menu -->
+  <script src="/menu.js?@root" type="module"></script>
 
-    <!-- polyfills -->
-    <script src="/polyfills.js?@root" type="module"></script>
+  <!-- polyfills -->
+  <script src="/polyfills.js?@root" type="module"></script>
 </head>
 <body>
 <div class="side-padding courier">
-    <p><span class="big purple center"><b>Rough breakdown of a petfile</b><br>
+  <p><span class="big purple center"><b>Rough breakdown of a petfile</b><br>
     <span class="comic-sans">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<br></span></span>
 
     This is for people who want to know what the various sections of a pet file
@@ -26,35 +26,35 @@
     work just looking at a pet or babyz in a hex editor. I'm not including any
     breakdown of Petz II .pet files, as they are very different.</p>
 
-    <p><a href="PetNameIDAndBreedfileSection.gif">Here is the start of a typical
-        Pet adopted in Petz 3, 4 or 5.</a><br>
+  <p><a href="PetNameIDAndBreedfileSection.gif">Here is the start of a typical
+    Pet adopted in Petz 3, 4 or 5.</a><br>
     In it you can see the pet ID up there in the first two bytes, before the
     name Rosie. This is the section containing the petname, ID and main
     breedfile name. In a pet which has been imported from PetzII there is a
     bunch of other stuff in there too, but it's not really important.</p>
 
-    <p><a href="xChecksumSection.gif">This is the end of the first
-        section.</a><br>
+  <p><a href="xChecksumSection.gif">This is the end of the first
+    section.</a><br>
     The part which you see highlighted is where the checksum information
     resides.</p>
 
-    <p><a href="bStartofSectionContainingSliders.gif">This is the start of the
-        section which contains brainslider data etc</a><br>
+  <p><a href="bStartofSectionContainingSliders.gif">This is the start of the
+    section which contains brainslider data etc</a><br>
     note for those who want to cheat -- this section is where you should find
     the things that your pet learns, its tricks abilities etc.</p>
 
-    <p><a href="aBrainsliderdata.gif">here's where the actual slider data is
-        kept</a><br>
+  <p><a href="aBrainsliderdata.gif">here's where the actual slider data is
+    kept</a><br>
     The highlighted section shows where these important bytes are stored. I show
     how to deal with these in one of my tutorials.</p>
 
-    <p><a href="EndOfSectionContainingSliders.gif">This is the end of the
-        section containing sliders.</a></p>
+  <p><a href="EndOfSectionContainingSliders.gif">This is the end of the
+    section containing sliders.</a></p>
 
-    <p>And immediately after that:</p>
+  <p>And immediately after that:</p>
 
-    <p><a href="StartOfPaintedBallzSection.gif">this is the section with your
-        pet's colour data</a><br>
+  <p><a href="StartOfPaintedBallzSection.gif">this is the section with your
+    pet's colour data</a><br>
     This is where the game stores whatever paint you throw at your pet from the
     can; if you don't paint the pet, it stores the pet's default colours here.
     It's the reason why, when you change certain ball colours in the .lnz
@@ -64,84 +64,84 @@
     you can edit the relevant byte in this section, as I show in a "howto"
     elsewhere.</p>
 
-    <p><a href="EndOfPaintedballzStartOfLnzSection.gif">The start of the .LNZ
-        sections</a><br>
+  <p><a href="EndOfPaintedballzStartOfLnzSection.gif">The start of the .LNZ
+    sections</a><br>
     Where the shape, default colours etc of the pet are defined. It comes in two
     chunks, the first of which is the adult data and the second of which is the
     puppy or kitten data. As of 2005, you can now edit these directly in
     Nicholas' LNZPro utility of course.</p>
 
-    <p><a href="EndOfLnzSectionStartOfClothingNBreedInfo.gif">The end of the LNZ
-        section.</a></p>
+  <p><a href="EndOfLnzSectionStartOfClothingNBreedInfo.gif">The end of the LNZ
+    section.</a></p>
 
-    <p><a href="StartOfClothesAndBreedzInfo.gif">The clothes and breedfiles
-        section</a><br>
+  <p><a href="StartOfClothesAndBreedzInfo.gif">The clothes and breedfiles
+    section</a><br>
     This section directly after the lnz info is where you'll see listed any
     clothing items that your pet is wearing. No need to edit this, just take the
     clothes off your pet or baby in the game! If there is a problem with
     starting the game because the clothing item is missing or damaged, just
     re-set your game as you start it up by hitting Ctrl and Shift together.</p>
 
-    <p><a href="zEndOfClothesAndBreedzInfo.gif">End of clothes and breedfiles
-        section</a><br>
+  <p><a href="zEndOfClothesAndBreedzInfo.gif">End of clothes and breedfiles
+    section</a><br>
     As you can see, the breedfiles which the pet needs are listed here, usually
     with their ID numbers.<br>
     <a href="EndOfClothesAndBreedzInfo.gif">Here's another pet's similar
-        section</a><br>
+      section</a><br>
     so that you can see how it's done a bit clearer.</p>
 
-    <p><a href="aGenderNeuterdetailsAndStartOfBreedIDstuff.gif">This section
-        contains gender and main breed ID info</a><br>
+  <p><a href="aGenderNeuterdetailsAndStartOfBreedIDstuff.gif">This section
+    contains gender and main breed ID info</a><br>
     Here's the section that you need to concentrate on if you're changing a
     petfile's gender, or if you're trying to make it accept a different breed
     ID.</p>
 
-    <p><a href="GenderAndNeuterSection.gif">The gender and neutering
-        section</a><br>
+  <p><a href="GenderAndNeuterSection.gif">The gender and neutering
+    section</a><br>
     The highlighted bytes are where you change gender or neuter and un-neuter
     your pet. I show how to deal with this in one of my tutorials. Of course as
     of 2005, you can alter the gender using Nicholas' Petza utility.</p>
 
-    <p>Also in this section of a pet, after YALP and before the breed ID info,
+  <p>Also in this section of a pet, after YALP and before the breed ID info,
     you'll see an area which varies in length as your pet's experiences in life
     occur -- experiences such as finding a mate and so on.</p>
 
-    <p><a href="BitWithBreedIDInfo.gif">The breed ID info</a><br>
+  <p><a href="BitWithBreedIDInfo.gif">The breed ID info</a><br>
     The highlighted bytes show where you would find the main breed ID number
     that your pet needs. I show how to deal with this in my tutorials.</p>
 
-    <p><a href="EndOfYALPsectionStartOfGeneticsSection.gif">End of YALP section,
-        start of Genetics</a><br>
+  <p><a href="EndOfYALPsectionStartOfGeneticsSection.gif">End of YALP section,
+    start of Genetics</a><br>
     This is where an important part of your pet resides -- its genetics. I show
     in howtos elsewhere how to find and alter some of the important genetic
     bytes such as the Alley Sickness etc. You can now change these of course in
     Nicholas' LNZPro utility, but there's still plenty to explore here :-)</p>
 
-    <p><a href="endofgenetics.gif">The end of your pet's genetics
-        section.</a></p>
+  <p><a href="endofgenetics.gif">The end of your pet's genetics
+    section.</a></p>
 
-    <p><a href="BeginFamilyTree.gif">Start of the Family Tree section.</a></p>
+  <p><a href="BeginFamilyTree.gif">Start of the Family Tree section.</a></p>
 
-    <p><a href="FamilyTreeDateofBirth.gif">Date of birth in Family Tree</a><br>
+  <p><a href="FamilyTreeDateofBirth.gif">Date of birth in Family Tree</a><br>
     The highlighted bytes are where the date of birth resides. I show how to
     deal with this in one of my tutorials.</p>
 
-    <p><a href="FamilyTreeNumberOfGenerations.gif">Number of generations for
-        pet</a><br>
+  <p><a href="FamilyTreeNumberOfGenerations.gif">Number of generations for
+    pet</a><br>
     The byte which you see highlighted is the number of generations, in
     hexadecimal of course.</p>
 
-    <p><a href="FamilyTreePinkoutlineorblue.gif">The pink or blue outline in
-        Family Tree</a><br>
+  <p><a href="FamilyTreePinkoutlineorblue.gif">The pink or blue outline in
+    Family Tree</a><br>
     The part which you see highlighted is where the pink or blue byte is stored.
     I show how to deal with this in one of my tutorials.</p>
 
-    <p><a href="InPregnantPetEndOfFamilyTreeStartOfBabyData.gif">End of family
-        tree section.</a><br>
+  <p><a href="InPregnantPetEndOfFamilyTreeStartOfBabyData.gif">End of family
+    tree section.</a><br>
     This particular pet is pregnant, so what you see here is also the start of a
     pup's data.</p>
 
-    <p><a href="StartOfBaby.gif">The start of the puppy's file.</a><br>
+  <p><a href="StartOfBaby.gif">The start of the puppy's file.</a><br>
     Here is the start of the puppy's data. The structure of the puppy file is
     the same as that of the mother, but it doesn't have the initial loading
     section with the pet ID and name because of course the game doesn't need
@@ -149,7 +149,7 @@
     one pup (or of course kitten for a catz pet), each pup or kitten's data
     follows the other after the previous one's family tree data.</p>
 
-    <p><a href="StartOfBitmap.gif">Start of bitmap</a><br>
+  <p><a href="StartOfBitmap.gif">Start of bitmap</a><br>
     And this is the end of the petfile, the bitmap which you see when the pet
     comes out of the door. This is not included in the checksum, so if this part
     only is corrupted you can simply replace it with another bmp file in order

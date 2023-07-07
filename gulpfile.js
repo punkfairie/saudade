@@ -3,8 +3,16 @@ const tap = require('gulp-tap')
 const rename = require('gulp-rename')
 const browserSync = require('browser-sync').create()
 const posthtml = require('gulp-posthtml')
+const posthtmlUrls = require('posthtml-urls')
+const posthtmlPostcss = require('posthtml-postcss')
+const posthtmlModules = require('posthtml-modules')
 const sourcemaps = require('gulp-sourcemaps')
 const postcss = require('gulp-postcss')
+const postcssPresetEnv = require('postcss-preset-env')
+const cssnano = require('cssnano')
+
+const posthtmlUrlsFilter = require('./posthtmlUrlsConfig')
+const bsConfig = require('./bs-config')
 
 const htmlFiles = [
   '**/*.html',
@@ -21,16 +29,16 @@ const cssFiles = [
 ]
 
 const postcssPlugins = [
-  require('postcss-preset-env')({
+  postcssPresetEnv({
     enableClientSidePolyfills: true,
   }),
-  require('cssnano')({
+  cssnano({
     preset: 'default',
   })
 ]
 
 const posthtmlPlugins = [
-  require('posthtml-urls')({
+  posthtmlUrls({
     eachURL: (url) => {
       if (url.endsWith('?@root')) {
         return url.replace('?@root', '')
@@ -40,11 +48,9 @@ const posthtmlPlugins = [
         return url
       }
     },
-    filter: {
-      module: {href: true}
-    }
+    filter: posthtmlUrlsFilter,
   }),
-  require('posthtml-postcss')(postcssPlugins, {}, /^text\/css$/)
+  posthtmlPostcss(postcssPlugins, {}, /^text\/css$/)
 ]
 
 let site = ''
@@ -57,11 +63,11 @@ function html() {
     }))
     .pipe(posthtml([
       ...posthtmlPlugins,
-      require('posthtml-modules')({
+      posthtmlModules({
         plugins: posthtmlPlugins
       }),
     ]))
-    .pipe(rename((path) => {
+    .pipe(rename(path => {
       path.basename = 'index'
     }))
     .pipe(dest('.'))
@@ -91,7 +97,7 @@ function css() {
 }
 
 exports.watch = function () {
-  browserSync.init(require('./bs-config'))
+  browserSync.init(bsConfig)
 
   watch(htmlFiles, {ignoreInitial: false}, html)
   watch(cssFiles, {ignoreInitial: false}, css)

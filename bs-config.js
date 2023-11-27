@@ -14,6 +14,7 @@
 
 const domain = 'saudade.test'
 const homedir = require('os').homedir()
+const certdir = homedir + '/Library/Application Support/Herd/config/valet/Certificates/'
 
 module.exports = {
   'ui': {
@@ -105,7 +106,7 @@ module.exports = {
   },
   'injectNotification': false,
   'https': {
-    'key': homedir + '/.config/valet/Certificates/' + domain + '.key',
-    'cert': homedir + '/.config/valet/Certificates/' + domain + '.crt',
+    'key': certdir + domain + '.key',
+    'cert': certdir + domain + '.crt',
   },
 }

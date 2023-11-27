@@ -14,7 +14,7 @@ const cssnano = require('cssnano')
 const posthtmlUrlsFilter = require('./posthtmlUrlsConfig')
 const bsConfig = require('./bs-config')
 
-const htmlFiles = [
+;const htmlFiles = [
   '**/*.html',
   '!**/index.html',
   '!**/includes/**/*.html',
@@ -99,8 +99,8 @@ function css() {
 exports.watch = function () {
   browserSync.init(bsConfig)
 
-  watch(htmlFiles, {ignoreInitial: false}, html)
   watch(cssFiles, {ignoreInitial: false}, css)
+  watch(htmlFiles, {ignoreInitial: false}, html)
 }
 
 exports.build = parallel(html, css)

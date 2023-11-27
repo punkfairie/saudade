@@ -123,6 +123,9 @@ MENU.HTML
 	    Nov 2022 & July 2023
 
 	* babyz/babyzclothes
+
+	    Nov 2023
+
 	babyz/babyzplayscene
 	babyz/babyztoyz
 	babyz/babyzedit

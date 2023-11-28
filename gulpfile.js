@@ -57,37 +57,34 @@ let site = ''
 
 function html() {
   const stream = src(htmlFiles)
-    .pipe(tap(file => {
-      const path = file.path.split('/')
-      site = path[path.indexOf('saudade') + 1]
-    }))
-    .pipe(posthtml([
-      ...posthtmlPlugins,
-      posthtmlModules({
-        plugins: posthtmlPlugins
-      }),
-    ]))
-    .pipe(rename(path => {
-      path.basename = 'index'
-    }))
-    .pipe(dest('.'))
-
-  if (browserSync.active) {
-    stream.pipe(browserSync.stream())
-  }
+      .pipe(tap(file => {
+        const path = file.path.split('/')
+        site = path[path.indexOf('saudade') + 1]
+        // console.log(path[path.length - 1])
+      }))
+      .pipe(posthtml([
+        ...posthtmlPlugins,
+        posthtmlModules({
+          plugins: posthtmlPlugins
+        }),
+      ]))
+      .pipe(rename(path => {
+        path.basename = 'index'
+      }))
+      .pipe(dest('.'))
 
   return stream
 }
 
 function css() {
   const stream = src(cssFiles)
-    .pipe(sourcemaps.init())
-    .pipe(postcss(postcssPlugins))
-    .pipe(rename(path => {
-      path.basename = 'style'
-    }))
-    .pipe(sourcemaps.write())
-    .pipe(dest('.'))
+      .pipe(sourcemaps.init())
+      .pipe(postcss(postcssPlugins))
+      .pipe(rename(path => {
+        path.basename = 'style'
+      }))
+      .pipe(sourcemaps.write())
+      .pipe(dest('.'))
 
   if (browserSync.active) {
     stream.pipe(browserSync.stream())
@@ -100,7 +97,9 @@ exports.watch = function () {
   browserSync.init(bsConfig)
 
   watch(cssFiles, {ignoreInitial: false}, css)
+
   watch(htmlFiles, {ignoreInitial: false}, html)
+  watch('**/index.html').on('all', browserSync.reload)
 }
 
 exports.build = parallel(html, css)

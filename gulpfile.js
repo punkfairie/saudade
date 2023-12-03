@@ -3,103 +3,103 @@ const tap = require('gulp-tap')
 const rename = require('gulp-rename')
 const browserSync = require('browser-sync').create()
 const posthtml = require('gulp-posthtml')
+const posthtmlUrls = require('posthtml-urls')
+const posthtmlPostcss = require('posthtml-postcss')
+const posthtmlModules = require('posthtml-modules')
 const sourcemaps = require('gulp-sourcemaps')
 const postcss = require('gulp-postcss')
+const postcssPresetEnv = require('postcss-preset-env')
+const cssnano = require('cssnano')
 
-const htmlFiles = [
-    '**/*.html',
-    '!**/index.html',
-    '!**/includes/**/*.html',
-    '!node_modules/**/*.*',
-    '!Carolyns_Creations/**/*.html',
-    '!vpz_research/**/*.html',
-    '!petz5world/**/*.html',
+const posthtmlUrlsFilter = require('./posthtmlUrlsConfig')
+const bsConfig = require('./bs-config')
+
+;const htmlFiles = [
+  '**/*.html',
+  '!**/index.html',
+  '!**/includes/**/*.html',
+  '!node_modules/**/*.*',
 ]
 
 const cssFiles = [
-    '**/*.css',
-    '!style/*.css',
-    '!node_modules/**/*.*',
-    '!Carolyns_Creations/**/*.css',
-    '!vpz_research/**/*.css',
-    '!petz5world/**/*.css',
+  '**/*.css',
+  '!**/style.css',
+  '!style/*.css',
+  '!node_modules/**/*.*',
 ]
 
 const postcssPlugins = [
-    require('postcss-preset-env')({
-        enableClientSidePolyfills: true,
-    }),
-    require('cssnano')({
-        preset: 'default',
-    })
+  postcssPresetEnv({
+    enableClientSidePolyfills: true,
+  }),
+  cssnano({
+    preset: 'default',
+  })
 ]
 
 const posthtmlPlugins = [
-    require('posthtml-urls')({
-        eachURL: (url) => {
-            if (url.endsWith('?@root')) {
-                return url.replace('?@root', '')
-            } else if (url.startsWith('/')) {
-                return `/${site}${url}`
-            } else {
-                return url
-            }
-        },
-        filter: {
-            module: {href: true}
-        }
-    }),
-    require('posthtml-postcss')(postcssPlugins, {}, /^text\/css$/)
+  posthtmlUrls({
+    eachURL: (url) => {
+      if (url.endsWith('?@root')) {
+        return url.replace('?@root', '')
+      } else if (url.startsWith('/')) {
+        return `/${site}${url}`
+      } else {
+        return url
+      }
+    },
+    filter: posthtmlUrlsFilter,
+  }),
+  posthtmlPostcss(postcssPlugins, {}, /^text\/css$/)
 ]
 
 let site = ''
 
 function html() {
-    const stream = src(htmlFiles)
-        .pipe(tap(file => {
-            const path = file.path.split('/')
-            site = path[path.indexOf('saudade') + 1]
-        }))
-        .pipe(posthtml([
-            ...posthtmlPlugins,
-            require('posthtml-modules')({
-                plugins: posthtmlPlugins
-            }),
-        ]))
-        .pipe(rename((path) => {
-            path.basename = 'index'
-        }))
-        .pipe(dest('.'))
+  const stream = src(htmlFiles)
+      .pipe(tap(file => {
+        const path = file.path.split('/')
+        site = path[path.indexOf('saudade') + 1]
+        // console.log(path[path.length - 1])
+      }))
+      .pipe(posthtml([
+        ...posthtmlPlugins,
+        posthtmlModules({
+          plugins: posthtmlPlugins
+        }),
+      ]))
+      .pipe(rename(path => {
+        path.basename = 'index'
+      }))
+      .pipe(dest('.'))
 
-    if (browserSync.active) {
-        stream.pipe(browserSync.stream())
-    }
-
-    return stream
+  return stream
 }
 
 function css() {
-    const stream = src(cssFiles)
-        .pipe(sourcemaps.init())
-        .pipe(postcss(postcssPlugins))
-        .pipe(rename(path => {
-            path.basename = 'style'
-        }))
-        .pipe(sourcemaps.write())
-        .pipe(dest('.'))
+  const stream = src(cssFiles)
+      .pipe(sourcemaps.init())
+      .pipe(postcss(postcssPlugins))
+      .pipe(rename(path => {
+        path.basename = 'style'
+      }))
+      .pipe(sourcemaps.write())
+      .pipe(dest('.'))
 
-    if (browserSync.active) {
-        stream.pipe(browserSync.stream())
-    }
+  if (browserSync.active) {
+    stream.pipe(browserSync.stream())
+  }
 
-    return stream
+  return stream
 }
 
 exports.watch = function () {
-    browserSync.init(require('./bs-config'))
+  browserSync.init(bsConfig)
 
-    watch(htmlFiles, {ignoreInitial: false}, html)
-    watch(cssFiles, {ignoreInitial: false}, css)
+  watch(cssFiles, {ignoreInitial: false}, css)
+
+  watch(htmlFiles, {ignoreInitial: false}, html)
+  watch('**/index.html').on('all', browserSync.reload)
 }
 
 exports.build = parallel(html, css)

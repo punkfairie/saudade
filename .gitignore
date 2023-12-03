@@ -1,2 +1,8 @@
 .DS_Store
 node_modules/**
+
+# Ignore files created by build step
+**/style.css
+
+**/index.html
+!/index.html

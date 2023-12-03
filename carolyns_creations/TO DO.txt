@@ -41,76 +41,76 @@ MENU.HTML
 
 	* petz6
 
-	* petz/p5hosts
-	* petz/p5skinz
-	* petz/p5playscene
-	* petz/p5clothes
-	* petz/p5toyz
+	* petz/petz5/p5hosts
+	* petz/petz5/p5skinz
+	* petz/petz5/p5playscene
+	* petz/petz5/p5clothes
+	* petz/petz5/p5toyz
 
-	* petz/p5breedz
+	* petz/petz5/p5breedz
 	* petz/tutbreedz
-	* petz/c5breedz
-	* petz/d5breedz
+	* petz/petz5/c5breedz
+	* petz/petz5/d5breedz
 	* petz/catbehaviours
 	* petz/dogbehaviours
 
-	* petz/c5breeded
-	* petz/d5breeded
+	* petz/petz5/c5breeded
+	* petz/petz5/d5breeded
 
-	* petz/p4clothes
-	* petz/p4toyz
-	* petz/p4hosts
-	* petz/p4playscene
+	* petz/petz4/p4clothes
+	* petz/petz4/p4toyz
+	* petz/petz4/p4hosts
+	* petz/petz4/p4playscene
 
-	* petz/p4breedz
-	* petz/c4breedz
-	* petz/d4breedz
+	* petz/petz4/p4breedz
+	* petz/petz4/c4breedz
+	* petz/petz4/d4breedz
 
-	* petz/c4breeded
+	* petz/petz4/c4breeded
 
 		Mar 2022
 
-	* petz/d4breeded
+	* petz/petz4/d4breeded
 
-	* petz/p3hosts
-	* petz/p3clothes
+	* petz/petz3/p3hosts
+	* petz/petz3/p3clothes
 
         Mar 2022 & Sept 2022
 
-	* petz/p3toyz
+	* petz/petz3/p3toyz
 
         Sept 2022
 
-	* petz/p3playscene
-	* petz/p3official
+	* petz/petz3/p3playscene
+	* petz/petz3/p3official
 
-	* petz/p3breedz
+	* petz/petz3/p3breedz
 
         Sept 2022 & Nov 2022
 
-	* petz/c3breedz
+	* petz/petz3/c3breedz
 
         Nov 2022
 
-	* petz/d3breedz
+	* petz/petz3/d3breedz
 
-	* petz/c3breeded
-	* petz/d3breeded
-	* petz/c3intbreeded
-	* petz/d3intbreeded
+	* petz/petz3/c3breeded
+	* petz/petz3/d3breeded
+	* petz/petz3/c3intbreeded
+	* petz/petz3/d3intbreeded
 
-	* petz/p2breedz
-	* petz/c2breedz
-	* petz/d2breedz
-	* petz/petzIIfooler
-	* petz/p2toyz
-	* petz/p2playscene
+	* petz/petz2/p2breedz
+	* petz/petz2/c2breedz
+	* petz/petz2/d2breedz
+	* petz/petz2/petzIIfooler
+	* petz/petz2/p2toyz
+	* petz/petz2/p2playscene
 
-	* petz/catz1dex
-	* petz/c1breedz
-	* petz/d1breedz
-	* petz/dogz1fooler
-	* petz/catz1mice
+	* petz/petz1/catz1dex
+	* petz/petz1/c1breedz
+	* petz/petz1/d1breedz
+	* petz/petz1/dogz1fooler
+	* petz/petz1/catz1mice
 
 	* oddballz/oddballz
 
@@ -119,14 +119,19 @@ MENU.HTML
 	* babyz/babyz-1
 	* babyz/babyzglasses
 	* babyz/babyzharem
-	babyz/babyzclothes
-	babyz/babyzplayscene
-	babyz/babyztoyz
-	babyz/babyzedit
-	babyz/babyzplay
 
-	offsitespecials
-	petz/p3playscenz
+	    Nov 2022 & July 2023
+
+	* babyz/babyzclothes
+
+	    Nov 2023
+
+	* babyz/babyzplayscene
+	* babyz/babyztoyz
+	* babyz/babyzplay
+
+	* offsitespecials = https://web.archive.org/web/20150316023926/http://www.stevehornsc.pwp.blueyonder.co.uk/carolyn/index.htm
+	* petz/petz3/p3playscenz
 	finfin/finfin
 
 HOME
@@ -157,7 +162,7 @@ WHATSNEW
 	lynelle
 	tutorials/hexerbaby
 	tutorials/2ndgenreport
-	petz/p5foolersucess
+	petz/petz5/p5foolersucess
 
 FLOWERS
 	flowerza
@@ -207,8 +212,8 @@ LNZDETAILS
 MADSCIENTIST
 	tutorials/madscientist2
 	tutorials/madscientist3
-	petz/p5backup
-	petz/petz4fooler
+	petz/petz5/p5backup
+	petz/petz4/petz4fooler
 	tutorials/Petz5NurseryFix
 
 PETZEDIT
@@ -366,44 +371,44 @@ P5BREEDZ
 	petz/pfmice
 
 C5BREEDZ
-	petz/catz5-2
-	petz/catz5-3
-	petz/catz5-4
-	petz/catz5-5
+	petz/petz5/catz5-2
+	petz/petz5/catz5-3
+	petz/petz5/catz5-4
+	petz/petz5/catz5-5
 
 D5BREEDZ
-	petz/dogz5-2
-	petz/dogz5-3
-	petz/dogz5-4
-	petz/dogz5-5
+	petz/petz5/dogz5-2
+	petz/petz5/dogz5-3
+	petz/petz5/dogz5-4
+	petz/petz5/dogz5-5
 
 CATBEHAVIOURS
-	petz/reassociate
+	reassociate
 
 C4BREEDZ
-	petz/catz4-2
-	petz/catz4-3
-	petz/catz4-4
-	petz/catz4-5
+	petz/petz4/catz4-2
+	petz/petz4/catz4-3
+	petz/petz4/catz4-4
+	petz/petz4/catz4-5
 
 C3BREEDZ
-    petz/catz3-2
-    petz/catz3-3
-    petz/catz3-4
-    petz/catz3-5
+    petz/petz3/catz3-2
+    petz/petz3/catz3-3
+    petz/petz3/catz3-4
+    petz/petz3/catz3-5
 
 D3BREEDZ
-    petz/dogz3-2
-    petz/dogz3-3
-    petz/dogz3-4
-    petz/dogz3-5
+    petz/petz3/dogz3-2
+    petz/petz3/dogz3-3
+    petz/petz3/dogz3-4
+    petz/petz3/dogz3-5
 
 CATZ1DEX
-    petz/sclub
-    petz/dload2
+    petz/petz1/sclub
+    petz/petz1/dload2
 
 DOGZ1FOOLER
-    petz/dogz1dl
+    petz/petz1/dogz1dl
 
 ODDBALLZ
     oddballz/oddballzbreedz
@@ -422,4 +427,27 @@ BABYZNEW
     babyz/wingjewelbabyz
 
 BABYZ-1
+    babyz/babyz-2
+    babyz/babyz-3
+    babyz/babyz-4
+    babyz/babyz-5
     babyz/babyzspecial-1
+
+BABYZPLAYSCENE
+    babyz/babyzsecretplaypen
+
+BABYZTOYZ
+    babyz/babyztoyz2
+    babyz/babyztoyz3
+
+BABYZPLAY
+    netscape4
+    babyz/babyzplay/jackbly
+    babyz/babyzplay/vesuviusbly
+    babyz/babyzplay/cathybly
+    babyz/babyzplay/joshbly
+    babyz/babyzplay/frostedmaltbly
+
+P3PLAYSCENZ
+    petz/petz3/p3playscenz2
+    petz/petz3/p3playscenz3

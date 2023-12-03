@@ -127,7 +127,7 @@ MENU.HTML
 	    Nov 2023
 
 	* babyz/babyzplayscene
-	babyz/babyztoyz
+	* babyz/babyztoyz
 	babyz/babyzedit
 	babyz/babyzplay
 
@@ -432,3 +432,7 @@ BABYZ-1
 
 BABYZPLAYSCENE
     babyz/babyzsecretplaypen
+
+BABYZTOYZ
+    babyz/babyztoyz2
+    babyz/babyztoyz3

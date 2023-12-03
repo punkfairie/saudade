@@ -128,8 +128,7 @@ MENU.HTML
 
 	* babyz/babyzplayscene
 	* babyz/babyztoyz
-	babyz/babyzedit
-	babyz/babyzplay
+	* babyz/babyzplay
 
 	offsitespecials
 	petz/petz3/p3playscenz
@@ -428,6 +427,10 @@ BABYZNEW
     babyz/wingjewelbabyz
 
 BABYZ-1
+    babyz/babyz-2
+    babyz/babyz-3
+    babyz/babyz-4
+    babyz/babyz-5
     babyz/babyzspecial-1
 
 BABYZPLAYSCENE
@@ -436,3 +439,11 @@ BABYZPLAYSCENE
 BABYZTOYZ
     babyz/babyztoyz2
     babyz/babyztoyz3
+
+BABYZPLAY
+    netscape4
+    babyz/babyzplay/jackbly
+    babyz/babyzplay/vesuviusbly
+    babyz/babyzplay/cathybly
+    babyz/babyzplay/joshbly
+    babyz/babyzplay/frostedmaltbly

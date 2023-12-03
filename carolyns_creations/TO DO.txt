@@ -130,7 +130,7 @@ MENU.HTML
 	* babyz/babyztoyz
 	* babyz/babyzplay
 
-	offsitespecials
+	* offsitespecials = https://web.archive.org/web/20150316023926/http://www.stevehornsc.pwp.blueyonder.co.uk/carolyn/index.htm
 	petz/petz3/p3playscenz
 	finfin/finfin
 

@@ -1,9 +1,10 @@
-MENU.HTML
+MENU
 
-		Feb 2022 (except no frames)
+		Feb 2022 (except noframes)
+		Nov 2023 (noframes only)
 
 	* main
-	no frames
+	* noframes
 
 	* whatsnew
 	* flowers

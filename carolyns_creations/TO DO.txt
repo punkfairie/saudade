@@ -136,7 +136,7 @@ MENU
 	* finfin
 
 HOME
-	phantarella
+	* phantarella
 	petz/dream
 	crashingxp
 	petzfriendsite

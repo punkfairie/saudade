@@ -137,7 +137,7 @@ MENU
 
 HOME
 	* phantarella
-	petz/dream
+	petz/petz1/dream
 	crashingxp
 	petzfriendsite
 
@@ -452,3 +452,6 @@ BABYZPLAY
 P3PLAYSCENZ
     petz/petz3/p3playscenz2
     petz/petz3/p3playscenz3
+
+PETZ/PETZ1/DREAM
+    petz/petz1/press

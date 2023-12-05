@@ -137,7 +137,7 @@ MENU
 
 HOME
 	* phantarella
-	petz/petz1/dream
+	* petz/petz1/dream
 	crashingxp
 	petzfriendsite
 
@@ -200,7 +200,7 @@ TUTORIALS
 	tutorials/rontigat_aflh
 	tutorials/rontigat_changesize
 
-LNZDETAILS
+TUTORIALS/LNZDETAILS
 	tutorials/LNZ_summary
 	tutorials/LNZ1st
 	tutorials/BabyzBodyAreaNumbers
@@ -217,7 +217,7 @@ MADSCIENTIST
 	petz/petz4/petz4fooler
 	tutorials/Petz5NurseryFix
 
-PETZEDIT
+PETZ/PETZEDIT
 	tutorials/infobits
 	tutorials/BallConversionCatToDog
 	tutorials/BallConversionDogToCat
@@ -300,11 +300,11 @@ PETZEDIT
 	tutorials/FAQchangeNoseColour
 	tutorials/FAQchangeDefaultAdoptionCentreClothes
 
-ODDBALLZEDIT
+ODDBALLZ/ODDBALLZEDIT
 	oddballz/oddballzplayer
 	oddballz/oddballzedit2
 
-BABYZEDIT
+BABYZ/BABYZEDIT
 	babyz/sphinx
 	tutorials/BabyzFreezeFix
 	tutorials/BabyzSliderBrains
@@ -334,7 +334,7 @@ BABYZEDIT
 	tutorials/MakingBabyzWalkers
 	tutorials/BabyNaturalHairGrow
 
-COLLABORATIONS
+SPECIALS/COLLABORATIONS
 	petz/withbutterflychaser
 	petz/butterflychaser
 	petz/withcasey
@@ -342,82 +342,82 @@ COLLABORATIONS
 	petz/withmelanie
 	petz/withmeerii
 
-EMOTICONPETZ1
+SPECIALS/EMOTICONPETZ1
 	specials/emoticonpetz2
 	specials/emoticonbreed
 
-SEALIFE
+SPECIALS/SEALIFE
 	petz/petzfrogz
 	petz/transforms
 	babyz/babyzfish
 	babyz/wardahseascape
 	petz/minibyteseascape
 
-BUGZLIFE
+SPECIALS/BUGZLIFE
 	babyz/babyzarthropods
 	petz/petzarthropods
 
-PETZPEOPLE
+SPECIALS/PETZPEOPLE
 	petz/PeopleLNZBreedz
 	petz/peoplebreedz
 
-PETZ3-5LNZ
+SPECIALS/PETZ3-5LNZ
 	tutorials/LNZBreedzHowto
 	specials/petz3-5lnzp2
 
-P5TOYZ
+PETZ/PETZ5/P5TOYZ
 	tutorials/RegistryHowto
 
-P5BREEDZ
+PETZ/PETZ5/P5BREEDZ
 	petz/pfmice
 
-C5BREEDZ
+PETZ/PETZ5/C5BREEDZ
 	petz/petz5/catz5-2
 	petz/petz5/catz5-3
 	petz/petz5/catz5-4
 	petz/petz5/catz5-5
 
-D5BREEDZ
+PETZ/PETZ5/D5BREEDZ
 	petz/petz5/dogz5-2
 	petz/petz5/dogz5-3
 	petz/petz5/dogz5-4
 	petz/petz5/dogz5-5
 
-CATBEHAVIOURS
+PETZ/CATBEHAVIOURS
 	reassociate
 
-C4BREEDZ
+PETZ/PETZ4/C4BREEDZ
 	petz/petz4/catz4-2
 	petz/petz4/catz4-3
 	petz/petz4/catz4-4
 	petz/petz4/catz4-5
 
-C3BREEDZ
+PETZ/PETZ3/C3BREEDZ
     petz/petz3/catz3-2
     petz/petz3/catz3-3
     petz/petz3/catz3-4
     petz/petz3/catz3-5
 
-D3BREEDZ
+PETZ/PETZ3/D3BREEDZ
     petz/petz3/dogz3-2
     petz/petz3/dogz3-3
     petz/petz3/dogz3-4
     petz/petz3/dogz3-5
 
-CATZ1DEX
+PETZ/PETZ1/CATZ1DEX
     petz/petz1/sclub
     petz/petz1/dload2
 
-DOGZ1FOOLER
+PETZ/PETZ1/DOGZ1FOOLER
     petz/petz1/dogz1dl
 
-ODDBALLZ
+ODDBALLZ/ODDBALLZ
     oddballz/oddballzbreedz
 
-BABYZNEWEST
+BABYZ/BABYZNEWEST
     tutorials/babyzears
 
-BABYZNEW
+BABYZ/BABYZNEW
     babyz/faeriebabyz
     babyz/babyzoddball
     babyz/babyzhearts
@@ -427,21 +427,21 @@ BABYZNEW
     babyz/wingflowerbabyz
     babyz/wingjewelbabyz
 
-BABYZ-1
+BABYZ/BABYZ-1
     babyz/babyz-2
     babyz/babyz-3
     babyz/babyz-4
     babyz/babyz-5
     babyz/babyzspecial-1
 
-BABYZPLAYSCENE
+BABYZ/BABYZPLAYSCENE
     babyz/babyzsecretplaypen
 
-BABYZTOYZ
+BABYZ/BABYZTOYZ
     babyz/babyztoyz2
     babyz/babyztoyz3
 
-BABYZPLAY
+BABYZ/BABYZPLAY
     netscape4
     babyz/babyzplay/jackbly
     babyz/babyzplay/vesuviusbly
@@ -449,7 +449,7 @@ BABYZPLAY
     babyz/babyzplay/joshbly
     babyz/babyzplay/frostedmaltbly
 
-P3PLAYSCENZ
+BABYZ/P3PLAYSCENZ
     petz/petz3/p3playscenz2
     petz/petz3/p3playscenz3
 

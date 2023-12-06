@@ -142,7 +142,7 @@ HOME
 	* phantarella
 	* petz/petz1/dream
 	* crashingxp
-	petzfriendsite
+	* petzfriendsite
 
 WHATSNEW
 	newsarchive

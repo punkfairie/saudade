@@ -1,0 +1,98 @@
+                      IBM ViaVoice Runtime, version 5.3
+                                Read Me!
+
+Here is the latest information on ViaVoice Runtime.
+Please familiarize yourself with this Read Me.  It complements
+the Problem Solving Reference in ViaVoice Help.  Before
+calling Technical Support, check this Read Me any time you have
+a question not covered in the Problem Solving Reference, other online
+Help, or the User Guide.
+
+Contents
+========
+
+A. Windows NT limitations.
+
+B. Installing/uninstalling ViaVoice over other speech software.
+
+
+=================================================================
+
+-----------------------------------------------------------------
+A. Windows NT limitations.
+
+- You must have administrator privileges to install and uninstall
+  on Windows NT.
+
+- If running IBM Antivirus for Windows NT, make sure you use
+  release 3.0 or later.  Earlier releases conflict with ViaVoice
+  installation.
+
+-----------------------------------------------------------------
+B. Installing/uninstalling ViaVoice over other dictation
+   software.
+
+Installing then uninstalling ViaVoice98 products over ViaVoice Runtime.
+
+o If you install a ViaVoice 98 full product over an installation of the 
+  ViaVoice Runtime and then uninstall.
+
+  If you install ViaVoice 98 over the ViaVoice Runtime
+  and then uninstall ViaVoice 98, and then uninstall, but want
+  to continue using the Runtime, you must uninstall then reinstall
+  the Runtime into the same directory.  Your personal dictation data
+  (added words, enrollments, etc.) will be saved.
+
+o For best recognition, do not use the "(migrated)" enrollment
+
+  If you install ViaVoice over a previous ViaVoice or
+  VoiceType product, the installation program migrates the users
+  of the previous product to ViaVoice 98.  User data such as
+  added words, macros, as well as enrollments are migrated to
+  ViaVoice 98.  The descriptions of enrollments migrated from the
+  previous product contain the word "(migrated)".  In addition to
+  the migrated enrollments ViaVoice 98 creates a new enrollment
+  for each user whose description does not contain the word
+  "(migrated)".  For best recognition results, you must select
+  this new enrollment from the "The user is enrolled to use:"
+  dropdown box in the User page of ViaVoice Options, and then run
+  the Enrollment program.
+
+o Installing over VoiceType 3.0.x, Simply Speaking, or
+  Simply Speaking Gold.
+
+  ViaVoice is a continuous speech product.  If you install it on a
+  computer where a discrete speech product such as VoiceType 3.0.x or
+  Simply Speaking is already installed, be sure that you install in the
+  same directory as the previous product.  Your added words and other
+  personal data will migrate to ViaVoice 98, and ViaVoice 98 will save
+  your personal speech files from the previous product in the directory
+  "~users30."  Your VoiceType 3.0.x and Simply Speaking enrollments
+  cannot be used by ViaVoice 98.  You must re-enroll in ViaVoice 98 to
+  increase recognition accuracy and performance.
+
+  If you uninstall ViaVoice 98 and reinstall VoiceType 3.0.x or
+  Simply Speaking, you must reinstall in the same directory.  You
+  must also copy the subdirectories in the "~users30" directory
+  to the Users directory in order to restore the user data of the
+  previous product.
+
+o Installing then uninstalling ViaVoice 98 over Olympus or
+  other ViaVoice-based dictation software.
+
+  If you install ViaVoice 98 over Olympus or other dictation
+  software based on ViaVoice, and then uninstall ViaVoice 98, and
+  you want to continue using your other dictation software (such
+  as Olympus transcription), you must uninstall the other
+  dictation software, then reinstall it in the same directory.
+  Your personal dictation data (added words, enrollments, etc.)
+  will be saved.
+
+o Ignore page fault when installing Olympus transcription over
+  ViaVoice 98.
+
+  Sometimes when you install Olympus transcription over ViaVoice
+  98, the Olympus transcription installation menu might cause a
+  page fault.  Simply close the page fault dialog box, and
+  proceed with Olympus transcription installation.  The Olympus
+  installation will complete successfully.

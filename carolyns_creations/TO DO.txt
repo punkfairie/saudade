@@ -146,7 +146,7 @@ HOME
 
 WHATSNEW
 	* newsarchive
-	babyz/vvccr (vvccr/index.htm)
+	* babyz/vvccr (vvccr/index.htm)
 	smallislovely
 	petzhexzlinks
 	newlinks

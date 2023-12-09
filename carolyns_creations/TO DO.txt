@@ -145,7 +145,7 @@ HOME
 	* petzfriendsite
 
 WHATSNEW
-	newsarchive
+	* newsarchive
 	babyz/vvccr (vvccr/index.htm)
 	smallislovely
 	petzhexzlinks
@@ -458,3 +458,12 @@ BABYZ/P3PLAYSCENZ
 
 PETZ/PETZ1/DREAM
     petz/petz1/press
+
+NEWSARCHIVE
+    2003
+    2004
+    giftsa4
+    giftsa3
+    tools2
+    giftsa2
+    tutorials/temporaryworkaroundpetworkshop

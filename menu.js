@@ -1,9 +1,15 @@
 (async () => {
+    // shared styles
+    const sharedStyle = document.createElement('link')
+    sharedStyle.rel = 'stylesheet'
+    sharedStyle.href = '/style/shared.css'
+    document.head.append(sharedStyle)
+
     // menu style
-    const style = document.createElement('link')
-    style.rel = 'stylesheet'
-    style.href = '/style/menu.css'
-    document.head.append(style)
+    const menuStyle = document.createElement('link')
+    menuStyle.rel = 'stylesheet'
+    menuStyle.href = '/style/menu.css'
+    document.head.append(menuStyle)
 
     // build menu
     const siteRoot = '/' + location.pathname.split('/')[1]

@@ -1,0 +1,11 @@
+[InstallShield Silent]
+Version=v5.00.000
+File=Log File
+
+[Application]
+Name=IBM ViaVoice Command and Control Runtime
+Version=5.3
+Company=IBM
+
+[ResponseResult]
+ResultCode=0

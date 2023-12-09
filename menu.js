@@ -1,10 +1,4 @@
 (async () => {
-    // shared styles
-    const sharedStyle = document.createElement('link')
-    sharedStyle.rel = 'stylesheet'
-    sharedStyle.href = '/style/shared.css'
-    document.head.append(sharedStyle)
-
     // menu style
     const menuStyle = document.createElement('link')
     menuStyle.rel = 'stylesheet'

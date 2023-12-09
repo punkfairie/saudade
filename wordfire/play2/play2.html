@@ -1,234 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- from source -->
-    <title>MORE PLAYSCENZ</title>
-    <!--  -->
+  <!-- from source -->
+  <title>MORE PLAYSCENZ</title>
+  <!--  -->
 
-    <!-- style -->
-    <link rel="stylesheet" href="/wordfire.css">
-    <style>
-        #play2 {
-            --purple: #c0f;
-            --red: #c00;
-            --purple-2: #909;
-            --green: #cf9;
-        }
+  <!-- style -->
+  <link rel="stylesheet" href="/wordfire.css">
+  <style>
+      #play2 {
+          --purple: #c0f;
+          --red: #c00;
+          --purple-2: #909;
+          --green: #cf9;
+      }
 
-        /* ---- page grid ------------------------------------------------------------------------------------------- */
+      /* ---- page grid ------------------------------------------------------------------------------------------- */
 
-        #page {
-            display: grid;
-            gap: 0; grid-gap: 0;
-            grid-template-columns: [c1] 145px [c2] 3px [c3] 607px [c4];
-            grid-template-rows: [r1] 159px [r2] 1178px [r3];
-            row-gap: 5px;
-        }
+      #page {
+          display: grid;
+          gap: 0;
+          grid-gap: 0;
+          grid-template-columns: [c1] 145px [c2] 3px [c3] 607px [c4];
+          grid-template-rows: [r1] 159px [r2] 1178px [r3];
+          row-gap: 5px;
+      }
 
-        /* ---- top right image ------------------------------------------------------------------------------------- */
+      /* ---- top right image ------------------------------------------------------------------------------------- */
 
-        #top-right {
-            grid-column: c1 / c2;
-            grid-row: r1 / r2;
-            align-self: center;
-            justify-self: center;
-        }
+      #top-right {
+          grid-column: c1 / c2;
+          grid-row: r1 / r2;
+          align-self: center;
+          justify-self: center;
+      }
 
-        /* ---- header ---------------------------------------------------------------------------------------------- */
+      /* ---- header ---------------------------------------------------------------------------------------------- */
 
-        #header {
-            grid-column: c3 / c4;
-            grid-row: r1 / r2;
+      #header {
+          grid-column: c3 / c4;
+          grid-row: r1 / r2;
 
-            text-align: center;
-            align-self: center;
-        }
+          text-align: center;
+          align-self: center;
+      }
 
-        #header > h1 {
-            font-size: 48px;
-            font-weight: 700;
-            text-decoration: underline;
-            font-style: italic;
-            color: var(--purple);
-            padding: 0 0 5px 0; margin: 0;
-        }
+      #header > h1 {
+          font-size: 48px;
+          font-weight: 700;
+          text-decoration: underline;
+          font-style: italic;
+          color: var(--purple);
+          padding: 0 0 5px 0;
+          margin: 0;
+      }
 
-        #header > h2 {
-            font-size: 32px;
-            font-weight: 700;
-            color: var(--red);
-            padding: 0; margin: 0;
-        }
+      #header > h2 {
+          font-size: 32px;
+          font-weight: 700;
+          color: var(--red);
+          padding: 0;
+          margin: 0;
+      }
 
-        /* ---- nav ------------------------------------------------------------------------------------------------- */
+      /* ---- nav ------------------------------------------------------------------------------------------------- */
 
-        #nav {
-            grid-column: c1 / c2;
-            grid-row: r2 / r3;
-        }
+      #nav {
+          grid-column: c1 / c2;
+          grid-row: r2 / r3;
+      }
 
-        #nav > a {
-            text-decoration: none;
-            color: #fff;
-            font-weight: 700;
-            text-align: center;
-            padding: 5px;
-            display: block;
-            background-color: var(--purple-2);
-            margin-bottom: 2px;
-        }
+      #nav > a {
+          text-decoration: none;
+          color: #fff;
+          font-weight: 700;
+          text-align: center;
+          padding: 5px;
+          display: block;
+          background-color: var(--purple-2);
+          margin-bottom: 2px;
+      }
 
-        #nav > a:hover { background-color: unset; text-decoration: underline; }
+      #nav > a:hover {
+          background-color: unset;
+          text-decoration: underline;
+      }
 
-        #nav > a#current { background-color: unset; }
+      #nav > a#current {
+          background-color: unset;
+      }
 
-        #nav > a:first-child { margin-top: 40px; }
+      #nav > a:first-child {
+          margin-top: 40px;
+      }
 
-        /* content -------------------------------------------------------------------------------------------------- */
+      /* content -------------------------------------------------------------------------------------------------- */
 
-        #content {
-            grid-column: c3 / c4;
-            grid-row: r2 / r3;
+      #content {
+          grid-column: c3 / c4;
+          grid-row: r2 / r3;
 
-            padding: 4px 6px 4px 4px;
-            background-color: var(--green);
+          padding: 4px 6px 4px 4px;
+          background-color: var(--green);
 
-            display: grid;
-            gap: 0; grid-gap: 0;
-            grid-template-columns: [cc1] 327px [cc2] auto [cc3];
-            grid-template-rows: [cr1] 88px [cr2] 74px [cr3] 56px [cr4] 58px [cr5] 160px [cr6] 59px
+          display: grid;
+          gap: 0;
+          grid-gap: 0;
+          grid-template-columns: [cc1] 327px [cc2] auto [cc3];
+          grid-template-rows: [cr1] 88px [cr2] 74px [cr3] 56px [cr4] 58px [cr5] 160px [cr6] 59px
 				[cr7] 62px [cr8] 98px [cr9] 226px [cr10] 29px [cr11] 159px [cr12] 109px [cr13];
-        }
+      }
 
-        #content > div { align-self: center; justify-self: center; }
-    </style>
+      #content > div {
+          align-self: center;
+          justify-self: center;
+      }
+  </style>
 
-    <!-- archive menu -->
-    <script src="/menu.js?@root" type="module"></script>
+  <!-- saudade includes -->
+  <script src="/saudade.js?@root" type="module"></script>
 
-    <!-- polyfills -->
-    <script src="/polyfills.js?@root" type="module"></script>
+
 </head>
 <body id="play2">
 <div id="page">
 
-    <!-- top right image ------------------------------------------------------------------------------------------>
+  <!-- top right image ------------------------------------------------------------------------------------------>
 
-    <div id="top-right">
-        <img src="petz0.jpg">
-    </div>
+  <div id="top-right">
+    <img src="petz0.jpg">
+  </div>
 
-    <!-- header --------------------------------------------------------------------------------------------------->
+  <!-- header --------------------------------------------------------------------------------------------------->
 
-    <div id="header">
-        <h1>petz**<br>
-            WORDFIRE'S**petz</h1>
-        <h2>MORE PLAYSCENZ</h2>
-    </div>
+  <div id="header">
+    <h1>petz**<br>
+      WORDFIRE'S**petz</h1>
+    <h2>MORE PLAYSCENZ</h2>
+  </div>
 
-    <!-- nav ------------------------------------------------------------------------------------------------------>
+  <!-- nav ------------------------------------------------------------------------------------------------------>
 
-    <div id="nav">
-        <a href="/">Home</a>
-        <a href="/play1/">PETZ PLAYSCENZ</a>
-        <a href="/play2/" id="current">MORE PLAYSCENZ</a>
-        <a href="/play3/">AND>>>>MORE PETZ PLAYSCENZ</a>
-        <a href="/possums/">'POSSUMS</a>
-        <a href="/play4/">COMPLETED PLAYSCENZ</a>
-        <a href="/sound/">Sound Files</a>
-        <a href="/precious/">PRECIOUS ONEZ</a>
-    </div>
+  <div id="nav">
+    <a href="/">Home</a>
+    <a href="/play1/">PETZ PLAYSCENZ</a>
+    <a href="/play2/" id="current">MORE PLAYSCENZ</a>
+    <a href="/play3/">AND>>>>MORE PETZ PLAYSCENZ</a>
+    <a href="/possums/">'POSSUMS</a>
+    <a href="/play4/">COMPLETED PLAYSCENZ</a>
+    <a href="/sound/">Sound Files</a>
+    <a href="/precious/">PRECIOUS ONEZ</a>
+  </div>
 
-    <!-- content -------------------------------------------------------------------------------------------------->
+  <!-- content -------------------------------------------------------------------------------------------------->
 
-    <div id="content">
-        <div style="grid-column: cc1/cc3; grid-row: cr1/cr2; font-style: italic; align-self:
+  <div id="content">
+    <div style="grid-column: cc1/cc3; grid-row: cr1/cr2; font-style: italic; align-self:
 			center; justify-self: start;" class="big">
-            <b class="courier" style="color: #03c;">e-mail me for PETZ 4 or 5 unedited versions
-                or right click enlarged image and save it</b><br>
-            <a href="mailto:wordfire@earthlink.net" class="courier" style="color:
+      <b class="courier" style="color: #03c;">e-mail me for PETZ 4 or 5 unedited
+        versions
+        or right click enlarged image and save it</b><br>
+      <a href="mailto:wordfire@earthlink.net" class="courier" style="color:
 				#000; font-weight: 700;">wordfire@earthlink.net</a>
-        </div>
+    </div>
 
-        <div style="grid-column: cc1/cc2; grid-row: cr2/cr3; align-self: center; justify-self:
+    <div style="grid-column: cc1/cc2; grid-row: cr2/cr3; align-self: center; justify-self:
 			start;">
-            <img src="/img/vote1.gif">
-        </div>
+      <img src="/img/vote1.gif">
+    </div>
 
-        <div class="georgia medium" title="missing" style="grid-column: cc1/cc3; grid-row:
+    <div class="georgia medium" title="missing" style="grid-column: cc1/cc3; grid-row:
 			cr3/cr4; justify-self: center; padding-top: 10px;">
-            violet_bar.gif
-        </div>
+      violet_bar.gif
+    </div>
 
-        <div style="grid-column: cc1/cc2; grid-row: cr4/cr5;" class="small arial center">
-            PETZ And Dolphins Play Here!<br>
-            <u class="georgia medium" title="missing">dolphinden.jpg</u><br>
-            Dolphin Window
-        </div>
+    <div style="grid-column: cc1/cc2; grid-row: cr4/cr5;"
+      class="small arial center">
+      PETZ And Dolphins Play Here!<br>
+      <u class="georgia medium" title="missing">dolphinden.jpg</u><br>
+      Dolphin Window
+    </div>
 
-        <div class="small arial center" style="grid-column: cc1/cc2; grid-row: cr5/cr7;">
-            All Your PEtZ Love To Gaze Out This Window<br>
-            <a href="view.jpg" target="tlx_new">
-                <img src="view.jpg" alt="dolphinden.jpg" width="240">
-            </a><br>
-            The View
-        </div>
+    <div class="small arial center"
+      style="grid-column: cc1/cc2; grid-row: cr5/cr7;">
+      All Your PEtZ Love To Gaze Out This Window<br>
+      <a href="view.jpg" target="tlx_new">
+        <img src="view.jpg" alt="dolphinden.jpg" width="240">
+      </a><br>
+      The View
+    </div>
 
-        <div class="small arial center" style="grid-column: cc1/cc2; grid-row: cr7/cr8;">
-            PETZ Relax And Play InOriental Style!!<br>
-            <u class="georgia medium" title="missing">orientalroom.jpg</u><br>
-            Asian Attitude
-        </div>
+    <div class="small arial center"
+      style="grid-column: cc1/cc2; grid-row: cr7/cr8;">
+      PETZ Relax And Play InOriental Style!!<br>
+      <u class="georgia medium" title="missing">orientalroom.jpg</u><br>
+      Asian Attitude
+    </div>
 
-        <div class="small arial center" style="grid-column: cc2/cc3; grid-row: cr4/cr6;
+    <div class="small arial center" style="grid-column: cc2/cc3; grid-row: cr4/cr6;
 			justify-self: end;">
-            Your PETZ Will Love Cool Water And Green Grass<br>
-            <a href="watergarden2.jpg" target="tlx_new">
-                <img src="watergarden2.jpg" alt="watergarden2.jpg" width="240">
-            </a><br>
-            Watergarden
-        </div>
+      Your PETZ Will Love Cool Water And Green Grass<br>
+      <a href="watergarden2.jpg" target="tlx_new">
+        <img src="watergarden2.jpg" alt="watergarden2.jpg" width="240">
+      </a><br>
+      Watergarden
+    </div>
 
-        <div class="small arial center" style="grid-column: cc2/cc3; grid-row: cr6/cr9;
+    <div class="small arial center" style="grid-column: cc2/cc3; grid-row: cr6/cr9;
 			justify-self: end;">
-            A Rug In The Sun And Room To Play<br>
-            <a href="1parlor.jpg" target="tlx_new">
-                <img src="1parlor.jpg" alt="1parlor.jpg" width="240">
-            </a><br>
-            The Parlor
-        </div>
+      A Rug In The Sun And Room To Play<br>
+      <a href="1parlor.jpg" target="tlx_new">
+        <img src="1parlor.jpg" alt="1parlor.jpg" width="240">
+      </a><br>
+      The Parlor
+    </div>
 
-        <div class="small arial center" style="grid-column: cc2/cc3; grid-row: cr9/cr10;
+    <div class="small arial center" style="grid-column: cc2/cc3; grid-row: cr9/cr10;
 			justify-self: end;">
-            The BIG CAT Gallery<br>
-            <a href="wildthingz.jpg" target="tlx_new">
-                <img src="wildthingz.jpg" alt="wildthingz.jpg" width="240">
-            </a><br>
-            WILDTHINGZ
-        </div>
+      The BIG CAT Gallery<br>
+      <a href="wildthingz.jpg" target="tlx_new">
+        <img src="wildthingz.jpg" alt="wildthingz.jpg" width="240">
+      </a><br>
+      WILDTHINGZ
+    </div>
 
-        <div class="small arial center" style="grid-column: cc2/cc3; grid-row: cr11/cr12;
+    <div class="small arial center" style="grid-column: cc2/cc3; grid-row: cr11/cr12;
 			justify-self: end; color: #006; font-weight: 700;">
-            The Life,Truth and Power<br>
-            Of GOD<br>
-            <img src="/img/animation.gif" width="130" alt="animation.gif"><br>
-            WORDFIRE
-        </div>
+      The Life,Truth and Power<br>
+      Of GOD<br>
+      <img src="/img/animation.gif" width="130" alt="animation.gif"><br>
+      WORDFIRE
+    </div>
 
-        <div class="small arial center" style="grid-column: cc2/cc3; grid-row: cr12/cr13;
+    <div class="small arial center" style="grid-column: cc2/cc3; grid-row: cr12/cr13;
 			justify-self: end;color: #006; font-weight: 700;">
-            Lots Of KEWL Stuff Here<br>
-            <a href="http://pineconecattery.com" target="tlx_new">
-                <img src="/img/judysbanner.jpg" width="130">
-            </a><br>
-            Edited Versions Also<br>
-            Available Of These<br>
-            Playscenz
-        </div>
-    </div><!-- content -->
+      Lots Of KEWL Stuff Here<br>
+      <a href="http://pineconecattery.com" target="tlx_new">
+        <img src="/img/judysbanner.jpg" width="130">
+      </a><br>
+      Edited Versions Also<br>
+      Available Of These<br>
+      Playscenz
+    </div>
+  </div><!-- content -->
 </div>
 </body>
 </html>

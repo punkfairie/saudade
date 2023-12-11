@@ -1,584 +1,788 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
 
-  <!-- from source -->
-  <title>Carolyn's Creations</title>
-  <!--  -->
+    <!-- from source -->
+    <title>Carolyn's Creations</title>
+    <!--  -->
 
-  <!-- saudade includes -->
-  <script src="/saudade.js?@root" type="module"></script>
+    <!-- saudade includes -->
+    <script src="/saudade.js?@root" type="module"></script>
 
-
-  <style>
+    <style>
       body {
-          display: grid;
-          grid-template-columns: 150px auto;
-          padding: 10px;
+        display: grid;
+        grid-template-columns: 150px auto;
+        padding: 10px;
       }
 
       nav a {
-          display: block;
+        display: block;
       }
-  </style>
-</head>
-<body>
-<nav class="green">
-  <a href="/" title="Home" class="bold">HOME</a>
-  <br>
+    </style>
+  </head>
+  <body>
+    <nav class="green">
+      <a href="/" title="Home" class="bold">HOME</a>
+      <br />
 
-  <a href="/whatsnew/" target="_blank" title="New">What's New</a>
-  <a href="/#NFO" title="Info">Important Info</a>
-  <a href="/#ACK" title="Acknowledgements">Acknowledgements</a>
-  <a href="/flowers/" target="_blank" title="Flowers">Gifts from friends</a>
-  <a href="/aboutme/" target="_blank" title="About me">About me</a>
-  <a href="/links/" target="_blank"
-    title="Links to other sites with info etc">Links and Contact</a>
-  <a href="/justforlaughs/" target="_blank" title="Just for laughs">Pointless
-    Info</a>
-  <a href="/orbs/" target="_blank" title="orbs">Pet Orbs!</a>
-  <a href="/cyberpets/" target="_blank" title="cyberpets">Cyberpets!</a>
-  <br>
+      <a href="/whatsnew/" target="_blank" title="New">What's New</a>
+      <a href="/#NFO" title="Info">Important Info</a>
+      <a href="/#ACK" title="Acknowledgements">Acknowledgements</a>
+      <a href="/flowers/" target="_blank" title="Flowers">Gifts from friends</a>
+      <a href="/aboutme/" target="_blank" title="About me">About me</a>
+      <a
+        href="/links/"
+        target="_blank"
+        title="Links to other sites with info etc"
+        >Links and Contact</a
+      >
+      <a href="/justforlaughs/" target="_blank" title="Just for laughs"
+        >Pointless Info</a
+      >
+      <a href="/orbs/" target="_blank" title="orbs">Pet Orbs!</a>
+      <a href="/cyberpets/" target="_blank" title="cyberpets">Cyberpets!</a>
+      <br />
 
-  <b>DOWNLOADS</b><br>
-  <br>
+      <b>DOWNLOADS</b><br />
+      <br />
 
-  <b>Info\Easy Kits:</b>
-  <a href="/tutorials/tutorials/" class="bold" target="_blank"
-    title="Tutorialz and Howtoz">TUTORIALS</a>
-  <br>
+      <b>Info\Easy Kits:</b>
+      <a
+        href="/tutorials/tutorials/"
+        class="bold"
+        target="_blank"
+        title="Tutorialz and Howtoz"
+        >TUTORIALS</a
+      >
+      <br />
 
-  General
-  <a href="/tutorials/LNZdetails/" class="bold" target="_blank"
-    title="vital LNZ info">Vital LNZ info!!!</a>
-  <a href="/tutorials/petbreakdown/" target="_blank"
-    title="Rough Petfile breakdown">Rough Pet Info</a>
-  <a href="/madscientist/" target="_blank" title="Mad Scientist">Mad Scientist
-    Page<br>Special exes etc</a>
-  <br>
+      General
+      <a
+        href="/tutorials/LNZdetails/"
+        class="bold"
+        target="_blank"
+        title="vital LNZ info"
+        >Vital LNZ info!!!</a
+      >
+      <a
+        href="/tutorials/petbreakdown/"
+        target="_blank"
+        title="Rough Petfile breakdown"
+        >Rough Pet Info</a
+      >
+      <a href="/madscientist/" target="_blank" title="Mad Scientist"
+        >Mad Scientist Page<br />Special exes etc</a
+      >
+      <br />
 
-  For Petz
-  <a href="/petz/petzedit/" target="_blank" title="Petz Editing">Petz
-    Easy-edit</a>
-  <a href="/tutorials/tutorials/" target="_blank" title="Petz Fixes">Petz
-    fixes</a>
-  <br>
+      For Petz
+      <a href="/petz/petzedit/" target="_blank" title="Petz Editing"
+        >Petz Easy-edit</a
+      >
+      <a href="/tutorials/tutorials/" target="_blank" title="Petz Fixes"
+        >Petz fixes</a
+      >
+      <br />
 
-  For Oddballz
-  <a href="/oddballz/oddballzedit/" target="_blank" title="Oddballz Easy">Player
-    Easy Kits</a>
-  <a href="/oddballz/oddballzedit/" target="_blank"
-    title="Oddballz Editing">Hexer Easy-edits</a>
-  <a href="/oddballz/oddballzedit/" target="_blank"
-    title="Oddballz Fixes">Oddballz fixes</a>
-  <br>
+      For Oddballz
+      <a href="/oddballz/oddballzedit/" target="_blank" title="Oddballz Easy"
+        >Player Easy Kits</a
+      >
+      <a href="/oddballz/oddballzedit/" target="_blank" title="Oddballz Editing"
+        >Hexer Easy-edits</a
+      >
+      <a href="/oddballz/oddballzedit/" target="_blank" title="Oddballz Fixes"
+        >Oddballz fixes</a
+      >
+      <br />
 
-  For Babyz
-  <a href="/babyz/babyzedit/" target="_blank" title="Babyz Editing">Babyz
-    Easy-edit</a>
-  <a href="/babyz/babyzedit/" target="_blank" title="Babyz Fixes">Babyz
-    fixes</a>
-  <br>
+      For Babyz
+      <a href="/babyz/babyzedit/" target="_blank" title="Babyz Editing"
+        >Babyz Easy-edit</a
+      >
+      <a href="/babyz/babyzedit/" target="_blank" title="Babyz Fixes"
+        >Babyz fixes</a
+      >
+      <br />
 
-  <b>Specials:</b>
-  <a href="/specials/nicholastools/" target="_blank"
-    title="Nicholas' utilities">Nicholas' tools</a>
-  (Petza/babyza, Tinker, LNZPro, PetWorkshop)
-  <a href="/specials/collaborations/" target="_blank"
-    title="Collaborations">Team creations</a>
-  <a href="/specials/sandzcat/" target="_blank" title="Sandz Cat">Sand'z Cat</a>
-  <a href="/specials/emoticonpetz1/" target="_blank"
-    title="Emoticon petz">Emoticon petz\breed</a>
-  <a href="/specials/litterz/" target="_blank" title="Petz Litterz">Petz
-    Litterz</a>
-  <a href="/specials/sealife/" target="_blank"
-    title="Aquatic Petz and Babyz">Aquatic Petz\Babyz</a>
-  <a href="/specials/bugzlife/" target="_blank"
-    title="Exoskeletal Petz and Babyz">Insect Petz\babyz</a>
-  <a href="/specials/bugzlife/" target="_blank"
-    title="Exoskeletal Petz and Babyz">Spider Petz\babyz</a>
-  <a href="/specials/petzpeople/" target="_blank" title="Human-like Petz">People
-    in Petz</a>
-  <a href="/specials/petz3-5lnz/" target="_blank"
-    title="Petz3-5 LNZ breedz">P3,4,5 LNZ breedz</a>
-  <a href="/specials/catz345mice/" target="_blank" title="Catz3,4,5 mice">C3,4,5
-    Easy mice</a><br>
+      <b>Specials:</b>
+      <a
+        href="/specials/nicholastools/"
+        target="_blank"
+        title="Nicholas' utilities"
+        >Nicholas' tools</a
+      >
+      (Petza/babyza, Tinker, LNZPro, PetWorkshop)
+      <a href="/specials/collaborations/" target="_blank" title="Collaborations"
+        >Team creations</a
+      >
+      <a href="/specials/sandzcat/" target="_blank" title="Sandz Cat"
+        >Sand'z Cat</a
+      >
+      <a href="/specials/emoticonpetz1/" target="_blank" title="Emoticon petz"
+        >Emoticon petz\breed</a
+      >
+      <a href="/specials/litterz/" target="_blank" title="Petz Litterz"
+        >Petz Litterz</a
+      >
+      <a
+        href="/specials/sealife/"
+        target="_blank"
+        title="Aquatic Petz and Babyz"
+        >Aquatic Petz\Babyz</a
+      >
+      <a
+        href="/specials/bugzlife/"
+        target="_blank"
+        title="Exoskeletal Petz and Babyz"
+        >Insect Petz\babyz</a
+      >
+      <a
+        href="/specials/bugzlife/"
+        target="_blank"
+        title="Exoskeletal Petz and Babyz"
+        >Spider Petz\babyz</a
+      >
+      <a href="/specials/petzpeople/" target="_blank" title="Human-like Petz"
+        >People in Petz</a
+      >
+      <a href="/specials/petz3-5lnz/" target="_blank" title="Petz3-5 LNZ breedz"
+        >P3,4,5 LNZ breedz</a
+      >
+      <a href="/specials/catz345mice/" target="_blank" title="Catz3,4,5 mice"
+        >C3,4,5 Easy mice</a
+      ><br />
 
-  <b>Sounds:</b>
-  <a href="/sounds/sounds/" target="_blank"
-    title="Special Petz Soundfiles">Species Sounds</a>
-  <a href="/sounds/soundsorig/" target="_blank"
-    title="Special Petz Soundfiles">Catz\Dogz Sounds</a>
-  <br>
+      <b>Sounds:</b>
+      <a href="/sounds/sounds/" target="_blank" title="Special Petz Soundfiles"
+        >Species Sounds</a
+      >
+      <a
+        href="/sounds/soundsorig/"
+        target="_blank"
+        title="Special Petz Soundfiles"
+        >Catz\Dogz Sounds</a
+      >
+      <br />
 
-  <b>"Petz" 2006 & '08:</b>
-  <a href="/petz6/" target="main" title="Catz and Dogz 2006">Info only</a>
-  The Ubisoft "Petz"<br>
-  <br>
+      <b>"Petz" 2006 & '08:</b>
+      <a href="/petz6/" target="main" title="Catz and Dogz 2006">Info only</a>
+      The Ubisoft "Petz"<br />
+      <br />
 
-  <b>Petz 5:</b>
-  <a href="/petz/petz5/p5hosts/" target="_blank" title="Hosts for Petz 5">Hosts
-    for Petz 5</a>
-  <a href="/petz/petz5/p5skinz/" target="_blank" title="Petz 5 Skinz">Petz 5
-    Skinz</a>
-  <a href="/petz/petz5/p5playscene/" target="_blank"
-    title="Petz 5 Playscene">Petz 5 Playscene</a>
-  <a href="/petz/petz5/p5clothes/" target="_blank" title="Petz 5 Clothes">Petz 5
-    Clothes</a>
-  <a href="/petz/petz5/p5toyz/" target="_blank" title="Petz 5 Toyz">Petz 5
-    Toyz</a>
-  <b>Breedz:</b>
-  <a href="/petz/petz5/p5breedz/" target="_blank" title="New Petz 5 Breedz">New
-    P5 Breedz</a>
-  <a href="/petz/tutbreedz/" target="_blank" title="Tutorial Breedz">P5 Tutorial
-    Breedz</a>
-  <a href="/petz/petz5/c5breedz/" target="_blank" title="Catz 5 Breedz">Catz 5
-    Breedz</a>
-  <a href="/petz/petz5/d5breedz/" target="_blank" title="Dogz 5 Breedz">Dogz 5
-    Breedz</a>
-  <a href="/petz/catbehaviours/" target="_blank" title="Catz behaviours">Catz in
-    dogz 5</a>
-  <a href="/petz/dogbehaviours/" target="_blank" title="Dogz behaviours">Dogz in
-    catz 5</a>
-  <b>For Easy LNZ:</b>
-  <a href="/petz/petz5/c5breeded/" target="_blank" title="Orig C 5 Breedz">Orig
-    C5 Breedz</a>
-  <a href="/petz/petz5/d5breeded" target="_blank" title="Orig D 5 Breedz">Orig
-    D5 Breedz</a>
-  <br>
+      <b>Petz 5:</b>
+      <a href="/petz/petz5/p5hosts/" target="_blank" title="Hosts for Petz 5"
+        >Hosts for Petz 5</a
+      >
+      <a href="/petz/petz5/p5skinz/" target="_blank" title="Petz 5 Skinz"
+        >Petz 5 Skinz</a
+      >
+      <a
+        href="/petz/petz5/p5playscene/"
+        target="_blank"
+        title="Petz 5 Playscene"
+        >Petz 5 Playscene</a
+      >
+      <a href="/petz/petz5/p5clothes/" target="_blank" title="Petz 5 Clothes"
+        >Petz 5 Clothes</a
+      >
+      <a href="/petz/petz5/p5toyz/" target="_blank" title="Petz 5 Toyz"
+        >Petz 5 Toyz</a
+      >
+      <b>Breedz:</b>
+      <a href="/petz/petz5/p5breedz/" target="_blank" title="New Petz 5 Breedz"
+        >New P5 Breedz</a
+      >
+      <a href="/petz/tutbreedz/" target="_blank" title="Tutorial Breedz"
+        >P5 Tutorial Breedz</a
+      >
+      <a href="/petz/petz5/c5breedz/" target="_blank" title="Catz 5 Breedz"
+        >Catz 5 Breedz</a
+      >
+      <a href="/petz/petz5/d5breedz/" target="_blank" title="Dogz 5 Breedz"
+        >Dogz 5 Breedz</a
+      >
+      <a href="/petz/catbehaviours/" target="_blank" title="Catz behaviours"
+        >Catz in dogz 5</a
+      >
+      <a href="/petz/dogbehaviours/" target="_blank" title="Dogz behaviours"
+        >Dogz in catz 5</a
+      >
+      <b>For Easy LNZ:</b>
+      <a href="/petz/petz5/c5breeded/" target="_blank" title="Orig C 5 Breedz"
+        >Orig C5 Breedz</a
+      >
+      <a href="/petz/petz5/d5breeded" target="_blank" title="Orig D 5 Breedz"
+        >Orig D5 Breedz</a
+      >
+      <br />
 
-  <b>Petz 4:</b>
-  <a href="/petz/petz4/p4clothes/" target="_blank" title="Petz 4 Clothes">Petz 4
-    Clothes</a>
-  <a href="/petz/petz4/p4toyz/" target="_blank" title="Petz 4 Toyz">Petz 4
-    Toyz</a>
-  <a href="/petz/petz4/p4hosts/" target="_blank" title="Petz 4 Hosts">Petz 4
-    Hosts</a>
-  <a href="/petz/petz4/p4playscene/" target="_blank"
-    title="Petz 4 Playscene">Petz 4 Playscene</a>
-  <b>Breedz:</b>
-  <a href="/petz/petz4/p4breedz/" target="_blank" title="New Petz 4 Breedz">New
-    P4 Breedz</a>
-  <a href="/petz/tutbreedz/" target="_blank" title="Tutorial Breedz">P4 Tutorial
-    Breedz</a>
-  <a href="/petz/petz4/c4breedz/" target="_blank" title="Catz 4 Breedz">Catz 4
-    Breedz</a>
-  <a href="/petz/petz4/d4breedz/" target="_blank" title="Dogz 4 Breedz">Dogz 4
-    Breedz</a>
-  <a href="/petz/catbehaviours/" target="_blank" title="Catz behaviours">Catz in
-    dogz 4</a>
-  <a href="/petz/dogbehaviours/" target="_blank" title="Dogz behaviours">Dogz in
-    catz 4</a>
-  <b>For Easy LNZ:</b>
-  <a href="/petz/petz4/c4breeded/" target="_blank" title="Orig C 4 Breedz">Orig
-    C4 Breedz</a>
-  <a href="/petz/petz4/d4breeded/" target="_blank" title="Orig D 4 Breedz">Orig
-    D4 Breedz</a>
-  <br>
-  <br>
+      <b>Petz 4:</b>
+      <a href="/petz/petz4/p4clothes/" target="_blank" title="Petz 4 Clothes"
+        >Petz 4 Clothes</a
+      >
+      <a href="/petz/petz4/p4toyz/" target="_blank" title="Petz 4 Toyz"
+        >Petz 4 Toyz</a
+      >
+      <a href="/petz/petz4/p4hosts/" target="_blank" title="Petz 4 Hosts"
+        >Petz 4 Hosts</a
+      >
+      <a
+        href="/petz/petz4/p4playscene/"
+        target="_blank"
+        title="Petz 4 Playscene"
+        >Petz 4 Playscene</a
+      >
+      <b>Breedz:</b>
+      <a href="/petz/petz4/p4breedz/" target="_blank" title="New Petz 4 Breedz"
+        >New P4 Breedz</a
+      >
+      <a href="/petz/tutbreedz/" target="_blank" title="Tutorial Breedz"
+        >P4 Tutorial Breedz</a
+      >
+      <a href="/petz/petz4/c4breedz/" target="_blank" title="Catz 4 Breedz"
+        >Catz 4 Breedz</a
+      >
+      <a href="/petz/petz4/d4breedz/" target="_blank" title="Dogz 4 Breedz"
+        >Dogz 4 Breedz</a
+      >
+      <a href="/petz/catbehaviours/" target="_blank" title="Catz behaviours"
+        >Catz in dogz 4</a
+      >
+      <a href="/petz/dogbehaviours/" target="_blank" title="Dogz behaviours"
+        >Dogz in catz 4</a
+      >
+      <b>For Easy LNZ:</b>
+      <a href="/petz/petz4/c4breeded/" target="_blank" title="Orig C 4 Breedz"
+        >Orig C4 Breedz</a
+      >
+      <a href="/petz/petz4/d4breeded/" target="_blank" title="Orig D 4 Breedz"
+        >Orig D4 Breedz</a
+      >
+      <br />
+      <br />
 
-  <b>Petz 3:</b>
-  <a href="/petz/petz3/p3hosts/" target="_blank" title="Hosts for Petz 3">Hosts
-    for Petz 3</a>
-  <a href="/petz/petz3/p3clothes/" target="_blank" title="Petz 3 Clothes">Petz 3
-    Clothes</a>
-  <a href="/petz/petz3/p3toyz/" target="_blank" title="Petz 3 Toyz">Petz 3
-    Toyz</a>
-  <a href="/petz/petz3/p3playscene/" target="_blank"
-    title="Petz 3 Playscene">Petz 3 Playscene</a>
-  <a href="/petz/petz3/p3official/" target="main"
-    title="Official downloads for Petz 3">Official DLs</a>
-  <b>Breedz:</b>
-  <a href="/petz/petz3/p3breedz/" target="_blank" title="New Petz 3 Breedz">New
-    P3 Breedz</a>
-  <a href="/petz/tutbreedz/" target="_blank" title="Tutorial Breedz">P3 Tutorial
-    Breedz</a>
-  <a href="/petz/petz3/c3breedz/" target="_blank" title="Catz 3 Breedz">Catz 3
-    Breedz</a>
-  <a href="/petz/petz3/d3breedz/" target="_blank" title="Dogz 3 Breedz">Dogz 3
-    Breedz</a>
-  <a href="/petz/catbehaviours/" target="_blank" title="Catz behaviours">Catz in
-    dogz 3</a>
-  <a href="/petz/dogbehaviours/" target="_blank" title="Dogz behaviours">Dogz in
-    catz 3</a>
-  <b>For Easy LNZ:</b><br>
-  P3 English versions
-  <a href="/petz/petz3/c3breeded/" target="_blank" title="Orig C 3 Breedz">Orig
-    C3 Breedz</a>
-  <a href="/petz/petz3/d3breeded/" target="_blank" title="Orig D 3 Breedz">Orig
-    D3 Breedz</a>
-  P3 Non-English
-  <a href="/petz/petz3/c3intbreeded/" target="_blank"
-    title="Orig C 3 Breedz">Orig C3 Breedz</a>
-  <a href="/petz/petz3/d3intbreeded/" target="_blank"
-    title="Orig D 3 Breedz">Orig D3 Breedz</a>
-  <br>
+      <b>Petz 3:</b>
+      <a href="/petz/petz3/p3hosts/" target="_blank" title="Hosts for Petz 3"
+        >Hosts for Petz 3</a
+      >
+      <a href="/petz/petz3/p3clothes/" target="_blank" title="Petz 3 Clothes"
+        >Petz 3 Clothes</a
+      >
+      <a href="/petz/petz3/p3toyz/" target="_blank" title="Petz 3 Toyz"
+        >Petz 3 Toyz</a
+      >
+      <a
+        href="/petz/petz3/p3playscene/"
+        target="_blank"
+        title="Petz 3 Playscene"
+        >Petz 3 Playscene</a
+      >
+      <a
+        href="/petz/petz3/p3official/"
+        target="main"
+        title="Official downloads for Petz 3"
+        >Official DLs</a
+      >
+      <b>Breedz:</b>
+      <a href="/petz/petz3/p3breedz/" target="_blank" title="New Petz 3 Breedz"
+        >New P3 Breedz</a
+      >
+      <a href="/petz/tutbreedz/" target="_blank" title="Tutorial Breedz"
+        >P3 Tutorial Breedz</a
+      >
+      <a href="/petz/petz3/c3breedz/" target="_blank" title="Catz 3 Breedz"
+        >Catz 3 Breedz</a
+      >
+      <a href="/petz/petz3/d3breedz/" target="_blank" title="Dogz 3 Breedz"
+        >Dogz 3 Breedz</a
+      >
+      <a href="/petz/catbehaviours/" target="_blank" title="Catz behaviours"
+        >Catz in dogz 3</a
+      >
+      <a href="/petz/dogbehaviours/" target="_blank" title="Dogz behaviours"
+        >Dogz in catz 3</a
+      >
+      <b>For Easy LNZ:</b><br />
+      P3 English versions
+      <a href="/petz/petz3/c3breeded/" target="_blank" title="Orig C 3 Breedz"
+        >Orig C3 Breedz</a
+      >
+      <a href="/petz/petz3/d3breeded/" target="_blank" title="Orig D 3 Breedz"
+        >Orig D3 Breedz</a
+      >
+      P3 Non-English
+      <a
+        href="/petz/petz3/c3intbreeded/"
+        target="_blank"
+        title="Orig C 3 Breedz"
+        >Orig C3 Breedz</a
+      >
+      <a
+        href="/petz/petz3/d3intbreeded/"
+        target="_blank"
+        title="Orig D 3 Breedz"
+        >Orig D3 Breedz</a
+      >
+      <br />
 
-  <b>Petz II:</b>
-  <a href="/petz/petz2/p2breedz/" target="_blank" title="New Petz II Breedz">New
-    PII Breedz</a>
-  <a href="/petz/petz2/c2breedz/" target="_blank" title="Catz II Breedz">Catz II
-    Breedz</a>
-  <a href="/petz/petz2/d2breedz/" target="_blank" title="Dogz II Breedz">Dogz II
-    Breedz</a>
-  <a href="/petz/catbehaviours/" target="_blank" title="Catz behaviours">Catz in
-    dogz II</a>
-  <a href="/petz/dogbehaviours/" target="_blank" title="Dogz behaviours">Dogz in
-    catz II</a>
-  <a href="/madscientist/" target="_blank" title="PII demo fooler">Demo
-    Fooler</a>
-  <a href="/madscientist/" target="_blank" title="PII modified exe">Modified
-    exe</a>
-  <a href="/petz/petz2/p2toyz/" target="_blank" title="Petz II Toyz">Petz II
-    Toyz</a>
-  <a href="/petz/petz2/p2playscene/" target="_blank" title="Petz II Scenes">Petz
-    II Scene</a>
-  <br>
+      <b>Petz II:</b>
+      <a href="/petz/petz2/p2breedz/" target="_blank" title="New Petz II Breedz"
+        >New PII Breedz</a
+      >
+      <a href="/petz/petz2/c2breedz/" target="_blank" title="Catz II Breedz"
+        >Catz II Breedz</a
+      >
+      <a href="/petz/petz2/d2breedz/" target="_blank" title="Dogz II Breedz"
+        >Dogz II Breedz</a
+      >
+      <a href="/petz/catbehaviours/" target="_blank" title="Catz behaviours"
+        >Catz in dogz II</a
+      >
+      <a href="/petz/dogbehaviours/" target="_blank" title="Dogz behaviours"
+        >Dogz in catz II</a
+      >
+      <a href="/madscientist/" target="_blank" title="PII demo fooler"
+        >Demo Fooler</a
+      >
+      <a href="/madscientist/" target="_blank" title="PII modified exe"
+        >Modified exe</a
+      >
+      <a href="/petz/petz2/p2toyz/" target="_blank" title="Petz II Toyz"
+        >Petz II Toyz</a
+      >
+      <a href="/petz/petz2/p2playscene/" target="_blank" title="Petz II Scenes"
+        >Petz II Scene</a
+      >
+      <br />
 
-  <b>Petz 1:</b>
-  <a href="/petz/petz1/catz1dex/" target="_blank" title="Catz 1 Breedz">Catz 1
-    Fooler</a>
-  <a href="/petz/petz1/c1breedz/" target="_blank" title="Catz 1 Breedz">Catz 1
-    Breedz</a>
-  <a href="/petz/petz1/d1breedz/" target="_blank" title="Dogz 1 Breedz">Dogz 1
-    Breedz</a>
-  <a href="/petz/petz1/dogz1fooler/" target="_blank" title="Dogz 1 Breedz">Dogz
-    1 Fooler</a>
-  <a href="/petz/petz1/catz1mice/" target="_blank" title="Catz 1 Mice">Catz 1
-    Mice</a>
-  <br>
+      <b>Petz 1:</b>
+      <a href="/petz/petz1/catz1dex/" target="_blank" title="Catz 1 Breedz"
+        >Catz 1 Fooler</a
+      >
+      <a href="/petz/petz1/c1breedz/" target="_blank" title="Catz 1 Breedz"
+        >Catz 1 Breedz</a
+      >
+      <a href="/petz/petz1/d1breedz/" target="_blank" title="Dogz 1 Breedz"
+        >Dogz 1 Breedz</a
+      >
+      <a href="/petz/petz1/dogz1fooler/" target="_blank" title="Dogz 1 Breedz"
+        >Dogz 1 Fooler</a
+      >
+      <a href="/petz/petz1/catz1mice/" target="_blank" title="Catz 1 Mice"
+        >Catz 1 Mice</a
+      >
+      <br />
 
-  <b>Oddballz:</b>
-  <a href="/oddballz/oddballz/" target="_blank" title="Oddballz">Oddballz</a>
-  <a href="/oddballz/oddballzedit/" target="_blank" title="Oddballz Easy">Player
-    Easy Kits</a>
-  <a href="/oddballz/oddballzedit/" target="_blank"
-    title="Oddballz Editing">Hexer Easy-edits</a>
-  <a href="/oddballz/oddballzedit/" target="_blank"
-    title="Oddballz Fixes">Oddballz Fixes</a>
-  <br>
+      <b>Oddballz:</b>
+      <a href="/oddballz/oddballz/" target="_blank" title="Oddballz"
+        >Oddballz</a
+      >
+      <a href="/oddballz/oddballzedit/" target="_blank" title="Oddballz Easy"
+        >Player Easy Kits</a
+      >
+      <a href="/oddballz/oddballzedit/" target="_blank" title="Oddballz Editing"
+        >Hexer Easy-edits</a
+      >
+      <a href="/oddballz/oddballzedit/" target="_blank" title="Oddballz Fixes"
+        >Oddballz Fixes</a
+      >
+      <br />
 
-  <b>Babyz:</b>
-  <a href="/babyz/babyznewest/" target="_blank" title="Newest Babyz">Newest
-    Babyz</a>
-  <a href="/babyz/babyznew/" target="_blank" title="New Babyz">Newer Babyz</a>
-  <a href="/babyz/babyz-1/" target="_blank" title="Babyz Hexies">Old Babyz
-    Hexies</a>
-  <a href="/babyz/babyzglasses/" target="_blank" title="Babyz Glasses">Babyz
-    Glasses</a>
-  <a href="/babyz/babyzharem/" target="_blank" title="Babyz harem">Harem
-    sets</a>
-  <a href="/babyz/babyzclothes/" target="_blank" title="Babyz Clothez">Babyz
-    Clothez</a>
-  <a href="/babyz/babyzplayscene/" target="_blank"
-    title="Babyz Playscenes">Babyz Playscenes</a>
-  <a href="/babyz/babyztoyz/" target="_blank" title="Babyz Toyz">Babyz Toyz</a>
-  <a href="/babyz/babyzedit/" target="_blank" title="Babyz Editing">Babyz
-    Easy-edit<br>and fixes</a>
-  <a href="/babyz/babyzplay/" target="_blank"
-    title="Play with a Babyz Online">Play Online</a>
-  <br>
+      <b>Babyz:</b>
+      <a href="/babyz/babyznewest/" target="_blank" title="Newest Babyz"
+        >Newest Babyz</a
+      >
+      <a href="/babyz/babyznew/" target="_blank" title="New Babyz"
+        >Newer Babyz</a
+      >
+      <a href="/babyz/babyz-1/" target="_blank" title="Babyz Hexies"
+        >Old Babyz Hexies</a
+      >
+      <a href="/babyz/babyzglasses/" target="_blank" title="Babyz Glasses"
+        >Babyz Glasses</a
+      >
+      <a href="/babyz/babyzharem/" target="_blank" title="Babyz harem"
+        >Harem sets</a
+      >
+      <a href="/babyz/babyzclothes/" target="_blank" title="Babyz Clothez"
+        >Babyz Clothez</a
+      >
+      <a href="/babyz/babyzplayscene/" target="_blank" title="Babyz Playscenes"
+        >Babyz Playscenes</a
+      >
+      <a href="/babyz/babyztoyz/" target="_blank" title="Babyz Toyz"
+        >Babyz Toyz</a
+      >
+      <a href="/babyz/babyzedit/" target="_blank" title="Babyz Editing"
+        >Babyz Easy-edit<br />and fixes</a
+      >
+      <a
+        href="/babyz/babyzplay/"
+        target="_blank"
+        title="Play with a Babyz Online"
+        >Play Online</a
+      >
+      <br />
 
-  <b>NOT BY ME:</b>
-  <a
-    href="https://web.archive.org/web/20150316023926/http://www.stevehornsc.pwp.blueyonder.co.uk/carolyn/index.htm"
-    target="_blank" title="Off-site special breedz">Off-site specials</a>
-  <a href="/petz/petz3/p3playscenz/" target="_blank"
-    title="Old Petz 3 Scenes">Old Petz 3 Scenes</a>
-  <a href="/finfin/" target="_blank" title="Fin Fin">Fin Fin</a>
+      <b>NOT BY ME:</b>
+      <a
+        href="https://web.archive.org/web/20150316023926/http://www.stevehornsc.pwp.blueyonder.co.uk/carolyn/index.htm"
+        target="_blank"
+        title="Off-site special breedz"
+        >Off-site specials</a
+      >
+      <a
+        href="/petz/petz3/p3playscenz/"
+        target="_blank"
+        title="Old Petz 3 Scenes"
+        >Old Petz 3 Scenes</a
+      >
+      <a href="/finfin/" target="_blank" title="Fin Fin">Fin Fin</a>
 
-  <p>.</p>
-  <p>.</p>
-</nav>
+      <p>.</p>
+      <p>.</p>
+    </nav>
 
-<main class="center">
-  <img src="Phantarella.gif" alt="Welcome to Carolyn's Creations!"><br>
-  <p class="big bold green">
-    <a href="#NEW">Download info</a>...
-    <a href="#NFO">Important Info</a>...
-    <a href="#ACK">Acknowledgements</a>
-  </p>
+    <main class="center">
+      <img src="Phantarella.gif" alt="Welcome to Carolyn's Creations!" /><br />
+      <p class="big bold green">
+        <a href="#NEW">Download info</a>... <a href="#NFO">Important Info</a>...
+        <a href="#ACK">Acknowledgements</a>
+      </p>
 
-  <p class="big">
-    **On behalf of my dear friend, Carolyn and myself,<br>
-    I'd like to give a HUGE THANKS to Arie for now hosting Carolyn's
-    Creations!<br>
-    -Sue Briley
-  </p>
+      <p class="big">
+        **On behalf of my dear friend, Carolyn and myself,<br />
+        I'd like to give a HUGE THANKS to Arie for now hosting Carolyn's
+        Creations!<br />
+        -Sue Briley
+      </p>
 
-  <p>
-    <span class="big">My lovely Guardian Angel Cat logo was a gift from <a
-      href="http://www.geocities.ws/fbkc5/" target="_top">Thowraa's
-      FBKC</a></span><br>
-    Click <a href="/phantarella/" target="_top">here </a>if you'd like to see
-    Phantarella in action. You'll need the <a href="PetzPlayer.exe">Petz player
-    plug-in (click)</a>, and the latest browsers won't support that. So unless
-    you already have Netscape, you also need to download <a
-    href="Netscape4Installfiles.zip">Netscape Commander 4 (click)</a>. Unzip and
-    install Netscape, it won't affect any of your other browsers. Choose to
-    install the included cosmo Player if it asks, because then you'll be able to
-    play with the Catz 1 <a href="/petz/petz1/dream/">Catz World </a>! Then
-    double-click on the Player to install it and you'll be able to play with
-    Phantarella.
-  </p>
+      <p>
+        <span class="big"
+          >My lovely Guardian Angel Cat logo was a gift from
+          <a href="http://www.geocities.ws/fbkc5/" target="_top"
+            >Thowraa's FBKC</a
+          ></span
+        ><br />
+        Click <a href="/phantarella/" target="_top">here </a>if you'd like to
+        see Phantarella in action. You'll need the
+        <a href="PetzPlayer.exe">Petz player plug-in (click)</a>, and the latest
+        browsers won't support that. So unless you already have Netscape, you
+        also need to download
+        <a href="Netscape4Installfiles.zip">Netscape Commander 4 (click)</a>.
+        Unzip and install Netscape, it won't affect any of your other browsers.
+        Choose to install the included cosmo Player if it asks, because then
+        you'll be able to play with the Catz 1
+        <a href="/petz/petz1/dream/">Catz World </a>! Then double-click on the
+        Player to install it and you'll be able to play with Phantarella.
+      </p>
 
-  <p>
-    This is an archive of all the items that I have ever hex-edited or converted
-    for the various P.F.Magic Petz, Oddballz and Babyz games. It also includes
-    my stuff for Petz 5 which was created in 2002 by Studio Mythos and is in the
-    same style as the older games. The websites for these games are now gone --
-    the new Dogz, Catz etc games which you see at <a
-    href="https://web.archive.org/web/20061207042930/http://petz.us.ubi.com/"
-    target="_top">Ubisoft's Petz </a>site, and the various girly games for
-    Nintendo DS at <a
-    href="https://web.archive.org/web/20090226034054/http://imagine.us.ubi.com/"
-    target="_top">their "Babyz.net" </a>site are in no way similar to the
-    original Petz etc games and are not covered in my tutorials. I also do not
-    have downloads for any Ubisoft games created from 2006 onwards. All that I
-    have for you of those later games is my <a href="/petz6/" target="main"
-    title="Catz and Dogz 2006">Info Only</a> page, which may be useful for
-    anyone wanting to "hex" or modify the PC versions of those games.
-  </p>
+      <p>
+        This is an archive of all the items that I have ever hex-edited or
+        converted for the various P.F.Magic Petz, Oddballz and Babyz games. It
+        also includes my stuff for Petz 5 which was created in 2002 by Studio
+        Mythos and is in the same style as the older games. The websites for
+        these games are now gone -- the new Dogz, Catz etc games which you see
+        at
+        <a
+          href="https://web.archive.org/web/20061207042930/http://petz.us.ubi.com/"
+          target="_top"
+          >Ubisoft's Petz </a
+        >site, and the various girly games for Nintendo DS at
+        <a
+          href="https://web.archive.org/web/20090226034054/http://imagine.us.ubi.com/"
+          target="_top"
+          >their "Babyz.net" </a
+        >site are in no way similar to the original Petz etc games and are not
+        covered in my tutorials. I also do not have downloads for any Ubisoft
+        games created from 2006 onwards. All that I have for you of those later
+        games is my
+        <a href="/petz6/" target="main" title="Catz and Dogz 2006">Info Only</a>
+        page, which may be useful for anyone wanting to "hex" or modify the PC
+        versions of those games.
+      </p>
 
-  <p>
-    <b class="big">People with Dogz-only or Catz-only parts of the Petz games
-      please read</b><br>
-    If you want one of my breedz, <b>please</b> don't ask me to convert between
-    dogz and catz games -- instead, download the relevant package from my "Cat
-    species in dogz" or "Dog species in catz" pages, read the instructions
-    carefully and install it. That will fool the game, and you can then download
-    and play with my various species etc.
-  </p>
+      <p>
+        <b class="big"
+          >People with Dogz-only or Catz-only parts of the Petz games please
+          read</b
+        ><br />
+        If you want one of my breedz, <b>please</b> don't ask me to convert
+        between dogz and catz games -- instead, download the relevant package
+        from my "Cat species in dogz" or "Dog species in catz" pages, read the
+        instructions carefully and install it. That will fool the game, and you
+        can then download and play with my various species etc.
+      </p>
 
-  <p>
-    <b class="big">NOTE for site owners:</b><br>
-    please do <b>not</b> directly link to the files or pictures at my site. I
-    have no objection to anyone putting my breedz up elsewhere, provided that
-    you put an acknowledgement also that they are my work. The same applies to
-    my tutorials, although a link instead to my tutorials page would be a better
-    idea as I am always in process of updating them.
-  </p>
+      <p>
+        <b class="big">NOTE for site owners:</b><br />
+        please do <b>not</b> directly link to the files or pictures at my site.
+        I have no objection to anyone putting my breedz up elsewhere, provided
+        that you put an acknowledgement also that they are my work. The same
+        applies to my tutorials, although a link instead to my tutorials page
+        would be a better idea as I am always in process of updating them.
+      </p>
 
-  <p class="big">
-    Please note that my site has moved to <a
-    href="https://web.archive.org/web/20101119140319/https://boardwalkerz.com/carolyn/"
-    target="_top">Boardwalkerz</a> thanks to Sue Briley's generosity.<br>
-    I've left these few pages at the old site, with grateful thanks to Abby, so
-    that people know where to go for my files. Bless you, Abby, for hosting my
-    monster of a site for so long!
-  </p>
+      <p class="big">
+        Please note that my site has moved to
+        <a
+          href="https://web.archive.org/web/20101119140319/https://boardwalkerz.com/carolyn/"
+          target="_top"
+          >Boardwalkerz</a
+        >
+        thanks to Sue Briley's generosity.<br />
+        I've left these few pages at the old site, with grateful thanks to Abby,
+        so that people know where to go for my files. Bless you, Abby, for
+        hosting my monster of a site for so long!
+      </p>
 
-  <p class="big">
-    Registered with<br>
-    <a
-      href="https://web.archive.org/web/20080514043255/http://go2sam.home.att.net/ibs.html"
-      target="_blank">
-      <img src="reg.jpg" alt="IBS"><br>
-      Independent Breederz Society
-    </a><br>
-    <br>
+      <p class="big">
+        Registered with<br />
+        <a
+          href="https://web.archive.org/web/20080514043255/http://go2sam.home.att.net/ibs.html"
+          target="_blank"
+        >
+          <img src="reg.jpg" alt="IBS" /><br />
+          Independent Breederz Society </a
+        ><br />
+        <br />
 
-    <a href="http://www.geocities.com/boxedluv2" class="defunct"
-      target="_blank">
-      <img src="alley-lover.gif" alt="Breed-lover" style="border: 1px solid;">
-    </a>
-  </p>
+        <a
+          href="http://www.geocities.com/boxedluv2"
+          class="defunct"
+          target="_blank"
+        >
+          <img
+            src="alley-lover.gif"
+            alt="Breed-lover"
+            style="border: 1px solid"
+          />
+        </a>
+      </p>
 
-  <p class="big green" id="NEW">
-    <b>The "What's new" section has moved to its own page. Click <a
-      href="/whatsnew/" target="_top">here</a></b> to go to it
-  </p>
+      <p class="big green" id="NEW">
+        <b
+          >The "What's new" section has moved to its own page. Click
+          <a href="/whatsnew/" target="_top">here</a></b
+        >
+        to go to it
+      </p>
 
-  <p class="green">
-    <a
-      href="https://web.archive.org/web/20101119140319/https://boardwalkerz.com/carolyn/"
-      target="_top" class="big">Where my site is now</a><br>
-    Thanks to Abby of <a
-    href="https://web.archive.org/web/20070625152049/http://www.thepetzwarehouse.com/"
-    target="_top">the Petzwarehouse</a> for kindly hosting my site for so long,
-    without complaint as it grew and grew... And thanks and big hugs to Sue of
-    <a href="http://web.archive.org/web/20160321120755/http://boardwalkerz.com/"
-      target="_top">Petz Boardwalk</a> for so generously providing mirror space
-    for several months, and now taking on the whole burden.<br>
-    If my site goes down at any time -- Eeeek! -- pop along to <a
-    href="https://web.archive.org/web/20150316023926/http://www.stevehornsc.pwp.blueyonder.co.uk/carolyn/index.htm"
-    target="_top">this page</a>, where I'll keep you informed of whatever is
-    going on.
-  </p>
+      <p class="green">
+        <a
+          href="https://web.archive.org/web/20101119140319/https://boardwalkerz.com/carolyn/"
+          target="_top"
+          class="big"
+          >Where my site is now</a
+        ><br />
+        Thanks to Abby of
+        <a
+          href="https://web.archive.org/web/20070625152049/http://www.thepetzwarehouse.com/"
+          target="_top"
+          >the Petzwarehouse</a
+        >
+        for kindly hosting my site for so long, without complaint as it grew and
+        grew... And thanks and big hugs to Sue of
+        <a
+          href="http://web.archive.org/web/20160321120755/http://boardwalkerz.com/"
+          target="_top"
+          >Petz Boardwalk</a
+        >
+        for so generously providing mirror space for several months, and now
+        taking on the whole burden.<br />
+        If my site goes down at any time -- Eeeek! -- pop along to
+        <a
+          href="https://web.archive.org/web/20150316023926/http://www.stevehornsc.pwp.blueyonder.co.uk/carolyn/index.htm"
+          target="_top"
+          >this page</a
+        >, where I'll keep you informed of whatever is going on.
+      </p>
 
-  <p>
-    <span class="big">
-      <b>Download problems? Read here</b><br>
-      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    </span><br>
-    <b>PLEASE READ IF YOU HAVE DOWNLOAD PROBLEMS<br>
-      or my files confuse you:</b><br>
-    If you have problems downloading a file from this site... right-click on it
-    and choose "save link as" or "save target as" (whichever your browser says),
-    follow the dialogue box which opens in order to save it to a place on your
-    hard drive (usually the Desktop), then open it afterwards. Please do not
-    write to me about any files which "have nothing in them" unless you have
-    tried this method.<br>
-    The Petz 3, 4 and 5 breedfiles are all sound-stripped. I've produced
-    external sounds for all the original breedz as well as most of my "species"
-    or "fantasy" breedz so that you can choose whether to download the sounds or
-    play with the files mute.
-  </p>
+      <p>
+        <span class="big">
+          <b>Download problems? Read here</b><br />
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ </span
+        ><br />
+        <b
+          >PLEASE READ IF YOU HAVE DOWNLOAD PROBLEMS<br />
+          or my files confuse you:</b
+        ><br />
+        If you have problems downloading a file from this site... right-click on
+        it and choose "save link as" or "save target as" (whichever your browser
+        says), follow the dialogue box which opens in order to save it to a
+        place on your hard drive (usually the Desktop), then open it afterwards.
+        Please do not write to me about any files which "have nothing in them"
+        unless you have tried this method.<br />
+        The Petz 3, 4 and 5 breedfiles are all sound-stripped. I've produced
+        external sounds for all the original breedz as well as most of my
+        "species" or "fantasy" breedz so that you can choose whether to download
+        the sounds or play with the files mute.
+      </p>
 
-  <p id="NFO">
-    <span class="big">
-      <b>Important Information</b><br>
-      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    </span><br>
-    Windows XP, Windows 2000 (or NT), Windows ME users, and people who have some
-    update to their system that is beyond mine -- if you have some problem with
-    my breedz that I cannot duplicate on either my Windows 95 or my husband's
-    plain Windows 98 system, then I cannot help you. If I am able to duplicate
-    the problem, then there is something wrong with the file that I can (I hope)
-    fix and of course I shall do my best to do so. If I am not able to duplicate
-    it, then there is nothing wrong with the file and it is some mysterious
-    problem related to an incomprehensible alchemy between your operating system
-    and/or game and my file so I cannot fix it. Sorry. The only thing I can
-    suggest is a possible fix for you to do for yourself; you'll find it <a
-    href="/crashingxp/" target="_top">here</a>. Windows XP with SP2 has special
-    new quirks, woop-de-doo. WinXP is <b>bleurgh</b> and <b>Vista --
-    AAAARGH!!</b> *hugs nice comfy Win95 setup, warts an' all*
-  </p>
+      <p id="NFO">
+        <span class="big">
+          <b>Important Information</b><br />
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ </span
+        ><br />
+        Windows XP, Windows 2000 (or NT), Windows ME users, and people who have
+        some update to their system that is beyond mine -- if you have some
+        problem with my breedz that I cannot duplicate on either my Windows 95
+        or my husband's plain Windows 98 system, then I cannot help you. If I am
+        able to duplicate the problem, then there is something wrong with the
+        file that I can (I hope) fix and of course I shall do my best to do so.
+        If I am not able to duplicate it, then there is nothing wrong with the
+        file and it is some mysterious problem related to an incomprehensible
+        alchemy between your operating system and/or game and my file so I
+        cannot fix it. Sorry. The only thing I can suggest is a possible fix for
+        you to do for yourself; you'll find it
+        <a href="/crashingxp/" target="_top">here</a>. Windows XP with SP2 has
+        special new quirks, woop-de-doo. WinXP is <b>bleurgh</b> and
+        <b>Vista -- AAAARGH!!</b> *hugs nice comfy Win95 setup, warts an' all*
+      </p>
 
-  <p>
-    It came to my attention a while ago that there were Petz 5 versions of some
-    of my breedz at Nicky's Petzfriends site, and that those versions have wrong
-    ID numbers etc. Nicky and I eventually reached an agreement which should fix
-    any problems that people may have with this. Read <a
-    href="/petzfriendsite/">here </a>if you would like to know more about it,
-    and about how to get your pets to breed if you downloaded one of the
-    "conversions" from her site.<br>
-    Please note that you <b>do not need to convert</b> any of my breedz to Petz
-    5, I make them all available for that game myself. I shall not convert
-    anyone else's breedz, I do not have the time, but I have "howtos" up for you
-    to try or you can ask for help on the various forums.
-  </p>
+      <p>
+        It came to my attention a while ago that there were Petz 5 versions of
+        some of my breedz at Nicky's Petzfriends site, and that those versions
+        have wrong ID numbers etc. Nicky and I eventually reached an agreement
+        which should fix any problems that people may have with this. Read
+        <a href="/petzfriendsite/">here </a>if you would like to know more about
+        it, and about how to get your pets to breed if you downloaded one of the
+        "conversions" from her site.<br />
+        Please note that you <b>do not need to convert</b> any of my breedz to
+        Petz 5, I make them all available for that game myself. I shall not
+        convert anyone else's breedz, I do not have the time, but I have
+        "howtos" up for you to try or you can ask for help on the various
+        forums.
+      </p>
 
-  <p>
-    Mac users (or anyone else with this problem) if you download files and get
-    gibberish appearing in your browser, ending up with a corrupted file when
-    you try to save it, try either downloading with a download manager or look
-    in your browser's cache and copy it directly from there. The copy that's in
-    your cache should not be corrupted.
-  </p>
+      <p>
+        Mac users (or anyone else with this problem) if you download files and
+        get gibberish appearing in your browser, ending up with a corrupted file
+        when you try to save it, try either downloading with a download manager
+        or look in your browser's cache and copy it directly from there. The
+        copy that's in your cache should not be corrupted.
+      </p>
 
-  <p></p>
+      <p></p>
 
-  <p class="green">
-    <span class="big">
-      <b>What's Happening Here</b><br>
-      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    </span><br>
-    I checked through this again, and a lot of stuff has changed, so this is the
-    latest state of play:
-  </p>
+      <p class="green">
+        <span class="big">
+          <b>What's Happening Here</b><br />
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ </span
+        ><br />
+        I checked through this again, and a lot of stuff has changed, so this is
+        the latest state of play:
+      </p>
 
-  <p class="green">
-    There's a bunch of odd bits and pieces that I need to finish off, but I have
-    no idea when I'll get the time to do so. Foolers for all of the games are
-    now available at my Boardwalkerz site.
-  </p>
+      <p class="green">
+        There's a bunch of odd bits and pieces that I need to finish off, but I
+        have no idea when I'll get the time to do so. Foolers for all of the
+        games are now available at my Boardwalkerz site.
+      </p>
 
-  <p class="green">
-    The Oddballz-to-petz line -- still got a bunch of Transformations to do. I
-    intend to put them together as two or three more all-in-one breedz. These
-    will probably be the last "full" breedz I shall ever make, plus one breed
-    that I promised years ago and will probably never be finished, for someone
-    who has already left the Petz Community 8-}
-  </p>
+      <p class="green">
+        The Oddballz-to-petz line -- still got a bunch of Transformations to do.
+        I intend to put them together as two or three more all-in-one breedz.
+        These will probably be the last "full" breedz I shall ever make, plus
+        one breed that I promised years ago and will probably never be finished,
+        for someone who has already left the Petz Community 8-}
+      </p>
 
-  <p class="green">
-    I need to finish off the LNZ breakdown chunks, with special attention to the
-    Oddballz info which has been sadly neglected. I also need to gather together
-    various other little howtos, and the breakdown of a .pet and .baby file, and
-    make them as comprehensible as possible (hah!) so y'all can fix petz,
-    game-crashes etc.
-  </p>
+      <p class="green">
+        I need to finish off the LNZ breakdown chunks, with special attention to
+        the Oddballz info which has been sadly neglected. I also need to gather
+        together various other little howtos, and the breakdown of a .pet and
+        .baby file, and make them as comprehensible as possible (hah!) so y'all
+        can fix petz, game-crashes etc.
+      </p>
 
-  <p class="green">
-    I no longer need to fix the oversize-pet corruptions, thanks to Nicholas'
-    Tools. Yay for Petza!
-  </p>
+      <p class="green">
+        I no longer need to fix the oversize-pet corruptions, thanks to
+        Nicholas' Tools. Yay for Petza!
+      </p>
 
-  <p class="green">
-    I've continued to tidy up my tutorials pages; I really hope that people can
-    find things now. The actual tutorials are mostly written some time ago and
-    newer available tools etc (such as Tinker, LNZPro 2, my easy-edit kits) have
-    made things easier, so some of the tuts are more complicated than they
-    should be, but they are mostly still valid.
-  </p>
+      <p class="green">
+        I've continued to tidy up my tutorials pages; I really hope that people
+        can find things now. The actual tutorials are mostly written some time
+        ago and newer available tools etc (such as Tinker, LNZPro 2, my
+        easy-edit kits) have made things easier, so some of the tuts are more
+        complicated than they should be, but they are mostly still valid.
+      </p>
 
-  <p class="green">
-    Through lack of time, and because I don't breed or show petz, I no longer
-    research 2nd-gen problems, so it's up to all you guys and gals to find out
-    any new quirks in that area.
-  </p>
+      <p class="green">
+        Through lack of time, and because I don't breed or show petz, I no
+        longer research 2nd-gen problems, so it's up to all you guys and gals to
+        find out any new quirks in that area.
+      </p>
 
-  <p class="green">
-    I also do not, and never shall, make "exclusives" for individuals.
-    Everything that I make is downloadable for all. To be honest, I cannot
-    understand this modern fashion for exclusivity. My ethos has always been to
-    make information and game modifications free for all.
-  </p>
+      <p class="green">
+        I also do not, and never shall, make "exclusives" for individuals.
+        Everything that I make is downloadable for all. To be honest, I cannot
+        understand this modern fashion for exclusivity. My ethos has always been
+        to make information and game modifications free for all.
+      </p>
 
-  <p class="green">
-    Real Life and a steady stream of sweet, vulnerable foster-cats and kitties
-    clamour for my attention almost constantly. Hexing and these games have to
-    come second, and can only be done in small snatches of free time. So I don't
-    take breed-making requests any more, I just don't have the time. Really, the
-    answer has to be "no" to requests. However, anyone can try it nowadays, as
-    there is a choice of several tools, including LNZPro and Pet Workshop, as
-    well as the utilities at MK&C, Resource Hacker, and my own Easy-edit
-    packages.
-  </p>
+      <p class="green">
+        Real Life and a steady stream of sweet, vulnerable foster-cats and
+        kitties clamour for my attention almost constantly. Hexing and these
+        games have to come second, and can only be done in small snatches of
+        free time. So I don't take breed-making requests any more, I just don't
+        have the time. Really, the answer has to be "no" to requests. However,
+        anyone can try it nowadays, as there is a choice of several tools,
+        including LNZPro and Pet Workshop, as well as the utilities at MK&C,
+        Resource Hacker, and my own Easy-edit packages.
+      </p>
 
-  <p class="green">
-    There are lots of good hexers out there on the Internet, some of whom are
-    kind-hearted or will do requests, so if you cannot bear to try hexing
-    yourself, just ask around the various message-boards and forums. Look in my
-    links pages for some forums that you can start with. I know the links pages
-    are badly out of date as of December 2006, but I don't have time to fix them
-    right now.
-  </p>
+      <p class="green">
+        There are lots of good hexers out there on the Internet, some of whom
+        are kind-hearted or will do requests, so if you cannot bear to try
+        hexing yourself, just ask around the various message-boards and forums.
+        Look in my links pages for some forums that you can start with. I know
+        the links pages are badly out of date as of December 2006, but I don't
+        have time to fix them right now.
+      </p>
 
-  <p></p>
+      <p></p>
 
-  <p class="big" id="ACK">
-    <b>Acknowledgments</b><br>
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<br>
-    I'd like to thank Tom for the wonderful web pages that he maintained here
-    for so long, and I'd like to thank Abby of the <a
-    href="https://web.archive.org/web/20070625152049/http://www.thepetzwarehouse.com/"
-    target="_top">PetzWarehouse</a> for her patience and for providing the space
-    to store these files for so many years.
-  </p>
+      <p class="big" id="ACK">
+        <b>Acknowledgments</b><br />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<br />
+        I'd like to thank Tom for the wonderful web pages that he maintained
+        here for so long, and I'd like to thank Abby of the
+        <a
+          href="https://web.archive.org/web/20070625152049/http://www.thepetzwarehouse.com/"
+          target="_top"
+          >PetzWarehouse</a
+        >
+        for her patience and for providing the space to store these files for so
+        many years.
+      </p>
 
-  <p class="big">
-    Big thanks also to my pal Sue of <a
-    href="http://web.archive.org/web/20160321120755/http://boardwalkerz.com/"
-    target="_top">Petz Boardwalk</a> for coming to my rescue in the hard times,
-    generously mirroring my lummox of a site, and finally hosting the whole
-    shebang.
-  </p>
+      <p class="big">
+        Big thanks also to my pal Sue of
+        <a
+          href="http://web.archive.org/web/20160321120755/http://boardwalkerz.com/"
+          target="_top"
+          >Petz Boardwalk</a
+        >
+        for coming to my rescue in the hard times, generously mirroring my
+        lummox of a site, and finally hosting the whole shebang.
+      </p>
 
-  <p class="big">
-    Thanks to Misty (aka Acid Chaos), for giving me the kick I needed to get
-    interested in site making. Of her original design all that is left is the
-    calculation of graphic sizes on the breedz pages -- left to myself, the
-    graphics would have been all different sizes! Her original design was
-    beautiful, but I couldn't see it in my favourite browser so in the end it
-    had to go. But I am very grateful for her work, as without it I might never
-    have repaired this site when we moved to the new server.
-  </p>
-
-</main>
-</body>
+      <p class="big">
+        Thanks to Misty (aka Acid Chaos), for giving me the kick I needed to get
+        interested in site making. Of her original design all that is left is
+        the calculation of graphic sizes on the breedz pages -- left to myself,
+        the graphics would have been all different sizes! Her original design
+        was beautiful, but I couldn't see it in my favourite browser so in the
+        end it had to go. But I am very grateful for her work, as without it I
+        might never have repaired this site when we moved to the new server.
+      </p>
+    </main>
+  </body>
 </html>

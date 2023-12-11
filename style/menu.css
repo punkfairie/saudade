@@ -14,7 +14,9 @@ div#archive-menu {
 
   max-width: 0;
   max-height: 0;
-  transition: max-height 0.5s ease-out, max-width 0.5s ease-out;
+  transition:
+    max-height 0.5s ease-out,
+    max-width 0.5s ease-out;
 
   border: 1px solid var(--border-color, var(--color, black));
   background: var(--background-image, var(--background-color, white));
@@ -50,7 +52,9 @@ div#archive-menu #hrt {
 div#archive-menu:hover {
   max-width: 200px;
   max-height: 200px;
-  transition: max-height 0.5s ease-in, max-width 0.5s ease-in;
+  transition:
+    max-height 0.5s ease-in,
+    max-width 0.5s ease-in;
 }
 
 div#archive-menu:hover a {

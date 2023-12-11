@@ -1,57 +1,84 @@
 /* general */
 
 body {
-    text-align: center;
-    font-family: 'Georgia', serif;
-    font-size: 16px;
-    color: var(--color);
-    background-color: var(--background-color);
-    background-image: var(--background-image);
+  text-align: center;
+  font-family: "Georgia", serif;
+  font-size: 16px;
+  color: var(--color);
+  background-color: var(--background-color);
+  background-image: var(--background-image);
 }
 
 /* index */
 
 #hit-counter {
-    display: inline-block;
-    border: 8px #bdbdbd solid;
-    background-color: #bdbdbd;
+  display: inline-block;
+  border: 8px #bdbdbd solid;
+  background-color: #bdbdbd;
 }
 
 /* text */
 
-h1 { font-size: 32px; }
+h1 {
+  font-size: 32px;
+}
 
-h2 { font-size: 24px; }
+h2 {
+  font-size: 24px;
+}
 
-.defunct { text-decoration: line-through; }
+.defunct {
+  text-decoration: line-through;
+}
 
-.small { font-size: 13px; }
+.small {
+  font-size: 13px;
+}
 
-.big { font-size: 18px; }
+.big {
+  font-size: 18px;
+}
 
-.normal { font-size: 16px; }
+.normal {
+  font-size: 16px;
+}
 
 /* misc formatting */
 
 .missing-asset {
-    border: 1px solid;
-    padding: 5px;
+  border: 1px solid;
+  padding: 5px;
 }
 
 .display-table {
-    display: table;
-    margin: 10px auto;
+  display: table;
+  margin: 10px auto;
 }
 
 .inline-block {
-    display: inline-block;
-    margin: 0;
+  display: inline-block;
+  margin: 0;
 }
 
 /* hell */
 
-i.r { color: #f00; font-style: normal; }
-i.y { color: #ff0; font-style: normal; }
-i.g { color: #9f0; font-style: normal; }
-i.b { color: #3ff; font-style: normal; }
-i.p { color: #96f; font-style: normal; }
+i.r {
+  color: #f00;
+  font-style: normal;
+}
+i.y {
+  color: #ff0;
+  font-style: normal;
+}
+i.g {
+  color: #9f0;
+  font-style: normal;
+}
+i.b {
+  color: #3ff;
+  font-style: normal;
+}
+i.p {
+  color: #96f;
+  font-style: normal;
+}

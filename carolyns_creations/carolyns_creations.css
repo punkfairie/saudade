@@ -1,226 +1,225 @@
 /* GENERAL */
 
 html {
-    --background-color: #fff7d7;
-    --color: #810541;
+  --background-color: #fff7d7;
+  --color: #810541;
 
-    background-color: var(--background-color);
-    font-family: 'Comic Sans MS', serif;
+  background-color: var(--background-color);
+  font-family: "Comic Sans MS", serif;
 }
 
 body {
-    font-size: 13px;
-    color: var(--color);
-    padding: 0;
-    margin: 20px 0 0;
+  font-size: 13px;
+  color: var(--color);
+  padding: 0;
+  margin: 20px 0 0;
 }
 
 /* MENU */
 
 .menu {
-    padding: 7px;
-    margin: 0;
-    color: #660000;
-    font-size: 13px;
+  padding: 7px;
+  margin: 0;
+  color: #660000;
+  font-size: 13px;
 }
 
 .menu li {
-    list-style: none;
+  list-style: none;
 }
 
 /* LINKS */
 
 a {
-    color: #f63;
+  color: #f63;
 }
 
 a:visited {
-    color: #8a2be2;
+  color: #8a2be2;
 }
 
 a:active {
-    color: #0f0;
+  color: #0f0;
 }
 
 .defunct {
-    text-decoration: line-through;
+  text-decoration: line-through;
 }
 
 /* TEXT */
 
 p {
-    margin-bottom: 0;
-    padding: 5px 10px;
+  margin-bottom: 0;
+  padding: 5px 10px;
 }
 
 .green {
-    color: #006400;
+  color: #006400;
 }
 
 .purple {
-    color: #800080;
+  color: #800080;
 }
 
 .brown {
-    color: #660000;
+  color: #660000;
 }
 
 .normal {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 .big {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .bigger {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .courier {
-    font-family: 'Courier New', serif;
+  font-family: "Courier New", serif;
 }
 
 .comic-sans {
-    font-family: 'Comic Sans MS', serif;
+  font-family: "Comic Sans MS", serif;
 }
 
 .times-new-roman {
-    font-family: 'Times New Roman', serif;
+  font-family: "Times New Roman", serif;
 }
 
 .bold {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 /* FORMATTING */
 
 .center {
-    text-align: center;
-    padding: 10px 0;
+  text-align: center;
+  padding: 10px 0;
 }
 
 .float-left {
-    float: left;
+  float: left;
 }
 
 .left-align {
-    text-align: left;
+  text-align: left;
 }
 
 .huge-gap-top {
-    padding-top: 90px;
+  padding-top: 90px;
 }
 
 .big-gap-top {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .tiny-gap-top {
-    margin-top: 3px;
+  margin-top: 3px;
 }
 
-
 .side-padding {
-    width: 80%;
-    display: table;
-    margin: 0 auto;
+  width: 80%;
+  display: table;
+  margin: 0 auto;
 }
 
 .more-side-padding {
-    width: 60%;
-    display: table;
-    margin: 0 auto;
+  width: 60%;
+  display: table;
+  margin: 0 auto;
 }
 
 .less-side-padding {
-    width: 90%;
-    display: table;
-    margin: 0 auto;
+  width: 90%;
+  display: table;
+  margin: 0 auto;
 }
 
 table.img-size img {
-    width: 320px;
-    height: 224px;
+  width: 320px;
+  height: 224px;
 }
 
 table.center-table {
-    width: 50%;
-    margin: 0 auto;
+  width: 50%;
+  margin: 0 auto;
 }
 
 table.wide-center-table {
-    width: 90%;
-    margin: 0 auto;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .border-outer {
-    width: max-content;
-    margin: 0 auto;
-    border: 2px solid;
+  width: max-content;
+  margin: 0 auto;
+  border: 2px solid;
 }
 
 .border-outer .border-inner {
-    margin: 2px;
-    padding: 30px;
-    border: 1px solid;
+  margin: 2px;
+  padding: 30px;
+  border: 1px solid;
 }
 
 .border-brown {
-    border-color: #660000;
+  border-color: #660000;
 }
 
 .border-green {
-    border-color: #006400;
+  border-color: #006400;
 }
 
 .img-border img {
-    border: 1px solid;
+  border: 1px solid;
 }
 
 /* TODO PAGE SPECIFIC */
 
 #sandz {
-    --background-color: #dafae8;
-    --color: #00552b;
+  --background-color: #dafae8;
+  --color: #00552b;
 }
 
 #sandz a {
-    color: #800080;
+  color: #800080;
 }
 
 #sandz a:visited {
-    color: #808080;
+  color: #808080;
 }
 
 #sandz a:active {
-    color: #f0f;
+  color: #f0f;
 }
 
 #catz1dex {
-    --background-color: #33cccc;
-    --color: #000;
-    font-family: Times, serif;
+  --background-color: #33cccc;
+  --color: #000;
+  font-family: Times, serif;
 }
 
 #catz1dex a {
-    color: #fff;
+  color: #fff;
 }
 
 #catz1dex a:visited {
-    color: #fff;
+  color: #fff;
 }
 
 #dogz1fooler {
-    --background-color: #8442ef;
-    --color: #f7f5d7;
-    font-family: Times, serif;
+  --background-color: #8442ef;
+  --color: #f7f5d7;
+  font-family: Times, serif;
 }
 
 #dogz1fooler a {
-    color: #00ff00;
+  color: #00ff00;
 }
 
 #dogz1fooler a:visited {
-    color: #fff;
+  color: #fff;
 }

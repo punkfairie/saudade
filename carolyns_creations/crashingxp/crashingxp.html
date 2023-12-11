@@ -1,112 +1,117 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
 
-  <!-- from source -->
-  <title>For Windows XP especially</title>
-  <!--  -->
+    <!-- from source -->
+    <title>For Windows XP especially</title>
+    <!--  -->
 
-  <!-- saudade includes -->
-  <script src="/saudade.js?@root" type="module"></script>
+    <!-- saudade includes -->
+    <script src="/saudade.js?@root" type="module"></script>
+  </head>
+  <body class="brown side-padding big">
+    <p class="center purple bigger">
+      <b>In Windows XP; unexplained AC crashes, and sound problems</b><br />
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    </p>
 
+    <p>
+      Sound Problems with WinXP SP2<br />
+      =============================
+    </p>
 
-</head>
-<body class="brown side-padding big">
-<p class="center purple bigger">
-  <b>In Windows XP; unexplained AC crashes, and sound problems</b><br>
-  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-</p>
+    <p>
+      Windows XP with SP2 has special new quirks, and Petz 5 apparently starts
+      up with a sounds error message now. Kahlah has posted an alert about this
+      on
+      <a
+        href="https://web.archive.org/web/20060105132413/http://lesley.proboards21.com/index.cgi?boardpetforum"
+        target="_top"
+        >the APKC/BCKC forum </a
+      >, you may find more info there, but here's the quick fix for you: If Petz
+      5 won't play sounds for you, find the two files smapi.dll and setupapi.dll
+      which are both where you installed Petz 5 (probably C:\Program Files\UBI
+      Soft\Studio Mythos\Petz 5) and delete them. If you cannot see .dll files
+      on your machine, open My Computer, Choose View Options from the menu, and
+      make sure that View all files is ticked on the View tab. Then you'll see
+      those files and can remove them. Actually, Petz 5 will run just fine
+      without most of the files which are in that main directory.
+    </p>
 
-<p>
-  Sound Problems with WinXP SP2<br>
-  =============================
-</p>
+    <p>
+      Breedfiles Crashing problems<br />
+      ===========================
+    </p>
 
-<p>
-  Windows XP with SP2 has special new quirks, and Petz 5 apparently starts up
-  with a sounds error message now. Kahlah has posted an alert about this on <a
-  href="https://web.archive.org/web/20060105132413/http://lesley.proboards21.com/index.cgi?boardpetforum"
-  target="_top">the APKC/BCKC forum </a>, you may find more info there, but
-  here's the quick fix for you: If Petz 5 won't play sounds for you, find the
-  two files smapi.dll and setupapi.dll which are both where you installed Petz 5
-  (probably C:\Program Files\UBI Soft\Studio Mythos\Petz 5) and delete them. If
-  you cannot see .dll files on your machine, open My Computer, Choose View
-  Options from the menu, and make sure that View all files is ticked on the View
-  tab. Then you'll see those files and can remove them. Actually, Petz 5 will
-  run just fine without most of the files which are in that main directory.
-</p>
+    <p>
+      Okay, I'm writing this because it seems that people -- usually with
+      Windows XP, but also sometimes with updated Windows ME systems -- are
+      getting Petz 4 or 5 doing a crash-to-desktop when trying to bring some of
+      my breedz out at the Adoption centre. Sometimes it happens with
+      already-adopted petz when they try to breed. In most cases, there is
+      nothing wrong with the breedfile. I always check when someone reports a
+      problem and, if the breed does not crash my game, you have come up against
+      the "XP-nasties". This is a problem that I am unable to duplicate because
+      I do not have (and never intend to have) that operating system on my
+      machine (or Windows ME either), and all my breedz work fine on my system.
+    </p>
 
-<p>
-  Breedfiles Crashing problems<br>
-  ===========================
-</p>
+    <p>
+      From what I can gather, it tends to be mostly Mutt or Dalmatian-based
+      breedz which crash in this manner, and I have found that people who
+      complain about this can often run the breedz fine if I remove a certain
+      part from the file. I have no time now to go through every single one of
+      my breedz to re-do them just in case they produce this problem which
+      doesn't happen for me, nor do I want to mess them about like that, so I'm
+      telling you here what you can try in order to get the pets to come out or
+      breed for you.
+    </p>
 
-<p>
-  Okay, I'm writing this because it seems that people -- usually with Windows
-  XP, but also sometimes with updated Windows ME systems -- are getting Petz 4
-  or 5 doing a crash-to-desktop when trying to bring some of my breedz out at
-  the Adoption centre. Sometimes it happens with already-adopted petz when they
-  try to breed. In most cases, there is nothing wrong with the breedfile. I
-  always check when someone reports a problem and, if the breed does not crash
-  my game, you have come up against the "XP-nasties". This is a problem that I
-  am unable to duplicate because I do not have (and never intend to have) that
-  operating system on my machine (or Windows ME either), and all my breedz work
-  fine on my system.
-</p>
+    <p>
+      First of all, make sure you've downloaded the sound-stripped version of
+      the breedfile as opposed to the patchfile version. I believe that people
+      have been having other problems with Windows ME or XP and the patchfiles.
+      I do not now have patchfiles at this site, but if you got one from
+      somewhere else, dump it and grab the proper one.
+    </p>
 
-<p>
-  From what I can gather, it tends to be mostly Mutt or Dalmatian-based breedz
-  which crash in this manner, and I have found that people who complain about
-  this can often run the breedz fine if I remove a certain part from the file. I
-  have no time now to go through every single one of my breedz to re-do them
-  just in case they produce this problem which doesn't happen for me, nor do I
-  want to mess them about like that, so I'm telling you here what you can try in
-  order to get the pets to come out or breed for you.
-</p>
+    <p>
+      Now, either using
+      <a href="http://www.angusj.com/resourcehacker/" target="_top"
+        >ResHacker </a
+      >or a hex editor of your choice, remove the [Fur Markings] which are below
+      [Ballz Info]. If this doesn't fix the problem, also remove the [Fur Color
+      Areas].
+    </p>
 
-<p>
-  First of all, make sure you've downloaded the sound-stripped version of the
-  breedfile as opposed to the patchfile version. I believe that people have been
-  having other problems with Windows ME or XP and the patchfiles. I do not now
-  have patchfiles at this site, but if you got one from somewhere else, dump it
-  and grab the proper one.
-</p>
+    <p>
+      With ResHacker you can either delete the whole [Fur Markings] section from
+      the beginning of [Fur Markings] down to directly before [Lnz Version] (do
+      not touch [Lnz Version]) or simply insert a semi-colon at the beginning of
+      each line (this is a "comment-out") but not the [Lnz Version] line. If
+      you're removing [Fur Color Areas] also, similarly delete or comment-out
+      from the beginning of [Fur Color Areas] to directly before [Lnz Version].
+      Compile, save, and run the game with the breedfile in place.
+    </p>
 
-<p>
-  Now, either using <a href="http://www.angusj.com/resourcehacker/"
-  target="_top">ResHacker </a>or a hex editor of your choice, remove the [Fur
-  Markings] which are below [Ballz Info]. If this doesn't fix the problem, also
-  remove the [Fur Color Areas].
-</p>
+    <p>
+      With a hex editor you can replace all the part from the beginning of [Fur
+      Markings] (or [Fur Color Areas]) down to and including the last number
+      <b>before</b> [Lnz Version] with spaces. Save, and run the game with the
+      breedfile in place.
+    </p>
 
-<p>
-  With ResHacker you can either delete the whole [Fur Markings] section from the
-  beginning of [Fur Markings] down to directly before [Lnz Version] (do not
-  touch [Lnz Version]) or simply insert a semi-colon at the beginning of each
-  line (this is a "comment-out") but not the [Lnz Version] line. If you're
-  removing [Fur Color Areas] also, similarly delete or comment-out from the
-  beginning of [Fur Color Areas] to directly before [Lnz Version]. Compile,
-  save, and run the game with the breedfile in place.
-</p>
+    <p>
+      The pet should come out of the Adoption Centre now even with horrible old
+      Windows XP, and if it doesn't then I can't help you -- as I said before,
+      my breedz work fine in my game just as they are.
+    </p>
 
-<p>
-  With a hex editor you can replace all the part from the beginning of [Fur
-  Markings] (or [Fur Color Areas]) down to and including the last number
-  <b>before</b> [Lnz Version] with spaces. Save, and run the game with the
-  breedfile in place.
-</p>
+    <p class="bigger purple center">Enjoy!</p>
 
-<p>
-  The pet should come out of the Adoption Centre now even with horrible old
-  Windows XP, and if it doesn't then I can't help you -- as I said before, my
-  breedz work fine in my game just as they are.
-</p>
-
-<p class="bigger purple center">Enjoy!</p>
-
-<p class="bigger purple center">Carolyn Horn</p>
-</body>
+    <p class="bigger purple center">Carolyn Horn</p>
+  </body>
 </html>

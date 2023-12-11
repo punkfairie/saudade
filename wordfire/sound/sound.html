@@ -1,203 +1,221 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- from source -->
-  <title>Sound Files</title>
-  <!--  -->
+    <!-- from source -->
+    <title>Sound Files</title>
+    <!--  -->
 
-  <!-- style -->
-  <link rel="stylesheet" href="/wordfire.css">
-  <style>
+    <!-- style -->
+    <link rel="stylesheet" href="/wordfire.css" />
+    <style>
       #sound {
-          --purple: #609;
+        --purple: #609;
 
-          --background-image: url(clouds.jpg);
+        --background-image: url(clouds.jpg);
       }
 
       body {
-          background-image: var(--background-image);
-          margin-left: 10px;
+        background-image: var(--background-image);
+        margin-left: 10px;
       }
 
-      a, a:active, a:hover {
-          color: black;
+      a,
+      a:active,
+      a:hover {
+        color: black;
       }
 
       #page {
-          display: grid;
-          column-gap: 10px;
-          row-gap: 0;
-          justify-items: center;
-          align-items: center;
-          text-align: center;
+        display: grid;
+        column-gap: 10px;
+        row-gap: 0;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
 
-          grid-template-columns: [c1] 135px [c2] 593px [c3];
-          grid-template-rows: [r1] 163px [r2] 532px [r3];
+        grid-template-columns: [c1] 135px [c2] 593px [c3];
+        grid-template-rows: [r1] 163px [r2] 532px [r3];
       }
 
       /* ---- top-left -------------------------------------------------------------------------------------------- */
 
       #top-left {
-          grid-column: c1/c2;
-          grid-row: r1/r2;
+        grid-column: c1/c2;
+        grid-row: r1/r2;
       }
 
       /* ---- header ---------------------------------------------------------------------------------------------- */
 
       #header {
-          grid-column: c2/c3;
-          grid-row: r1/r2;
+        grid-column: c2/c3;
+        grid-row: r1/r2;
       }
 
       h1 {
-          padding: 0;
-          margin: 0 0 2px 0;
+        padding: 0;
+        margin: 0 0 2px 0;
       }
 
       h2 {
-          color: var(--purple);
-          font-weight: 700;
-          font-size: 24px;
-          padding: 0;
-          margin: 0;
+        color: var(--purple);
+        font-weight: 700;
+        font-size: 24px;
+        padding: 0;
+        margin: 0;
       }
 
       /* ---- nav ------------------------------------------------------------------------------------------------- */
 
       #nav {
-          grid-column: c1/c2;
-          grid-row: r2/r3;
-          align-self: start;
-          margin-top: 30px;
+        grid-column: c1/c2;
+        grid-row: r2/r3;
+        align-self: start;
+        margin-top: 30px;
       }
 
       #nav > a {
-          display: block;
-          padding: 5px;
-          margin-bottom: 2px;
-          color: black;
-          font-weight: 700;
-          text-decoration: none;
+        display: block;
+        padding: 5px;
+        margin-bottom: 2px;
+        color: black;
+        font-weight: 700;
+        text-decoration: none;
       }
 
       #nav > a:hover {
-          text-decoration: underline;
+        text-decoration: underline;
       }
 
       /* ---- content --------------------------------------------------------------------------------------------- */
 
       #content {
-          grid-column: c2/c3;
-          grid-row: r2/r3;
+        grid-column: c2/c3;
+        grid-row: r2/r3;
 
-          display: grid;
-          gap: 0;
-          grid-gap: 0;
+        display: grid;
+        gap: 0;
+        grid-gap: 0;
 
-          grid-template-columns: [cc1] 196px [cc2] 199px [cc3] 198px [cc4];
-          grid-template-rows: [cr1] 75px [cr2] 98px [cr3] 42px [cr4] 317px [cr5];
+        grid-template-columns: [cc1] 196px [cc2] 199px [cc3] 198px [cc4];
+        grid-template-rows: [cr1] 75px [cr2] 98px [cr3] 42px [cr4] 317px [cr5];
 
-          align-items: start;
-          justify-items: start;
-          text-align: left;
-          padding-top: 30px;
+        align-items: start;
+        justify-items: start;
+        text-align: left;
+        padding-top: 30px;
       }
 
       .ver-arial {
-          font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
       }
-  </style>
+    </style>
 
-  <!-- saudade includes -->
-  <script src="/saudade.js?@root" type="module"></script>
+    <!-- saudade includes -->
+    <script src="/saudade.js?@root" type="module"></script>
+  </head>
+  <body id="sound">
+    <div id="page">
+      <!-- #top-left ---------------------------------------------------------------------------------------------------->
+      <div id="top-left">
+        <img src="new_005.gif" />
+      </div>
 
+      <!-- #header ------------------------------------------------------------------------------------------------------>
+      <div id="header">
+        <h1>
+          petz**<br />
+          WORDFIRE'S**petz
+        </h1>
+        <h2>Sound Files</h2>
+      </div>
 
-</head>
-<body id="sound">
-<div id="page">
-  <!-- #top-left ---------------------------------------------------------------------------------------------------->
-  <div id="top-left">
-    <img src="new_005.gif">
-  </div>
+      <!-- #nav --------------------------------------------------------------------------------------------------------->
+      <div id="nav">
+        <a href="/">Home</a>
+        <a href="/play1/">PETZ PLAYSCENZ</a>
+        <a href="/play1/">MORE PLAYSCENZ</a>
+        <a href="/play3/">AND>>>>MORE PETZ PLAYSCENZ</a>
+        <a href="/possums/">'POSSUMS</a>
+        <a href="/play4/">COMPLETED PLAYSCENZ</a>
+        <a href="/sound/">Sound Files</a>
+        <a href="/precious/">PRECIOUS ONEZ</a>
+      </div>
 
-  <!-- #header ------------------------------------------------------------------------------------------------------>
-  <div id="header">
-    <h1>petz**<br>
-      WORDFIRE'S**petz</h1>
-    <h2>Sound Files</h2>
-  </div>
+      <!-- #content ----------------------------------------------------------------------------------------------------->
+      <div id="content">
+        <!-- top -->
+        <div
+          style="grid-column: cc1/cc4; grid-row: cr1/cr2; font-style: italic"
+        >
+          <b class="ver-arial medium" style="color: #609">
+            add to your playscene editor wav files. Use them to make your own
+            wedding playscenz. &nbsp;
+          </b>
+          <b class="arial" style="color: #096; background-color: #ffc">
+            OZ SOUNDFILE AND BACKGROUND FOUND ON SISTER SITE.
+            <a
+              href="https://web.archive.org/web/20050413020319/http://home.earthlink.net/~lindajoyce/"
+            >
+              http://home.earthlink.net/~lindajoyce/</a
+            >
+          </b>
+        </div>
 
-  <!-- #nav --------------------------------------------------------------------------------------------------------->
-  <div id="nav">
-    <a href="/">Home</a>
-    <a href="/play1/">PETZ PLAYSCENZ</a>
-    <a href="/play1/">MORE PLAYSCENZ</a>
-    <a href="/play3/">AND>>>>MORE PETZ PLAYSCENZ</a>
-    <a href="/possums/">'POSSUMS</a>
-    <a href="/play4/">COMPLETED PLAYSCENZ</a>
-    <a href="/sound/">Sound Files</a>
-    <a href="/precious/">PRECIOUS ONEZ</a>
-  </div>
+        <div style="grid-column: cc1/cc2; grid-row: cr2/cr3; padding: 10px">
+          <img src="/img/vote1.gif" />
+        </div>
 
-  <!-- #content ----------------------------------------------------------------------------------------------------->
-  <div id="content">
-    <!-- top -->
-    <div style="grid-column: cc1/cc4; grid-row: cr1/cr2; font-style: italic;">
-      <b class="ver-arial medium" style="color: #609;">
-        add to your playscene editor wav files. Use them to make your own
-        wedding playscenz. &nbsp;
-      </b>
-      <b class="arial" style="color: #096; background-color: #ffc;">
-        OZ SOUNDFILE AND BACKGROUND FOUND ON SISTER SITE.
-        <a
-          href="https://web.archive.org/web/20050413020319/http://home.earthlink.net/~lindajoyce/">
-          http://home.earthlink.net/~lindajoyce/</a>
-      </b>
+        <!-- downloads -->
+        <div class="arial" style="grid-column: cc1/cc2; grid-row: cr3/cr4">
+          <a href="chickenyardsounds.zip"
+            >CHICKEN YARD SOUNDS click here to download wav file</a
+          >
+        </div>
+
+        <div class="arial" style="grid-column: cc2/cc3; grid-row: cr3/cr4">
+          <a class="defunct" title="Missing: sound_weddingmarch.wav"
+            >WEDDING MARCH click here to download wav file</a
+          >
+        </div>
+
+        <div class="arial" style="grid-column: cc3/cc4; grid-row: cr3/cr4">
+          <a class="defunct" title="Missing: sound_weddingbells.wav"
+            >WEDDING BELLS click here to download wav file</a
+          >
+        </div>
+
+        <!-- god -->
+        <div
+          class="small arial center"
+          style="
+            grid-column: cc3/cc4;
+            grid-row: cr4/cr5;
+            justify-self: end;
+            align-self: end;
+            color: #000;
+            font-weight: 700;
+            padding-bottom: 10px;
+          "
+        >
+          The Life,Truth and Power<br />
+          Of GOD<br />
+          <img src="/img/animation.gif" width="130" alt="animation.gif" /><br />
+          WORDFIRE
+
+          <br /><br />
+
+          Lots Of KEWL Stuff Here<br />
+          <a href="http://pineconecattery.com" target="tlx_new">
+            <img src="/img/judysbanner.jpg" width="130" /> </a
+          ><br />
+          Edited Versions Also<br />
+          Available Of These<br />
+          Playscenz
+        </div>
+      </div>
     </div>
-
-    <div style="grid-column: cc1/cc2; grid-row: cr2/cr3; padding: 10px;">
-      <img src="/img/vote1.gif">
-    </div>
-
-    <!-- downloads -->
-    <div class="arial" style="grid-column: cc1/cc2; grid-row: cr3/cr4;">
-      <a href="chickenyardsounds.zip">CHICKEN YARD SOUNDS click here to download
-        wav file</a>
-    </div>
-
-    <div class="arial" style="grid-column: cc2/cc3; grid-row: cr3/cr4;">
-      <a class="defunct" title="Missing: sound_weddingmarch.wav">WEDDING MARCH
-        click here to download wav file</a>
-    </div>
-
-    <div class="arial" style="grid-column: cc3/cc4; grid-row: cr3/cr4;">
-      <a class="defunct" title="Missing: sound_weddingbells.wav">WEDDING BELLS
-        click here to download wav file</a>
-    </div>
-
-    <!-- god -->
-    <div class="small arial center" style="grid-column: cc3/cc4; grid-row: cr4/cr5;
-			justify-self: end; align-self: end; color: #000; font-weight: 700; padding-bottom:
-			10px;">
-      The Life,Truth and Power<br>
-      Of GOD<br>
-      <img src="/img/animation.gif" width="130" alt="animation.gif"><br>
-      WORDFIRE
-
-      <br><br>
-
-      Lots Of KEWL Stuff Here<br>
-      <a href="http://pineconecattery.com" target="tlx_new">
-        <img src="/img/judysbanner.jpg" width="130">
-      </a><br>
-      Edited Versions Also<br>
-      Available Of These<br>
-      Playscenz
-    </div>
-  </div>
-</div>
-</body>
+  </body>
 </html>

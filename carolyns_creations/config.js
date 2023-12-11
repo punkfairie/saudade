@@ -1,1 +1,1 @@
-export const wayback = undefined
+export const wayback = undefined;

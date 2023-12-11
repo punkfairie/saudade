@@ -1,241 +1,329 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- from source -->
-  <title>AND>>>>MORE PETZ PLAYSCENZ</title>
-  <!--  -->
+    <!-- from source -->
+    <title>AND>>>>MORE PETZ PLAYSCENZ</title>
+    <!--  -->
 
-  <!-- style -->
-  <link rel="stylesheet" href="/wordfire.css">
-  <style>
+    <!-- style -->
+    <link rel="stylesheet" href="/wordfire.css" />
+    <style>
       #play3 {
-          --blue: #6cf;
-          --light-blue: #9cf;
-          --dark-blue: #09c;
-          --darker-blue: #069;
-          --purple: #639;
+        --blue: #6cf;
+        --light-blue: #9cf;
+        --dark-blue: #09c;
+        --darker-blue: #069;
+        --purple: #639;
 
-          --background-color: var(--blue);
+        --background-color: var(--blue);
       }
 
       body {
-          background-color: var(--background-color);
+        background-color: var(--background-color);
       }
 
       a {
-          color: var(--dark-blue);
+        color: var(--dark-blue);
       }
 
       a:active {
-          color: var(--light-blue);
+        color: var(--light-blue);
       }
 
       a:visited {
-          color: var(--darker-blue);
+        color: var(--darker-blue);
       }
 
       #page {
-          display: grid;
-          row-gap: 0;
-          grid-row-gap: 0;
-          column-gap: 10px;
-          grid-column-gap: 10px;
-          grid-template-columns: [c1] 211px [c2] 566px [c3];
-          grid-template-rows: [r1] 168px [r2] 97px [r3] 903px [c4];
+        display: grid;
+        row-gap: 0;
+        grid-row-gap: 0;
+        column-gap: 10px;
+        grid-column-gap: 10px;
+        grid-template-columns: [c1] 211px [c2] 566px [c3];
+        grid-template-rows: [r1] 168px [r2] 97px [r3] 903px [c4];
       }
 
       /* header --------------------------------------------------------------------------------------------------- */
 
       #header {
-          grid-column: c2/c3;
-          grid-row: r1/r2;
-          align-self: center;
-          justify-self: center;
-          text-align: center;
+        grid-column: c2/c3;
+        grid-row: r1/r2;
+        align-self: center;
+        justify-self: center;
+        text-align: center;
       }
 
       h1 {
-          padding: 0;
-          margin: 0 0 5px 0;
+        padding: 0;
+        margin: 0 0 5px 0;
       }
 
       h2 {
-          color: var(--purple);
-          font-size: 24px;
-          font-weight: 700;
-          font-style: italic;
-          padding: 0;
-          margin: 0;
+        color: var(--purple);
+        font-size: 24px;
+        font-weight: 700;
+        font-style: italic;
+        padding: 0;
+        margin: 0;
       }
 
       /* nav ------------------------------------------------------------------------------------------------------ */
 
       #nav {
-          grid-column: c2/c3;
-          grid-row: r2/r3;
-          align-self: center;
+        grid-column: c2/c3;
+        grid-row: r2/r3;
+        align-self: center;
       }
 
       #nav > a {
-          color: black;
+        color: black;
       }
 
       #nav > a:active {
-          color: black;
+        color: black;
       }
 
       #nav > a:visited {
-          color: black;
+        color: black;
       }
 
       #nav > #current {
-          font-weight: 700;
-          text-decoration: none;
+        font-weight: 700;
+        text-decoration: none;
       }
 
       /* content -------------------------------------------------------------------------------------------------- */
 
       #content {
-          grid-column: c2/c3;
-          grid-row: r3/r4;
+        grid-column: c2/c3;
+        grid-row: r3/r4;
 
-          display: grid;
-          grid-template-columns: [cc1] 278px [cc2] 288px [cc3];
-          grid-template-rows: [cr1] 75px [cr2] 73px [cr3] 63px [cr4] 63px [cr5] 75px [cr6] 138px
-			[cr7] 76px [cr8] 57px [cr9] 283px [cr10];
-          gap: 0;
-          grid-gap: 0;
+        display: grid;
+        grid-template-columns: [cc1] 278px [cc2] 288px [cc3];
+        grid-template-rows:
+          [cr1] 75px [cr2] 73px [cr3] 63px [cr4] 63px [cr5] 75px [cr6] 138px
+          [cr7] 76px [cr8] 57px [cr9] 283px [cr10];
+        gap: 0;
+        grid-gap: 0;
 
-          padding: 5px;
+        padding: 5px;
       }
 
       #content > div {
-          align-self: center;
-          justify-self: center;
+        align-self: center;
+        justify-self: center;
       }
-  </style>
+    </style>
 
-  <!-- saudade includes -->
-  <script src="/saudade.js?@root" type="module"></script>
+    <!-- saudade includes -->
+    <script src="/saudade.js?@root" type="module"></script>
+  </head>
+  <body id="play3">
+    <div id="page">
+      <div
+        id="top-left"
+        style="
+          grid-column: c1/c2;
+          grid-row: r1/r4;
+          align-self: start;
+          justify-self: start;
+        "
+      >
+        <img src="fishbgrnd.jpg" width="200" />
+      </div>
+      <!-- #top-left -->
 
+      <!-- header --------------------------------------------------------------------------------------------------->
+      <div id="header">
+        <h1>
+          petz**<br />
+          WORDFIRE'S**petz
+        </h1>
+        <h2>AND>>>>MORE PETZ PLAYSCENZ</h2>
+      </div>
+      <!-- #header -->
 
-</head>
-<body id="play3">
-<div id="page">
-  <div id="top-left" style="grid-column: c1/c2; grid-row: r1/r4; align-self: start;
-		justify-self: start;">
-    <img src="fishbgrnd.jpg" width="200">
-  </div><!-- #top-left -->
+      <!-- nav ------------------------------------------------------------------------------------------------------>
+      <div id="nav">
+        <a href="/">Home</a> | <a href="/play1/">PETZ PLAYSCENZ</a> |
+        <a href="/play2/">MORE PLAYSCENZ</a> |
+        <a href="/play3/" id="current"
+          >AND>>>>MORE <br />
+          PETZ PLAYSCENZ</a
+        >
+        | <a href="/possums/">'POSSUMS</a> |
+        <a href="/play4/">COMPLETED PLAYSCENZ</a> |
+        <a href="/sound/"
+          >Sound <br />
+          Files</a
+        >
+        |
+        <a href="/precious/">PRECIOUS ONEZ</a>
+      </div>
+      <!-- #nav -->
 
-  <!-- header --------------------------------------------------------------------------------------------------->
-  <div id="header">
-    <h1>petz**<br>
-      WORDFIRE'S**petz</h1>
-    <h2>AND>>>>MORE PETZ PLAYSCENZ</h2>
-  </div><!-- #header -->
+      <!-- content -------------------------------------------------------------------------------------------------->
+      <div id="content">
+        <!-- left column -->
+        <div
+          class="times big"
+          style="
+            grid-column: cc1/cc3;
+            grid-row: cr1/cr2;
+            color: #609;
+            align-self: end;
+            justify-self: start;
+            font-weight: 700;
+            padding-bottom: 10px;
+          "
+        >
+          If you have an idea for a PLAYSCENZ email me your request at<br />
+          <a href="mailto:wordfire@earthlink.net" style="color: #000"
+            >wordfire@earthlink.net</a
+          >
+        </div>
 
-  <!-- nav ------------------------------------------------------------------------------------------------------>
-  <div id="nav">
-    <a href="/">Home</a> |
-    <a href="/play1/">PETZ PLAYSCENZ</a> |
-    <a href="/play2/">MORE PLAYSCENZ</a> |
-    <a href="/play3/" id="current">AND>>>>MORE <br> PETZ PLAYSCENZ</a> |
-    <a href="/possums/">'POSSUMS</a> |
-    <a href="/play4/">COMPLETED PLAYSCENZ</a> |
-    <a href="/sound/">Sound <br> Files</a> |
-    <a href="/precious/">PRECIOUS ONEZ</a>
-  </div><!-- #nav -->
+        <div
+          style="
+            grid-column: cc1/cc2;
+            grid-row: cr2/cr3;
+            justify-self: start;
+            padding-left: 10px;
+          "
+        >
+          <img src="/img/vote1.gif" />
+        </div>
 
-  <!-- content -------------------------------------------------------------------------------------------------->
-  <div id="content">
-    <!-- left column -->
-    <div class="times big" style="grid-column: cc1/cc3; grid-row: cr1/cr2; color: #609;
-			align-self: end; justify-self: start; font-weight: 700; padding-bottom: 10px;">
-      If you have an idea for a PLAYSCENZ email me your request at<br>
-      <a href="mailto:wordfire@earthlink.net" style="color:
-				#000;">wordfire@earthlink.net</a>
+        <div
+          class="small center"
+          style="
+            grid-column: cc1/cc2;
+            grid-row: cr3/cr4;
+            align-self: start;
+            padding-top: 5px;
+          "
+        >
+          For All PETZ Chicken Lovers !!<br />
+          <u class="georgia medium" title="missing"
+            >mountaintopchickenyard.jpg</u
+          ><br />
+          Mountaintop Chickenyard
+        </div>
+
+        <div
+          class="small center"
+          style="grid-column: cc1/cc2; grid-row: cr4/cr5"
+        >
+          your PETZ Will Love The Lifeguard Tower<br />
+          View!!<br />
+          <u class="georgia medium" title="missing">oceanview.jpg</u><br />
+          Oceanview
+        </div>
+
+        <div
+          class="small center"
+          style="grid-column: cc1/cc2; grid-row: cr5/cr6"
+        >
+          THE PERFECT PLACE FOR A SPRING<br />
+          WEDDING<br />
+          <u class="georgia medium" title="missing">springweddinggarden.jpg</u
+          ><br />
+          Spring Wedding Garden
+        </div>
+
+        <div
+          style="
+            grid-column: cc1/cc2;
+            grid-row: cr6/cr7;
+            padding: 10px;
+            justify-self: start;
+            align-self: start;
+          "
+        >
+          .
+        </div>
+
+        <!-- right column -->
+        <div
+          class="small center"
+          style="grid-column: cc2/cc3; grid-row: cr3/cr4"
+        >
+          PETZ Will Love The Cool Arbor to Play<br />
+          Under!<br />
+          <span class="georgia medium" title="missing">flowerarbor.jpg</span
+          ><br />
+          Flower Arbor
+        </div>
+
+        <div
+          style="
+            grid-column: cc2/cc3;
+            grid-row: cr4/cr5;
+            justify-self: start;
+            align-self: end;
+            padding: 15px 25px;
+          "
+        >
+          .
+        </div>
+
+        <div
+          class="small center"
+          style="grid-column: cc2/cc3; grid-row: cr5/cr7"
+        >
+          A WOODLAND PARADISE FOR YOUR PETZ<br />
+          <a href="uneditedpossumholler.jpg" target="tlx_new">
+            <img
+              src="uneditedpossumholler.jpg"
+              alt="uneditedpossumholler.jpg"
+              width="240"
+            /> </a
+          ><br />
+          Possum Holler Background
+        </div>
+
+        <div
+          class="small center"
+          style="grid-column: cc2/cc3; grid-row: cr7/cr8"
+        >
+          PETZ SWIM WITH THE WONDERS OF THE<br />
+          SEA<br />
+          <u class="georgia medium">seafloor.jpg</u><br />
+          Sea Floor
+        </div>
+
+        <div
+          class="small arial center"
+          style="
+            grid-column: cc2/cc3;
+            grid-row: cr9/cr10;
+            justify-self: end;
+            color: #35643a;
+            font-weight: 700;
+          "
+        >
+          The Life,Truth and Power<br />
+          Of GOD<br />
+          <img src="/img/animation.gif" width="130" alt="animation.gif" /><br />
+          WORDFIRE
+
+          <br /><br />
+
+          Lots Of KEWL Stuff Here<br />
+          <a href="http://pineconecattery.com" target="tlx_new">
+            <img src="/img/judysbanner.jpg" width="130" /> </a
+          ><br />
+          Edited Versions Also<br />
+          Available Of These<br />
+          Playscenz
+        </div>
+      </div>
+      <!-- #content -->
     </div>
-
-    <div style="grid-column: cc1/cc2; grid-row: cr2/cr3; justify-self: start; padding-left:
-			10px;">
-      <img src="/img/vote1.gif">
-    </div>
-
-    <div class="small center" style="grid-column: cc1/cc2; grid-row: cr3/cr4;
-			align-self: start; padding-top: 5px;">
-      For All PETZ Chicken Lovers !!<br>
-      <u class="georgia medium"
-        title="missing">mountaintopchickenyard.jpg</u><br>
-      Mountaintop Chickenyard
-    </div>
-
-    <div class="small center" style="grid-column: cc1/cc2; grid-row: cr4/cr5;">
-      your PETZ Will Love The Lifeguard Tower<br>
-      View!!<br>
-      <u class="georgia medium" title="missing">oceanview.jpg</u><br>
-      Oceanview
-    </div>
-
-    <div class="small center" style="grid-column: cc1/cc2; grid-row: cr5/cr6;">
-      THE PERFECT PLACE FOR A SPRING<br>
-      WEDDING<br>
-      <u class="georgia medium" title="missing">springweddinggarden.jpg</u><br>
-      Spring Wedding Garden
-    </div>
-
-    <div style="grid-column: cc1/cc2; grid-row: cr6/cr7; padding: 10px; justify-self: start;
-			align-self: start;">.
-    </div>
-
-    <!-- right column -->
-    <div class="small center" style="grid-column: cc2/cc3; grid-row: cr3/cr4;">
-      PETZ Will Love The Cool Arbor to Play<br>
-      Under!<br>
-      <span class="georgia medium" title="missing">flowerarbor.jpg</span><br>
-      Flower Arbor
-    </div>
-
-    <div style="grid-column: cc2/cc3; grid-row: cr4/cr5; justify-self: start; align-self:
-			end; padding: 15px 25px;">.
-    </div>
-
-    <div class="small center" style="grid-column: cc2/cc3; grid-row: cr5/cr7;">
-      A WOODLAND PARADISE FOR YOUR PETZ<br>
-      <a href="uneditedpossumholler.jpg" target="tlx_new">
-        <img src="uneditedpossumholler.jpg" alt="uneditedpossumholler.jpg"
-          width="240">
-      </a><br>
-      Possum Holler Background
-    </div>
-
-    <div class="small center" style="grid-column: cc2/cc3; grid-row: cr7/cr8;">
-      PETZ SWIM WITH THE WONDERS OF THE<br>
-      SEA<br>
-      <u class="georgia medium">seafloor.jpg</u><br>
-      Sea Floor
-    </div>
-
-    <div class="small arial center" style="grid-column: cc2/cc3; grid-row: cr9/cr10;
-			justify-self: end; color: #35643a; font-weight: 700;">
-      The Life,Truth and Power<br>
-      Of GOD<br>
-      <img src="/img/animation.gif" width="130" alt="animation.gif"><br>
-      WORDFIRE
-
-      <br><br>
-
-      Lots Of KEWL Stuff Here<br>
-      <a href="http://pineconecattery.com" target="tlx_new">
-        <img src="/img/judysbanner.jpg" width="130">
-      </a><br>
-      Edited Versions Also<br>
-      Available Of These<br>
-      Playscenz
-    </div>
-  </div><!-- #content -->
-</div><!-- #page -->
-</body>
+    <!-- #page -->
+  </body>
 </html>
